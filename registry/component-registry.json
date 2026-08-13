@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.2.0",
   "component_sets": [
     {
       "id": "ufs-decision-component-store",
@@ -36,11 +36,25 @@
     },
     {
       "id": "yuhong-component-store",
-      "domain_skill": "yuhong-monthly-review-ppt",
-      "status": "local-draft",
-      "repository": null,
-      "index_path": "references/component-cards.md",
-      "components": []
+      "domain_skill": "yuhong-ppt",
+      "status": "active",
+      "repository": "https://github.com/swefner/company-ppt-skills",
+      "index_path": "domains/yuhong/references/decision-component-store.md",
+      "visual_index_path": "domains/yuhong/references/component-cards.md",
+      "components": [
+        { "id": "county-trend-three-judgments", "business_question": "县域机会是消失了，还是机会结构发生了变化？" },
+        { "id": "county-business-territory-map", "business_question": "增长空间具体落在哪些县城和乡镇？" },
+        { "id": "four-force-diagnosis", "business_question": "品牌力、渠道力、场景力、产品力的主短板是什么？" },
+        { "id": "four-stage-growth-diagnosis", "business_question": "当前卡在进得去、站得住、卖得动还是做得深？" },
+        { "id": "channel-intensive-cultivation-driver-board", "business_question": "渠道增长应优先补覆盖、提活跃还是拉单店产出？" },
+        { "id": "product-battle-growth-board", "business_question": "产品增长来自铺得更广、卖得更动还是核心品项产出更高？" },
+        { "id": "case-ask-evidence-decision-reveal", "business_question": "面对案例情景，学员会如何基于证据做决定？" },
+        { "id": "thirty-day-action-commitment-board", "business_question": "课程结束后30天，谁对什么行动和结果负责？" },
+        { "id": "township-outlet-opportunity-prioritization", "business_question": "资源有限时，哪些乡镇或网点最值得优先投入？" },
+        { "id": "symptom-clustering-core-problem", "business_question": "大量零散经营症状背后的主问题是什么？" },
+        { "id": "evidence-voting-resource-bet", "business_question": "判断不一致时，怎样基于证据决定资源投向？" },
+        { "id": "case-decision-fork", "business_question": "信息不完整时，学员会选择哪条经营路径，为什么？" }
+      ]
     }
   ]
 }

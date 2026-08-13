@@ -1,0 +1,7 @@
+interface:
+  display_name: "东方雨虹PPT"
+  short_description: "按教学问题选择组件并生成或改编雨虹课件"
+  brand_color: "#E60012"
+  default_prompt: "Use $yuhong-ppt in Guided Mode. Select the task mode first, then map every substantive page to a Decision Component before building the PPT."
+policy:
+  allow_implicit_invocation: true

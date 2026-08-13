@@ -1,0 +1,7 @@
+interface:
+  display_name: "UFS月会PPT"
+  short_description: "生成UFS经销商老板月会经营复盘PPT"
+  brand_color: "#E31C23"
+  default_prompt: "Use $ufs-monthly-review-ppt to create a UFS dealer monthly review outline or PPT from sales, target, customer, Jiale, SKU, lead, visit, and action-plan data."
+policy:
+  allow_implicit_invocation: true
