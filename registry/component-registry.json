@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "component_sets": [
     {
       "id": "ufs-decision-component-store",
@@ -10,27 +10,27 @@
       "components": [
         {
           "id": "core-kpi-dashboard",
-          "business_question": "本月核心结果是否达标？老板先看什么？"
+          "business_question": "Did the month hit the core targets, and what should the owner look at first?"
         },
         {
           "id": "growth-driver-breakdown",
-          "business_question": "增长或下滑来自哪里？"
+          "business_question": "Where did growth or decline come from?"
         },
         {
           "id": "customer-tier-migration",
-          "business_question": "客户结构有没有变好？哪些要保、做深、追回？"
+          "business_question": "Did the customer structure improve, and which customers should be protected, deepened, or recovered?"
         },
         {
           "id": "stage-path-sku-deepening",
-          "business_question": "专项从拉升到稳定，下一步怎么推进？"
+          "business_question": "How should a special initiative move from lift-up to stable operation?"
         },
         {
           "id": "visit-lead-effect-curve",
-          "business_question": "拜访和商机有没有产生推进效果？"
+          "business_question": "Did visits and leads produce real operating progress?"
         },
         {
           "id": "next-month-action-board",
-          "business_question": "下月老板抓哪几件事，怎么追责？"
+          "business_question": "What should the owner inspect next month, and how should accountability work?"
         }
       ]
     },

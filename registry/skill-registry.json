@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "skills": [
     {
       "id": "ufs-monthly-review-ppt",
@@ -9,23 +9,23 @@
       "repository": "https://github.com/swefner/ufs-monthly-review-ppt-skill",
       "entrypoint": "SKILL.md",
       "best_for": [
-        "UFS 生意合伙人项目",
-        "经销商老板月会",
-        "月度经营复盘",
-        "家乐专项复盘",
-        "SKU 做深",
-        "客户结构诊断",
-        "拜访商机承接",
-        "下月行动计划"
+        "UFS business partner project",
+        "dealer-owner monthly review",
+        "monthly business review",
+        "Jiale special review",
+        "SKU deepening",
+        "customer structure diagnosis",
+        "visit and lead follow-up",
+        "next-month action plan"
       ],
       "trigger_terms": [
         "UFS",
-        "联合利华饮食策划",
-        "生意合伙人",
-        "南充弘汇",
-        "家乐",
-        "月会复盘",
-        "经销商老板"
+        "Unilever Food Solutions",
+        "business partner",
+        "Nanchong Honghui",
+        "Jiale",
+        "monthly review",
+        "dealer owner"
       ],
       "default_mode": "Guided Monthly Business Review"
     },
@@ -33,27 +33,27 @@
       "id": "yuhong-monthly-review-ppt",
       "name": "Yuhong Dealer Capability PPT",
       "status": "local-draft",
-      "domain": "东方雨虹 / building materials dealer capability",
+      "domain": "Oriental Yuhong / building materials dealer capability",
       "repository": null,
       "entrypoint": "SKILL.md",
       "best_for": [
-        "东方雨虹经销商培训",
-        "县域经销商能力建设",
-        "渠道精耕",
-        "产品战役",
-        "零售专卖",
-        "家装渠道",
-        "案例课程",
-        "服务商转型"
+        "Oriental Yuhong dealer training",
+        "county dealer capability building",
+        "channel intensive cultivation",
+        "product battle",
+        "retail specialty store",
+        "home-decoration channel",
+        "case-based course",
+        "trader-to-service-provider transformation"
       ],
       "trigger_terms": [
-        "东方雨虹",
-        "雨虹",
-        "县域经销商",
-        "渠道精耕",
-        "产品板块",
-        "零售专卖",
-        "家装渠道"
+        "Oriental Yuhong",
+        "Yuhong",
+        "county dealer",
+        "channel cultivation",
+        "product battle",
+        "retail specialty",
+        "home-decoration channel"
       ],
       "default_mode": "Guided Dealer Capability Course"
     }

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "templates": [
     {
       "id": "ufs-nanchong-456-review-master",
@@ -10,13 +10,13 @@
       "path": "assets/templates/nanchong-456-monthly-review-master-template.pptx",
       "index_path": "assets/templates/nanchong-456-template-index.md",
       "best_for": [
-        "南充 UFS 月会复盘",
-        "经销商老板经营复盘",
-        "核心指标回顾",
-        "目标达成",
-        "客户结构分析",
-        "家乐专项",
-        "下月行动计划"
+        "Nanchong UFS monthly review",
+        "dealer-owner business review",
+        "core KPI review",
+        "target achievement",
+        "customer structure analysis",
+        "Jiale special review",
+        "next-month action plan"
       ],
       "slide_ranges": [
         {
@@ -41,10 +41,10 @@
       "repository": null,
       "path": "assets/reference-decks/yuhong-template.pptx",
       "best_for": [
-        "雨虹课程型 PPT",
-        "经销商能力建设",
-        "案例分享",
-        "渠道/产品/零售/家装板块课程"
+        "Yuhong course deck",
+        "dealer capability building",
+        "case sharing",
+        "channel / product / retail / home-decoration courses"
       ]
     }
   ]
