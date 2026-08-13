@@ -25,6 +25,10 @@ The job of this hub is not to generate every slide directly. The job is to route
 6. Ask for Continue / Go deeper / Replace / Build.
 7. Build or edit PPT only after explicit Build confirmation.
 
+## Natural Start
+
+For ordinary users, prefer natural start prompts from `bootstrap/natural-start-prompts.md`. Users should not need to understand registry files or domain skill internals before starting.
+
 ## Routing Rules
 
 - Use UFS when the task involves UFS, 联合利华饮食策划, 生意合伙人项目, 经销商老板月会, 经营复盘, 家乐, SKU 做深, 拜访商机, or terminal-store advancement.
