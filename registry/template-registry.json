@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "templates": [
+    {
+      "id": "ufs-nanchong-456-review-master",
+      "domain_skill": "ufs-monthly-review-ppt",
+      "status": "active",
+      "name": "Nanchong 4-5-6 Monthly Review Master Template",
+      "repository": "https://github.com/swefner/ufs-monthly-review-ppt-skill",
+      "path": "assets/templates/nanchong-456-monthly-review-master-template.pptx",
+      "index_path": "assets/templates/nanchong-456-template-index.md",
+      "best_for": [
+        "南充 UFS 月会复盘",
+        "经销商老板经营复盘",
+        "核心指标回顾",
+        "目标达成",
+        "客户结构分析",
+        "家乐专项",
+        "下月行动计划"
+      ],
+      "slide_ranges": [
+        {
+          "source": "April review",
+          "range": "1-14"
+        },
+        {
+          "source": "May review",
+          "range": "15-25"
+        },
+        {
+          "source": "June review",
+          "range": "26-40"
+        }
+      ]
+    },
+    {
+      "id": "yuhong-template",
+      "domain_skill": "yuhong-monthly-review-ppt",
+      "status": "local-draft",
+      "name": "Yuhong General PPT Template",
+      "repository": null,
+      "path": "assets/reference-decks/yuhong-template.pptx",
+      "best_for": [
+        "雨虹课程型 PPT",
+        "经销商能力建设",
+        "案例分享",
+        "渠道/产品/零售/家装板块课程"
+      ]
+    }
+  ]
+}

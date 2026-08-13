@@ -1,0 +1,46 @@
+{
+  "version": "0.1.0",
+  "component_sets": [
+    {
+      "id": "ufs-decision-component-store",
+      "domain_skill": "ufs-monthly-review-ppt",
+      "status": "active",
+      "repository": "https://github.com/swefner/ufs-monthly-review-ppt-skill",
+      "index_path": "references/component-store/index.md",
+      "components": [
+        {
+          "id": "core-kpi-dashboard",
+          "business_question": "本月核心结果是否达标？老板先看什么？"
+        },
+        {
+          "id": "growth-driver-breakdown",
+          "business_question": "增长或下滑来自哪里？"
+        },
+        {
+          "id": "customer-tier-migration",
+          "business_question": "客户结构有没有变好？哪些要保、做深、追回？"
+        },
+        {
+          "id": "stage-path-sku-deepening",
+          "business_question": "专项从拉升到稳定，下一步怎么推进？"
+        },
+        {
+          "id": "visit-lead-effect-curve",
+          "business_question": "拜访和商机有没有产生推进效果？"
+        },
+        {
+          "id": "next-month-action-board",
+          "business_question": "下月老板抓哪几件事，怎么追责？"
+        }
+      ]
+    },
+    {
+      "id": "yuhong-component-store",
+      "domain_skill": "yuhong-monthly-review-ppt",
+      "status": "local-draft",
+      "repository": null,
+      "index_path": "references/component-cards.md",
+      "components": []
+    }
+  ]
+}
