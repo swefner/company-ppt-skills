@@ -7,3 +7,4 @@ Start from `SKILL.md`.
 For PowerPoint ChatGPT sessions, use:
 
 - `bootstrap/powerpoint-chatgpt-prompt.md`
+- `bootstrap/natural-start-prompts.md`
