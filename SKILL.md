@@ -52,7 +52,7 @@ When a domain skill is hosted in a separate repository, read its `SKILL.md` firs
 ## Current Domains
 
 - UFS: active, hosted on GitHub.
-- Yuhong: local draft, included under `domains/yuhong`, to be published and registered later.
+- Yuhong: active, published in this repository under `domains/yuhong`.
 
 ## Quality Rules
 

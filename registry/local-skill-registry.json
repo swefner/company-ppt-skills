@@ -13,10 +13,10 @@
     },
     {
       "id": "yuhong-ppt",
-      "status": "local-draft",
+      "status": "active",
       "local_path": "domains/yuhong",
       "entrypoint": "domains/yuhong/SKILL.md",
-      "github_repository": null,
+      "github_repository": "https://github.com/swefner/company-ppt-skills",
       "default_template": "domains/yuhong/assets/reference-decks/yuhong-template.pptx",
       "component_store": "domains/yuhong/references/decision-component-store.md",
       "visual_component_store": "domains/yuhong/references/component-cards.md",

@@ -32,10 +32,10 @@
     {
       "id": "yuhong-ppt",
       "name": "Yuhong PPT",
-      "status": "local-draft",
+      "status": "active",
       "domain": "Oriental Yuhong / building materials dealer capability",
-      "repository": null,
-      "entrypoint": "SKILL.md",
+      "repository": "https://github.com/swefner/company-ppt-skills",
+      "entrypoint": "domains/yuhong/SKILL.md",
       "best_for": [
         "Oriental Yuhong dealer training",
         "county dealer capability building",

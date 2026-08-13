@@ -36,9 +36,9 @@
     {
       "id": "yuhong-template",
       "domain_skill": "yuhong-ppt",
-      "status": "local-draft",
+      "status": "active",
       "name": "Yuhong General PPT Template",
-      "repository": null,
+      "repository": "https://github.com/swefner/company-ppt-skills",
       "path": "domains/yuhong/assets/reference-decks/yuhong-template.pptx",
       "best_for": [
         "Yuhong course deck",
@@ -50,9 +50,9 @@
     {
       "id": "yuhong-channel-intensive-cultivation",
       "domain_skill": "yuhong-ppt",
-      "status": "local-draft",
+      "status": "active",
       "name": "Yuhong Channel Intensive Cultivation Course",
-      "repository": null,
+      "repository": "https://github.com/swefner/company-ppt-skills",
       "path": "domains/yuhong/assets/reference-decks/channel-intensive-cultivation.pptx",
       "best_for": [
         "channel intensive cultivation",
@@ -63,9 +63,9 @@
     {
       "id": "yuhong-product-battle",
       "domain_skill": "yuhong-ppt",
-      "status": "local-draft",
+      "status": "active",
       "name": "Yuhong Product Battle Course",
-      "repository": null,
+      "repository": "https://github.com/swefner/company-ppt-skills",
       "path": "domains/yuhong/assets/reference-decks/product-battle.pptx",
       "best_for": [
         "product battle",
@@ -76,9 +76,9 @@
     {
       "id": "yuhong-retail-store-battle",
       "domain_skill": "yuhong-ppt",
-      "status": "local-draft",
+      "status": "active",
       "name": "Yuhong Retail Store Battle Course",
-      "repository": null,
+      "repository": "https://github.com/swefner/company-ppt-skills",
       "path": "domains/yuhong/assets/reference-decks/retail-store-battle.pptx",
       "best_for": [
         "retail specialty store",
@@ -89,9 +89,9 @@
     {
       "id": "yuhong-home-decoration-channel",
       "domain_skill": "yuhong-ppt",
-      "status": "local-draft",
+      "status": "active",
       "name": "Yuhong Home Decoration Channel Course",
-      "repository": null,
+      "repository": "https://github.com/swefner/company-ppt-skills",
       "path": "domains/yuhong/assets/reference-decks/home-decoration-channel.pptx",
       "best_for": [
         "home-decoration channel",
@@ -101,9 +101,9 @@
     {
       "id": "yuhong-trader-to-service-provider-course",
       "domain_skill": "yuhong-ppt",
-      "status": "local-draft",
+      "status": "active",
       "name": "Trader to Service Provider Course",
-      "repository": null,
+      "repository": "https://github.com/swefner/company-ppt-skills",
       "path": "domains/yuhong/assets/reference-decks/trader-to-service-provider-course.pptx",
       "best_for": [
         "service-provider transformation",
@@ -115,9 +115,9 @@
     {
       "id": "yuhong-case-sharing",
       "domain_skill": "yuhong-ppt",
-      "status": "local-draft",
+      "status": "active",
       "name": "Yuhong Dealer Case Sharing",
-      "repository": null,
+      "repository": "https://github.com/swefner/company-ppt-skills",
       "path": "domains/yuhong/assets/reference-decks/rongyu-case.pptx",
       "alternate_paths": [
         "domains/yuhong/assets/reference-decks/jiabeili-case.pptx"
