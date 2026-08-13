@@ -35,16 +35,97 @@
     },
     {
       "id": "yuhong-template",
-      "domain_skill": "yuhong-monthly-review-ppt",
+      "domain_skill": "yuhong-ppt",
       "status": "local-draft",
       "name": "Yuhong General PPT Template",
       "repository": null,
-      "path": "assets/reference-decks/yuhong-template.pptx",
+      "path": "domains/yuhong/assets/reference-decks/yuhong-template.pptx",
       "best_for": [
         "Yuhong course deck",
         "dealer capability building",
         "case sharing",
         "channel / product / retail / home-decoration courses"
+      ]
+    },
+    {
+      "id": "yuhong-channel-intensive-cultivation",
+      "domain_skill": "yuhong-ppt",
+      "status": "local-draft",
+      "name": "Yuhong Channel Intensive Cultivation Course",
+      "repository": null,
+      "path": "domains/yuhong/assets/reference-decks/channel-intensive-cultivation.pptx",
+      "best_for": [
+        "channel intensive cultivation",
+        "county dealer channel development",
+        "channel method course"
+      ]
+    },
+    {
+      "id": "yuhong-product-battle",
+      "domain_skill": "yuhong-ppt",
+      "status": "local-draft",
+      "name": "Yuhong Product Battle Course",
+      "repository": null,
+      "path": "domains/yuhong/assets/reference-decks/product-battle.pptx",
+      "best_for": [
+        "product battle",
+        "hot-product method",
+        "product portfolio course"
+      ]
+    },
+    {
+      "id": "yuhong-retail-store-battle",
+      "domain_skill": "yuhong-ppt",
+      "status": "local-draft",
+      "name": "Yuhong Retail Store Battle Course",
+      "repository": null,
+      "path": "domains/yuhong/assets/reference-decks/retail-store-battle.pptx",
+      "best_for": [
+        "retail specialty store",
+        "worker/member operation",
+        "store battle course"
+      ]
+    },
+    {
+      "id": "yuhong-home-decoration-channel",
+      "domain_skill": "yuhong-ppt",
+      "status": "local-draft",
+      "name": "Yuhong Home Decoration Channel Course",
+      "repository": null,
+      "path": "domains/yuhong/assets/reference-decks/home-decoration-channel.pptx",
+      "best_for": [
+        "home-decoration channel",
+        "home-decoration dealer course"
+      ]
+    },
+    {
+      "id": "yuhong-trader-to-service-provider-course",
+      "domain_skill": "yuhong-ppt",
+      "status": "local-draft",
+      "name": "Trader to Service Provider Course",
+      "repository": null,
+      "path": "domains/yuhong/assets/reference-decks/trader-to-service-provider-course.pptx",
+      "best_for": [
+        "service-provider transformation",
+        "bootcamp",
+        "co-creation workshop",
+        "instructor-led course"
+      ]
+    },
+    {
+      "id": "yuhong-case-sharing",
+      "domain_skill": "yuhong-ppt",
+      "status": "local-draft",
+      "name": "Yuhong Dealer Case Sharing",
+      "repository": null,
+      "path": "domains/yuhong/assets/reference-decks/rongyu-case.pptx",
+      "alternate_paths": [
+        "domains/yuhong/assets/reference-decks/jiabeili-case.pptx"
+      ],
+      "best_for": [
+        "dealer case sharing",
+        "transformation story",
+        "benchmark case"
       ]
     }
   ]

@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0-local",
+  "mode": "local-first",
+  "skills": [
+    {
+      "id": "ufs-monthly-review-ppt",
+      "status": "active",
+      "local_path": "domains/ufs",
+      "entrypoint": "domains/ufs/SKILL.md",
+      "github_repository": "https://github.com/swefner/ufs-monthly-review-ppt-skill",
+      "default_template": "domains/ufs/assets/templates/nanchong-456-monthly-review-master-template.pptx",
+      "component_store": "domains/ufs/references/component-store/index.md"
+    },
+    {
+      "id": "yuhong-ppt",
+      "status": "local-draft",
+      "local_path": "domains/yuhong",
+      "entrypoint": "domains/yuhong/SKILL.md",
+      "github_repository": null,
+      "default_template": "domains/yuhong/assets/reference-decks/yuhong-template.pptx",
+      "component_store": "domains/yuhong/references/decision-component-store.md",
+      "visual_component_store": "domains/yuhong/references/component-cards.md",
+      "mode_selection": "domains/yuhong/references/mode-selection.md",
+      "template_selection": "domains/yuhong/references/template-selection.md",
+      "primary_current_use": "courseware",
+      "future_use": [
+        "edit existing PPT",
+        "adapt courseware",
+        "dealer case sharing",
+        "dealer diagnosis",
+        "business review pages"
+      ]
+    }
+  ]
+}

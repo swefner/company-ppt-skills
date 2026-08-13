@@ -12,18 +12,23 @@ The job of this hub is not to generate every slide directly. The job is to route
 ## Default Workflow
 
 1. Identify the client, industry, deck type, audience, and output expectation.
-2. Read `registry/skill-registry.json` and select the matching domain skill.
+2. If working locally, read `registry/local-skill-registry.json` first. If working from GitHub or PowerPoint ChatGPT, read `registry/skill-registry.json`.
 3. Read `registry/template-registry.json` and select the most relevant template.
 4. Read `registry/component-registry.json` and select only the components needed for the business question.
-5. Produce a Guided Mode response before building:
+5. Read shared rules only as needed:
+   - `shared/guided-mode.md`
+   - `shared/component-selection.md`
+   - `shared/quality-rules.md`
+6. Produce a Guided Mode response before building:
    - recognized client / industry / deck type
    - selected domain skill
    - selected template
    - selected components
    - missing data or materials
    - recommended outline
-6. Ask for Continue / Go deeper / Replace / Build.
-7. Build or edit PPT only after explicit Build confirmation.
+   - for Yuhong courseware, a page-level mapping from teaching question to Decision Component, required input, instructor action, learner output, visual source, and usage risk
+7. Ask for Continue / Go deeper / Replace / Build.
+8. Build or edit PPT only after explicit Build confirmation.
 
 ## Natural Start
 
@@ -36,6 +41,7 @@ For ordinary users, prefer natural start prompts from `bootstrap/natural-start-p
 - If the client or industry is unclear, ask for the minimum missing context before selecting a template.
 - Do not mix domain styles unless the user explicitly asks for a cross-industry synthesis.
 - Do not start from visual components. Start from the business question and audience decision.
+- For Yuhong, route first to one mode: Create Courseware, Adapt Existing Deck, Case Teaching, Dealer Workshop, or Business Review. Do not return only a list of component names.
 
 ## PowerPoint Plugin Constraints
 
@@ -46,7 +52,7 @@ When a domain skill is hosted in a separate repository, read its `SKILL.md` firs
 ## Current Domains
 
 - UFS: active, hosted on GitHub.
-- Yuhong: local draft, to be published and registered.
+- Yuhong: local draft, included under `domains/yuhong`, to be published and registered later.
 
 ## Quality Rules
 

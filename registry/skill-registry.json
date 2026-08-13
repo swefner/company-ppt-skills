@@ -30,8 +30,8 @@
       "default_mode": "Guided Monthly Business Review"
     },
     {
-      "id": "yuhong-monthly-review-ppt",
-      "name": "Yuhong Dealer Capability PPT",
+      "id": "yuhong-ppt",
+      "name": "Yuhong PPT",
       "status": "local-draft",
       "domain": "Oriental Yuhong / building materials dealer capability",
       "repository": null,
@@ -55,7 +55,14 @@
         "retail specialty",
         "home-decoration channel"
       ],
-      "default_mode": "Guided Dealer Capability Course"
+      "default_mode": "Create Courseware",
+      "supported_modes": [
+        "Create Courseware",
+        "Adapt Existing Deck",
+        "Case Teaching",
+        "Dealer Workshop",
+        "Business Review"
+      ]
     }
   ]
 }
