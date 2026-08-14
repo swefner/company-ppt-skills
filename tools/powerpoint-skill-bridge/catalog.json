@@ -1,0 +1,88 @@
+{
+  "version": "0.1.0",
+  "decks": [
+    {
+      "id": "yuhong-county-course-components",
+      "name": "东方雨虹 · 县域课程组件（模板母版版）",
+      "kind": "component-store",
+      "templateProof": "已继承 yuhong-template.pptx 原始母版与品牌背景",
+      "sourceUrl": "/domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx",
+      "fileName": "yuhong-county-course-components-branded.pptx",
+      "sha256": "881F78A9210D46349D0B93DCC98A0B13683C23DF2C593B01E2A6BC3A9172DB2A",
+      "components": [
+        {
+          "id": "county-trend-three-judgments",
+          "code": "DC-01",
+          "title": "三个趋势判断",
+          "question": "县域机会是消失了，还是机会结构发生了变化？",
+          "sourceSlide": 1,
+          "sourceSlideId": "256#",
+          "preview": "/domains/yuhong/assets/components/previews/component-01.png"
+        },
+        {
+          "id": "county-business-territory-map",
+          "code": "DC-02",
+          "title": "县域生意版图",
+          "question": "增长空间具体落在哪些县城和乡镇？",
+          "sourceSlide": 2,
+          "sourceSlideId": "257#",
+          "preview": "/domains/yuhong/assets/components/previews/component-02.png"
+        },
+        {
+          "id": "four-force-diagnosis",
+          "code": "DC-03",
+          "title": "四力诊断",
+          "question": "品牌力、渠道力、场景力、产品力的主短板是什么？",
+          "sourceSlide": 3,
+          "sourceSlideId": "258#",
+          "preview": "/domains/yuhong/assets/components/previews/component-03.png"
+        },
+        {
+          "id": "four-stage-growth-diagnosis",
+          "code": "DC-04",
+          "title": "四阶段成长判断",
+          "question": "当前卡在进得去、站得住、卖得动还是做得深？",
+          "sourceSlide": 4,
+          "sourceSlideId": "259#",
+          "preview": "/domains/yuhong/assets/components/previews/component-04.png"
+        },
+        {
+          "id": "symptom-clustering-core-problem",
+          "code": "DC-17",
+          "title": "病症聚类诊断",
+          "question": "大量零散经营症状背后的主问题是什么？",
+          "sourceSlide": 5,
+          "sourceSlideId": "260#",
+          "preview": "/domains/yuhong/assets/components/previews/component-05.png"
+        },
+        {
+          "id": "integrated-stage-symptom-force-action-diagnosis",
+          "code": "DC-20",
+          "title": "阶段 → 病症 → 四力 → 动作",
+          "question": "如何把阶段、任务、病症、四力短板和优先动作连成完整诊断？",
+          "sourceSlide": 6,
+          "sourceSlideId": "261#",
+          "preview": "/domains/yuhong/assets/components/previews/component-06.png"
+        }
+      ]
+    },
+    {
+      "id": "yuhong-brand-template",
+      "name": "东方雨虹 · 品牌模板底座",
+      "kind": "template",
+      "sourceUrl": "/domains/yuhong/assets/reference-decks/yuhong-template.pptx",
+      "fileName": "yuhong-template.pptx",
+      "sha256": "A9F396CF0EB4074CDF02F2C9E7F02E93E5985BCFDEEBD76DF16D0D65291F263C",
+      "components": [
+        {
+          "id": "yuhong-brand-base-slide",
+          "code": "TPL-01",
+          "title": "品牌模板基础页",
+          "question": "为当前文稿引入东方雨虹的原始母版、版式和品牌资产。",
+          "sourceSlide": 1,
+          "sourceSlideId": "13830#"
+        }
+      ]
+    }
+  ]
+}

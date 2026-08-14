@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PPT Skill Bridge</title>
+  <link rel="stylesheet" href="./taskpane.css">
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <p class="eyebrow">COMPANY PPT SKILLS</p>
+    <h1>组件桥接器</h1>
+    <span id="hostState" class="host-state">正在连接 PowerPoint</span>
+  </header>
+
+  <main>
+    <section class="source-section" aria-labelledby="sourceHeading">
+      <div class="section-heading">
+        <h2 id="sourceHeading">资产源</h2>
+        <button id="reloadButton" class="quiet-button" type="button">重新加载</button>
+      </div>
+      <div id="deckTabs" class="deck-tabs" role="tablist" aria-label="组件资产源"></div>
+      <div class="file-row">
+        <label class="file-button" for="fileInput">选择本机 PPTX</label>
+        <input id="fileInput" type="file" accept=".pptx,application/vnd.openxmlformats-officedocument.presentationml.presentation">
+        <span id="fileName" class="file-name">使用仓库资产</span>
+      </div>
+    </section>
+
+    <section aria-labelledby="componentHeading">
+      <div class="section-heading">
+        <h2 id="componentHeading">可插入组件</h2>
+        <label class="select-all"><input id="selectAll" type="checkbox"> 全选</label>
+      </div>
+      <div id="componentList" class="component-list"></div>
+    </section>
+
+    <section class="insert-settings" aria-labelledby="settingsHeading">
+      <h2 id="settingsHeading">插入设置</h2>
+      <fieldset>
+        <legend>格式</legend>
+        <label><input type="radio" name="formatting" value="KeepSourceFormatting" checked> 保留源格式</label>
+        <label><input type="radio" name="formatting" value="UseDestinationTheme"> 使用当前主题</label>
+      </fieldset>
+      <fieldset>
+        <legend>位置</legend>
+        <label><input type="radio" name="position" value="after-selected" checked> 当前页之后</label>
+        <label><input type="radio" name="position" value="beginning"> 文稿开头</label>
+      </fieldset>
+    </section>
+
+    <div class="action-bar">
+      <button id="insertButton" class="primary-button" type="button" disabled>插入所选组件</button>
+      <p id="status" class="status" role="status" aria-live="polite">正在读取组件目录</p>
+    </div>
+  </main>
+
+  <template id="componentTemplate">
+    <label class="component-row">
+      <input class="component-check" type="checkbox">
+      <img class="component-preview" alt="">
+      <span class="component-copy">
+        <span class="component-meta"></span>
+        <strong class="component-title"></strong>
+        <span class="component-question"></span>
+      </span>
+    </label>
+  </template>
+
+  <script type="module" src="./taskpane.js"></script>
+</body>
+</html>

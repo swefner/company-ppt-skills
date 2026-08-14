@@ -1,0 +1,22 @@
+{
+  "name": "company-ppt-skill-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup-local": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/setup-local.ps1",
+    "dev-server": "node scripts/server.mjs",
+    "serve": "node scripts/server.mjs",
+    "start": "office-addin-debugging start manifest.xml desktop",
+    "launch": "office-addin-dev-settings sideload manifest.xml desktop",
+    "stop": "office-addin-debugging stop manifest.xml",
+    "validate": "office-addin-manifest validate manifest.xml",
+    "verify-assets": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ../../domains/yuhong/assets/components/verify-branded-component-deck.ps1",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "office-addin-debugging": "^6.0.3",
+    "office-addin-dev-certs": "^2.0.10",
+    "office-addin-manifest": "^2.1.2"
+  }
+}
