@@ -1,0 +1,37 @@
+﻿{
+    "source_deck":  "yuhong-county-course-components-branded.pptx",
+    "source_deck_sha256":  "881F78A9210D46349D0B93DCC98A0B13683C23DF2C593B01E2A6BC3A9172DB2A",
+    "render_note":  "Re-run tools/render-component-previews.ps1 (assets/components) after any change to the component source deck or its template master.",
+    "pages":  [
+                  {
+                      "slide":  1,
+                      "file":  "component-01.png",
+                      "sha256":  "FF35CA711F9C7572D4903C1E8DF4ECDAC092B6BEE856134AEDC56F88E961A3AB"
+                  },
+                  {
+                      "slide":  2,
+                      "file":  "component-02.png",
+                      "sha256":  "7DE39A82F35E3E811D0434E82EA0FD261593F8937E12820D1A5DECE9B2EDA914"
+                  },
+                  {
+                      "slide":  3,
+                      "file":  "component-03.png",
+                      "sha256":  "B56D64B6D533C0586506FD3CA27C51507E0445611B5B70E1E0679E23714949E4"
+                  },
+                  {
+                      "slide":  4,
+                      "file":  "component-04.png",
+                      "sha256":  "C41B3DE75F464228E49708FA9B091A8A2CD4D612A1C3EA49766FC92E95ECD341"
+                  },
+                  {
+                      "slide":  5,
+                      "file":  "component-05.png",
+                      "sha256":  "3688FAF79A2EB53A552803BCDF56AAF91213F246BA81435F2495E537FD544B5F"
+                  },
+                  {
+                      "slide":  6,
+                      "file":  "component-06.png",
+                      "sha256":  "474E6E9F80F9B7D4BEDD94BF6085F47C5483EEA40E2E3329681F4198063E9183"
+                  }
+              ]
+}

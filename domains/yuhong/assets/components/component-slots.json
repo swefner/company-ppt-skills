@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "source_deck": "yuhong-county-course-components-branded.pptx",
+  "source_deck_sha256": "881F78A9210D46349D0B93DCC98A0B13683C23DF2C593B01E2A6BC3A9172DB2A",
+  "visual_base": "../reference-decks/yuhong-template.pptx",
+  "master_inheritance_required": true,
+  "rules": {
+    "reuse_mode": "duplicate-source-slide-and-edit-named-objects",
+    "do_not_redraw": true,
+    "preserve_editability": true,
+    "preserve_named_objects_not_listed_as_replaceable": true
+  },
+  "components": [
+    {
+      "id": "county-trend-three-judgments",
+      "decision_component": "DC-01",
+      "source_slide": 1,
+      "source_slide_id": "256#",
+      "preview": "previews/component-01.png",
+      "replaceable_objects": [
+        "TITLE", "SUBTITLE",
+        "J01_LABEL", "J01_FROM", "J01_TO",
+        "J02_LABEL", "J02_FROM", "J02_TO",
+        "J03_LABEL", "J03_FROM", "J03_TO",
+        "TEACHING_CUE"
+      ],
+      "preserve": ["three vertical change lanes", "number hierarchy", "arrow direction", "semantic red-blue-green colors"],
+      "max_items": 3
+    },
+    {
+      "id": "county-business-territory-map",
+      "decision_component": "DC-02",
+      "source_slide": 2,
+      "source_slide_id": "257#",
+      "preview": "previews/component-02.png",
+      "replaceable_objects": [
+        "TITLE", "SUBTITLE", "COUNTY_NAME", "COUNTY_EVIDENCE",
+        "TOWN_01_LABEL", "TOWN_01_ACTION", "TOWN_02_LABEL", "TOWN_02_ACTION",
+        "TOWN_03_LABEL", "TOWN_03_ACTION", "TOWN_04_LABEL", "TOWN_04_ACTION",
+        "TEACHING_CUE"
+      ],
+      "preserve": ["county center and township spatial relationship", "守盘-做深-开拓 action colors", "central operating-base hierarchy"],
+      "max_items": 4,
+      "fallback": "If more than four townships are needed, duplicate the slide or replace townships with four grouped regions. Do not shrink all labels into a dense map."
+    },
+    {
+      "id": "four-force-diagnosis",
+      "decision_component": "DC-03",
+      "source_slide": 3,
+      "source_slide_id": "258#",
+      "preview": "previews/component-03.png",
+      "replaceable_objects": [
+        "TITLE", "SUBTITLE", "CORE_PROBLEM",
+        "BRAND_QUESTION", "BRAND_EVIDENCE", "CHANNEL_QUESTION", "CHANNEL_EVIDENCE",
+        "SCENE_QUESTION", "SCENE_EVIDENCE", "PRODUCT_QUESTION", "PRODUCT_EVIDENCE",
+        "TEACHING_CUE"
+      ],
+      "preserve": ["one central problem", "four surrounding diagnostic lenses", "one-primary-shortfall rule"],
+      "max_primary_shortfalls": 1,
+      "max_secondary_shortfalls": 1
+    },
+    {
+      "id": "four-stage-growth-diagnosis",
+      "decision_component": "DC-04",
+      "source_slide": 4,
+      "source_slide_id": "259#",
+      "preview": "previews/component-04.png",
+      "replaceable_objects": [
+        "TITLE", "SUBTITLE", "STAGE_RULE",
+        "S1_RESULT", "S1_TASK", "S2_RESULT", "S2_TASK",
+        "S3_RESULT", "S3_TASK", "S4_RESULT", "S4_TASK",
+        "TEACHING_CUE"
+      ],
+      "preserve": ["four-step staircase", "stage order", "result-before-task logic", "light-to-dark progression"],
+      "fixed_labels": ["进得去", "站得住", "卖得动", "做得深"]
+    },
+    {
+      "id": "symptom-clustering-core-problem",
+      "decision_component": "DC-17",
+      "source_slide": 5,
+      "source_slide_id": "260#",
+      "preview": "previews/component-05.png",
+      "replaceable_objects": [
+        "TITLE", "SUBTITLE",
+        "SYMPTOM_01_TEXT", "SYMPTOM_02_TEXT", "SYMPTOM_03_TEXT", "SYMPTOM_04_TEXT",
+        "SYMPTOM_05_TEXT", "SYMPTOM_06_TEXT", "SYMPTOM_07_TEXT", "SYMPTOM_08_TEXT",
+        "C1_LABEL", "C1_DESC", "C2_LABEL", "C2_DESC", "C3_LABEL", "C3_DESC", "C4_LABEL", "C4_DESC",
+        "TEACHING_CUE"
+      ],
+      "preserve": ["symptom wall on the left", "convergence arrow", "diagnosis clusters on the right", "facts-before-causes discipline"],
+      "max_symptoms": 8,
+      "max_clusters": 4
+    },
+    {
+      "id": "integrated-stage-symptom-force-action-diagnosis",
+      "decision_component": "DC-20",
+      "source_slide": 6,
+      "source_slide_id": "261#",
+      "preview": "previews/component-06.png",
+      "replaceable_objects": [
+        "TITLE", "SUBTITLE", "CASE_PROMPT",
+        "STEP_1_QUESTION", "STEP_1_OUTPUT", "STEP_2_QUESTION", "STEP_2_OUTPUT",
+        "STEP_3_QUESTION", "STEP_3_OUTPUT", "STEP_4_QUESTION", "STEP_4_OUTPUT",
+        "STEP_5_QUESTION", "STEP_5_OUTPUT", "TEACHING_CUE"
+      ],
+      "preserve": ["five-step diagnostic order", "vertical diagnostic spine", "question-to-output pairing", "maximum three priority actions"],
+      "fixed_order": ["阶段", "任务", "病症", "四力短板", "优先动作"]
+    }
+  ]
+}
