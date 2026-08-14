@@ -120,7 +120,7 @@ Ask the user to confirm, continue, go deeper, replace, or build.
 
 ### Stage 6: Build
 
-Only build when the user asks to build or confirms the outline. Before building, read `quality-check.md` and make sure the outline passes the build gate. Use the presentation skill's template-following rules when editing PPTX files. Preserve the selected visual base and cite sources in notes when producing a deck.
+Only build when the user asks to build or confirms the outline. Before building, read `build-execution-contract.md` and `quality-check.md`, create the source-read receipt, verify required PPTX assets, and make sure the outline passes the build gate. Use the presentation skill's template-following rules when editing PPTX files. Preserve the selected visual base and cite sources in notes when producing a deck. If the source PPTX cannot be opened or imported, stop instead of silently using HTML or a generic rebuild.
 
 ## Component Selection In Guided Mode
 

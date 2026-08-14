@@ -15,6 +15,56 @@ Do not build the PPT until the outline passes these checks:
 
 If any check fails, revise the outline first.
 
+## Source And Template Fidelity Gate
+
+Reject the Build when any condition is true:
+
+- There is no evidence that the required Skill files were opened from the stated local root or fixed GitHub commit.
+- The output was generated without opening the selected source PPTX assets.
+- A template-bound task used HTML-to-slide bulk generation or a from-scratch generic deck as the primary route.
+- The output contains only superficial red-and-white styling but does not retain the source template background, master, brand media, or page furniture.
+- A matching executable component was redrawn instead of duplicated from its registered source slide.
+- A logo or brand mark came from web search, a third-party site, or an unapproved recreation.
+- The agent cites page count, no overflow, or editability as sufficient proof of template fidelity.
+
+Required evidence before delivery:
+
+- Source read receipt with exact revision or local root.
+- Opened PPTX asset names and verified slide counts.
+- Output-to-source slide map for executable components.
+- Template/background inheritance check on representative output slides.
+- Visual comparison against `component-store-contact-sheet.png` and the rendered template source.
+- Confirmation that no unapproved external brand assets were introduced.
+
+Editability and geometric correctness remain required, but they cannot override brand fidelity.
+
+## Create Courseware Rejection Gate
+
+Apply this gate whenever the selected primary mode is `Create Courseware`. These are failure conditions, not optional style advice.
+
+Reject and redesign the deck when any condition is true:
+
+- More than 4 of 20 slides use a conventional 3-column or 4-column card grid.
+- More than 6 of 20 slides are primarily grey rectangles, red rules, or horizontal text processes.
+- Three consecutive slides use the same dominant composition.
+- More than 4 consecutive slides only explain content and require no learner judgment, discussion, diagnosis, or output.
+- A supposed interaction page is only a static question followed by the visible answer.
+- Interactive pages have no instructor prompt, expected learner response, reveal/debrief sequence, or fallback in speaker notes.
+- The deck has no editable learner worksheet or action output.
+- The deck could be moved into a generic consulting report with only the client logo changed.
+
+For a 20-page course, verify the minimum mix:
+
+- 2 or more sparse classroom-question pages.
+- 2 or more visual scene, territory, or situation pages.
+- 2 or more model-building pages.
+- 2 or more scenario-judgment or diagnosis pages.
+- 1 or more case debrief pages.
+- 1 or more editable worksheet or action-output pages.
+- 1 or more module-transition pages.
+
+Changing colors, adding a logo, or replacing grey cards with red cards does not resolve a rejection. Change the teaching action and page form.
+
 ## Slide-Level Checklist
 
 For each slide, verify:
@@ -156,3 +206,6 @@ Stop and revise if:
 - A visual component is selected before the business question is clear.
 - The next-month plan has actions but no owner or metric.
 - The deck praises performance but does not explain repeatability or risk.
+- A course deck looks like an executive report with questions added to the titles.
+- Grey cards, red lines, and horizontal processes form the dominant visual language.
+- Learners can listen to the whole deck without making a judgment or producing an output.

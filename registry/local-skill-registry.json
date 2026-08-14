@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0-local",
+  "version": "0.3.0-local",
   "mode": "local-first",
   "skills": [
     {
@@ -20,6 +20,9 @@
       "default_template": "domains/yuhong/assets/reference-decks/yuhong-template.pptx",
       "component_store": "domains/yuhong/references/decision-component-store.md",
       "visual_component_store": "domains/yuhong/references/component-cards.md",
+      "executable_component_store": "domains/yuhong/references/executable-component-store.md",
+      "executable_component_deck": "domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx",
+      "build_execution_contract": "domains/yuhong/references/build-execution-contract.md",
       "mode_selection": "domains/yuhong/references/mode-selection.md",
       "template_selection": "domains/yuhong/references/template-selection.md",
       "primary_current_use": "courseware",

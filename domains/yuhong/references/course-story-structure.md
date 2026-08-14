@@ -237,6 +237,61 @@ Risk:
 
 - Avoid legal overclaiming. Present contract language as operational example unless it has been legally reviewed.
 
+## Courseware Mode Guardrail
+
+Courseware is a teaching experience, not a consulting report presented aloud. The page sequence must create thinking, judgment, explanation, practice, and output. A page that only sorts text into neat boxes does not become courseware because it has a question in the title.
+
+### Forbidden Defaults
+
+Do not use these as the dominant visual language:
+
+- Repeated 3-column or 4-column information cards.
+- Grey panels with red top borders or red connector lines.
+- Dashboard-style KPI tiles in a concept course.
+- One conclusion headline followed by evidence boxes on every page.
+- MECE matrices used only to hold paragraphs.
+- Repeated horizontal process diagrams.
+- Dense executive-summary pages.
+- Identical layouts with only text replacement.
+
+These forms may appear when they are the clearest answer to a teaching question, but they must not define the deck. In a 20-page course, use no more than 4 conventional card-grid pages. Never use the same dominant structure for 3 consecutive slides.
+
+### Required Teaching Rhythm
+
+Build modules by alternating among:
+
+1. Classroom question: create a decision or tension before explanation.
+2. Visual explanation: make the mechanism, scene, territory, or change visible.
+3. Concrete business scene: show what the issue looks like in dealer language.
+4. Judgment model: give learners a reusable lens.
+5. Learner decision: require a choice, diagnosis, ranking, or self-assessment.
+6. Answer reveal or instructor debrief: explain why, not just what.
+7. Worksheet or action output: leave a learner artifact that can be used after class.
+
+Include at least one learner action every 3-5 slides. Do not stack more than 4 explanation-only slides without a question, case, diagnosis, or worksheet.
+
+### Minimum Mix For A 20-Page Course
+
+- At least 2 sparse classroom-question pages.
+- At least 2 visual scene, territory, or situation pages.
+- At least 2 model-building or progressive-explanation pages.
+- At least 2 scenario-judgment or diagnosis pages.
+- At least 1 case debrief.
+- At least 1 editable worksheet or action-output page.
+- At least 1 clear module transition.
+
+The remaining pages should support the teaching progression. Do not fill the remainder with generic cards.
+
+### Visual Courseware Test
+
+Before delivery, answer all three questions:
+
+1. Does this look like material an instructor can teach with?
+2. Can learners make a judgment, discuss a case, or produce an output?
+3. Could most pages be moved unchanged into a generic consulting report?
+
+If the third answer is yes, the deck fails even when the content is correct.
+
 ## Course Page Types
 
 Use these page types when building a new courseware deck:
@@ -275,4 +330,5 @@ For a live workshop, do not stack more than 15-20 minutes of pure lecture withou
 - For each module, specify timing, teaching objective, key points, and execution notes.
 - Do not copy the source deck visually unless the user explicitly asks for visual adaptation.
 - Do not reuse the source's claims as current facts unless the source deck is cited or the claim is revalidated.
-
+- Record the selected page type for every slide and count repeated dominant structures before building.
+- Put instructor prompts, reveal sequence, expected learner response, and debrief points in speaker notes for every interactive page.

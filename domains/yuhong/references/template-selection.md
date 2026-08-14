@@ -31,6 +31,34 @@ Future use cases may include editing existing decks, adapting courseware, case s
 - For transformation bootcamps or service-provider transformation, prioritize `trader-to-service-provider-course`.
 - For case sharing, prioritize `rongyu-case` or `jiabeili-case`.
 
+## Actual Role Of `yuhong-template`
+
+The current `yuhong-template.pptx` is a one-slide brand visual base, not a multi-page content-layout library. Its current package contains 1 slide, 7 media assets, 9 layouts, and 1 master.
+
+Use it to preserve:
+
+- Background artwork and page atmosphere.
+- Master and layout inheritance.
+- Embedded approved brand media.
+- Logo or program-mark placement.
+- Page-edge and whitespace language.
+
+Do not claim that it supplies multiple comparison, model, worksheet, or case layouts. Those page compositions come from `assets/components/yuhong-county-course-components-branded.pptx` or the selected method deck, but the executable components must inherit this template's real master.
+
+For the county opportunity course, the correct pairing is:
+
+- `yuhong-template.pptx` = brand visual base.
+- `yuhong-county-course-components-branded.pptx` = editable course component compositions rebased onto the actual Yuhong master.
+
+If either asset cannot be opened, do not fall back to a red-and-white generic rebuild. Stop and report the missing asset.
+
+## Route Restrictions
+
+- Use PPTX import, slide duplication, inherited layouts, and native-object editing.
+- Do not use HTML-to-slide bulk generation as the primary route for a template-bound build.
+- Do not rebuild the template from color sampling, screenshots, or remembered visual style.
+- Do not obtain a replacement logo from web search when an approved source PPTX is supplied.
+
 ## Guided Mode Output
 
 Before building, output:

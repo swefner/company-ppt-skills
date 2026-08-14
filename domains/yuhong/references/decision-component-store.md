@@ -2,6 +2,10 @@
 
 Use this store before choosing visual layouts. A Decision Component is a reusable page logic unit, not a decorative slide.
 
+## Visual Previews
+
+Six executable components have rendered previews at `assets/components/previews/component-01.png` ... `component-06.png`, plus a grid contact sheet at `assets/components/previews/component-store-render-sheet.png`. Look at the rendered preview before selecting or adapting a component; the text card alone does not convey layout, density, or capacity. Previews are machine-rendered from the source deck: after any change to `yuhong-county-course-components-branded.pptx` or its master, re-run `assets/components/render-component-previews.ps1` so the previews do not go stale. Each component card below lists its preview file.
+
 ## Selection Chain
 
 `Page role -> teaching question -> learner decision/output -> available evidence -> Decision Component -> visual expression`
@@ -39,6 +43,7 @@ Each mature card must define:
 - Output: 县域机会判断句.
 - Visual: Ask-Then-Reveal + 三段证据链，不用普通三栏口号页.
 - Source: `county-opportunity-course.md`, `interactive-course-components.md` I1.
+- Visual preview: `assets/components/previews/component-01.png`.
 - Adaptation: 用真实县域数据替换宏观套话，每条判断落到经销商经营影响.
 - Risk: 容易变成空泛趋势宣讲.
 - Fallback: 没有本地数据时，标注“行业判断”，用案例提问代替定量结论.
@@ -54,6 +59,7 @@ Each mature card must define:
 - Output: 县域生意版图和优先乡镇清单.
 - Visual: 分区地图或矩阵；数据不足时用区域清单热度图.
 - Source: `county-opportunity-course.md`, `business-analysis-cards.md` A4.
+- Visual preview: `assets/components/previews/component-02.png`.
 - Adaptation: 颜色必须对应不同经营动作，而不只是销售高低.
 - Risk: 地图好看但没有行动含义.
 - Fallback: 无地图底图时使用“区域 x 覆盖/活跃/潜力”矩阵.
@@ -69,7 +75,8 @@ Each mature card must define:
 - Output: 一个主短板、一个次短板和对应证据.
 - Visual: Click-To-Diagnose 四象限或四卡诊断.
 - Source: `county-opportunity-course.md`, `interactive-course-components.md` I4.
-- Adaptation: 每一“力”必须连接可观测指标和后续组件.
+- Visual preview: `assets/components/previews/component-03.png`.
+- Adaptation: 每一”力”必须连接可观测指标和后续组件.
 - Risk: 四项都低或都高，无法形成优先级.
 - Fallback: 取消评分，改为“症状选择 + 证据”诊断.
 
@@ -84,6 +91,7 @@ Each mature card must define:
 - Output: 当前阶段和下一阶段通关任务.
 - Visual: 阶段路径 + 情景选择，避免只有箭头流程.
 - Source: `county-opportunity-course.md`, `interactive-course-components.md` I3.
+- Visual preview: `assets/components/previews/component-04.png`.
 - Adaptation: 每阶段只保留一个关键判断和一个通关指标.
 - Risk: 将实际并行问题硬塞成线性成熟度.
 - Fallback: 允许“主阶段 + 次级瓶颈”的双标签.
@@ -177,6 +185,7 @@ These cards adapt proven workshop methods into Yuhong-native teaching components
 - Learner action: 每人提交 1-2 张事实卡，参与归类并为主问题提供证据.
 - Output: 3-5 个问题簇、一个主问题、一个待验证原因假设.
 - Visual: “症状池 -> 聚类区 -> 主问题声明”三段式证据墙；卡片颜色只表示来源或对象，不表示严重度.
+- Visual preview: `assets/components/previews/component-05.png`.
 - External method source: Mural Feedback Grid, `https://www.mural.co/templates/feedback-grid`; Miro workshop template collection, `https://miro.com/templates/`.
 - Adaptation: 用雨虹经营标签进行聚类，例如覆盖、活跃、产品、拜访、服务、回款；主问题必须写成“对象 + 可见表现 + 经营影响”.
 - Risk: 把解决方案写成问题，或把不同层级的症状和原因混在一起.
@@ -211,6 +220,21 @@ These cards adapt proven workshop methods into Yuhong-native teaching components
 - Adaptation: 选项必须都是现场可能采取的动作，例如先做乡镇覆盖、先激活存量网点、先打核心品项；避免设置一个明显愚蠢的错误答案.
 - Risk: 事后诸葛亮、提前泄露答案，或把案例包装成只有成功没有代价的宣传故事.
 - Fallback: 没有完整真实案例时使用明确标注的合成情景，并说明哪些事实需要后续替换.
+
+### DC-20 Integrated Stage-Symptom-Force-Action Diagnosis
+
+- Best modes: Create Courseware, Dealer Workshop, Case Teaching.
+- Question: 如何把乡镇经营事实完整转化为阶段判断、当前任务、主病症、四力短板和优先动作？
+- Required input: 乡镇经营结果、当前阶段证据、投入与结果不匹配的症状、四力证据、资源约束和候选动作.
+- Page position: 判状态模块收束页，或综合案例诊断页.
+- Instructor action: 按“阶段 -> 任务 -> 病症 -> 四力短板 -> 优先动作”逐步追问，禁止从病症直接跳到促销或铺货动作.
+- Learner action: 完成五步诊断，并用一句话说明证据和最终选择.
+- Output: 一条完整诊断陈述和 2-3 项优先动作.
+- Visual: 五步纵向诊断脊柱，左侧步骤名，中部诊断问题，右侧填写输出.
+- Visual preview: `assets/components/previews/component-06.png`.
+- Executable source: `assets/components/yuhong-county-course-components-branded.pptx`, slide 6; fields in `assets/components/component-slots.json`.
+- Risk: 为了填满模型而编造原因，或动作数量过多、没有优先级.
+- Fallback: 证据不足时保留“待验证”，不进入动作选择.
 
 ## Page Blueprint Output
 

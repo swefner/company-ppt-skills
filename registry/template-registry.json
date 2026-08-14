@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.2.0",
   "templates": [
     {
       "id": "ufs-nanchong-456-review-master",
@@ -40,6 +40,15 @@
       "name": "Yuhong General PPT Template",
       "repository": "https://github.com/swefner/company-ppt-skills",
       "path": "domains/yuhong/assets/reference-decks/yuhong-template.pptx",
+      "role": "one-slide brand visual base; not a multi-page content-layout library",
+      "expected_structure": {
+        "slides": 1,
+        "media": 7,
+        "layouts": 9,
+        "masters": 1,
+        "sha256": "A9F396CF0EB4074CDF02F2C9E7F02E93E5985BCFDEEBD76DF16D0D65291F263C"
+      },
+      "pair_with": "domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx",
       "best_for": [
         "Yuhong course deck",
         "dealer capability building",
