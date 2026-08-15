@@ -34,5 +34,6 @@ Before recommending a component in any agent session:
 2. If any preview image cannot be read, write 「图片未读取」beside that component and base the choice on the text card only.
 3. Never claim「已查看预览图」for an image that was not actually opened, and never invent layout details.
 4. If your candidate's described layout contradicts its text card (e.g. a four-lens diagnosis described as a 2x2 matrix), re-check the source instead of proceeding.
+5. Layout details come from the preview image; content definitions (what the component means, its labels, its semantic rules) come from the component card and its slot contract. Do not rewrite a component's content definition to fit your own framing (e.g. do not rename 四力 into your own four growth directions). If the card's definition conflicts with your outline, follow the card and note the conflict.
 
-This rule is mandatory: a real in-PowerPoint agent test showed four of five selected components were described from imagination while the agent claimed the previews were viewed.
+This rule is mandatory: a real in-PowerPoint agent test showed four of five selected components were described from imagination while the agent claimed the previews were viewed; a later test matched layouts correctly but renamed component content definitions.

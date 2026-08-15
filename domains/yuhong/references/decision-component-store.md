@@ -10,6 +10,8 @@ In an in-PowerPoint agent session, use the `?raw=true` URL form for preview imag
 
 Agent selection rule (anti-hallucination, applies to every in-PowerPoint agent session): read the single contact sheet `assets/components/previews/component-store-render-sheet.png` — one image listing all six components with large DC-number badges — and for every candidate component describe the layout detail actually seen in that image (e.g. "center problem with four surrounding lenses"). If the image cannot be read, write 「图片未读取」beside that component and fall back to the text card only. Never claim a preview was viewed when it was not actually opened, and never invent layout details. This rule exists because a 2026-08-14 in-PowerPoint test showed hallucinated layout descriptions for four components whose preview images were never fetched.
 
+Layout comes from the preview image; content definitions come from the card and `component-slots.json` — labels, question wording, and semantic rules must not be rewritten to fit a different framing (a 2026-08-14 test matched all six layouts correctly yet renamed 四力 into four self-defined growth directions and 四阶段 into different stage names). If a card definition conflicts with the outline, follow the card and note the conflict.
+
 ## Selection Chain
 
 `Page role -> teaching question -> learner decision/output -> available evidence -> Decision Component -> visual expression`

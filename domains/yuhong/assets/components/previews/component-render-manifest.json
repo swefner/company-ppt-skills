@@ -1,7 +1,7 @@
 ﻿{
     "source_deck":  "yuhong-county-course-components-branded.pptx",
     "source_deck_sha256":  "881F78A9210D46349D0B93DCC98A0B13683C23DF2C593B01E2A6BC3A9172DB2A",
-    "render_note":  "Re-run tools/render-component-previews.ps1 (assets/components) after any change to the component source deck or its template master.",
+    "render_note":  "Re-run assets/components/render-component-previews.ps1 after any change to the component source deck or its template master.",
     "pages":  [
                   {
                       "slide":  1,

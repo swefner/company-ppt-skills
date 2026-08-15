@@ -44,7 +44,7 @@ try {
     $manifest = [ordered]@{
         source_deck = (Split-Path -Leaf $deck)
         source_deck_sha256 = $deckHash
-        render_note = "Re-run tools/render-component-previews.ps1 (assets/components) after any change to the component source deck or its template master."
+        render_note = "Re-run assets/components/render-component-previews.ps1 after any change to the component source deck or its template master."
         pages = $entries
     }
     $manifestPath = Join-Path $previewDir "component-render-manifest.json"

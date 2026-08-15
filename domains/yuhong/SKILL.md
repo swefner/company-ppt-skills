@@ -107,6 +107,7 @@ Use this sequence unless the user supplies a stronger structure:
 - `assets/components/yuhong-county-course-components-branded.pptx`: six-slide editable executable component source deck already rebased onto the real `yuhong-template.pptx` master. Duplicate matching slides instead of redrawing them.
 - `assets/components/component-slots.json`: named replacement fields, capacity, and invariants for the executable component source deck.
 - `assets/components/component-store-contact-sheet.png`: visual acceptance overview for the executable component source deck.
+- `assets/components/previews/component-store-render-sheet.png`: machine-rendered six-component contact sheet with large DC-number badges, the single image in-PowerPoint agents must read before selecting components. Regenerate with `assets/components/render-component-previews.ps1` + `assets/components/build-contact-sheet.py` whenever the source deck or its master changes.
 - `assets/reference-data/yuhong-dealer-dynamic-diagnosis-20260724.xlsx`: metric definition and scoring reference.
 
 Treat any unrelated dealer decks as optional examples only when the user explicitly asks.
