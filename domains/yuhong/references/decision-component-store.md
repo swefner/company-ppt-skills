@@ -6,6 +6,10 @@ Use this store before choosing visual layouts. A Decision Component is a reusabl
 
 Six executable components have rendered previews at `assets/components/previews/component-01.png` ... `component-06.png`, plus a grid contact sheet at `assets/components/previews/component-store-render-sheet.png`. Look at the rendered preview before selecting or adapting a component; the text card alone does not convey layout, density, or capacity. Previews are machine-rendered from the source deck: after any change to `yuhong-county-course-components-branded.pptx` or its master, re-run `assets/components/render-component-previews.ps1` so the previews do not go stale. Each component card below lists its preview file.
 
+In an in-PowerPoint agent session, use the `?raw=true` URL form for preview images: `https://github.com/swefner/company-ppt-skills/blob/main/<path>?raw=true`. Verified 2026-08-14 in a real PowerPoint agent session: `raw.githubusercontent.com` timed out on first fetch, while the `?raw=true` form read successfully. If one URL form fails, retry with the other.
+
+Agent selection rule (anti-hallucination, applies to every in-PowerPoint agent session): read the single contact sheet `assets/components/previews/component-store-render-sheet.png` — one image listing all six components with large DC-number badges — and for every candidate component describe the layout detail actually seen in that image (e.g. "center problem with four surrounding lenses"). If the image cannot be read, write 「图片未读取」beside that component and fall back to the text card only. Never claim a preview was viewed when it was not actually opened, and never invent layout details. This rule exists because a 2026-08-14 in-PowerPoint test showed hallucinated layout descriptions for four components whose preview images were never fetched.
+
 ## Selection Chain
 
 `Page role -> teaching question -> learner decision/output -> available evidence -> Decision Component -> visual expression`
