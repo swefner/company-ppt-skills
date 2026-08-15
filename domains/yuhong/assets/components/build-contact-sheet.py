@@ -1,21 +1,28 @@
 # Build the large-label contact sheet used for one-image component selection by in-PowerPoint agents.
 # Each cell: preview thumbnail + big DC-number badge (top-left) + big name label (bottom).
+# Data source: component-index.json (single source of truth; built by build-component-index.py).
+# Optional --module <name> renders a contact sheet for one module subset only.
 # Run after render-component-previews.ps1 so the sheet always matches the rendered previews.
+import argparse
+import json
 import os
 from PIL import Image, ImageDraw, ImageFont
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 PREVIEWS = os.path.join(BASE, 'previews')
+INDEX = os.path.join(BASE, '..', '..', 'references', 'component-index.json')
 
-COMPONENTS = [
-    ('DC-01', '三个趋势判断', 'county-trend-three-judgments'),
-    ('DC-02', '县域生意版图', 'county-business-territory-map'),
-    ('DC-03', '四力诊断', 'four-force-diagnosis'),
-    ('DC-04', '四阶段成长判断', 'four-stage-growth-diagnosis'),
-    ('DC-17', '病症聚类诊断', 'symptom-clustering-core-problem'),
-    ('DC-20', '阶段-病症-四力-动作', 'integrated-stage-symptom-force-action-diagnosis'),
-    ('DC-08', '30 天行动板', 'thirty-day-action-commitment-board'),
-]
+parser = argparse.ArgumentParser()
+parser.add_argument('--module', default=None, help='render sheet for one module subset only')
+args = parser.parse_args()
+
+index = json.load(open(INDEX, encoding='utf-8'))
+COMPONENTS = [(c['code'], c['name'], c['id']) for c in index['components']]
+if args.module:
+    COMPONENTS = [c for c in COMPONENTS if next(x for x in index['components'] if x['id'] == c[2])['module'] == args.module]
+    if not COMPONENTS:
+        raise SystemExit(f'no components in module {args.module!r}')
+    print(f'[module subset] {args.module}: {[c[0] for c in COMPONENTS]}')
 
 FONT_BIG = 'C:/Windows/Fonts/msyhbd.ttc'   # Microsoft YaHei Bold
 FONT_REG = 'C:/Windows/Fonts/msyh.ttc'     # Microsoft YaHei
@@ -32,8 +39,9 @@ RED = (198, 23, 32)      # #C61720
 PAPER = (244, 245, 242)
 GREY = (102, 116, 124)
 
-COLS, ROWS = 4, 2
-THUMB_W, THUMB_H = 520, 292
+COLS = 3 if len(COMPONENTS) <= 6 else 4
+ROWS = -(-len(COMPONENTS) // COLS)
+THUMB_W, THUMB_H = (640, 360) if COLS == 3 else (520, 292)
 PAD = 12
 LABEL_H = 46
 TITLE_H = 52
@@ -49,11 +57,13 @@ draw = ImageDraw.Draw(sheet)
 draw.rectangle([0, 0, grid_w, TITLE_H], fill=INK)
 draw.text((MARGIN, 12), 'YUHONG EXECUTABLE COMPONENTS', fill=(255, 255, 255), font=font_title)
 tw = draw.textlength('YUHONG EXECUTABLE COMPONENTS', font=font_title)
-draw.text((MARGIN + tw + 24, 17), '可执行组件预览图册 · 共 6 个 · 按编号对照选择', fill=(174, 188, 195), font=font_hint)
+sheet_label = f'可执行组件预览图册 · 共 {len(COMPONENTS)} 个' + (f' · 模块「{args.module}」' if args.module else '') + ' · 按编号对照选择'
+draw.text((MARGIN + tw + 24, 17), sheet_label, fill=(174, 188, 195), font=font_hint)
 
+index_components = {c['id']: c for c in index['components']}
 for idx, (code, name, cid) in enumerate(COMPONENTS):
     r, c = divmod(idx, COLS)
-    src = os.path.join(PREVIEWS, 'component-%02d.png' % (idx + 1))
+    src = os.path.join(PREVIEWS, os.path.basename(index_components[cid]['preview']))
     if not os.path.exists(src):
         raise FileNotFoundError(src)
     im = Image.open(src).convert('RGB').resize((THUMB_W, THUMB_H))
@@ -76,6 +86,9 @@ for idx, (code, name, cid) in enumerate(COMPONENTS):
     cw = draw.textlength(code + ' ', font=font_label)
     draw.text((x + cw, ly), name, fill=INK, font=font_label)
 
-out = os.path.join(PREVIEWS, 'component-store-render-sheet.png')
+out_name = 'component-store-render-sheet.png'
+if args.module:
+    out_name = 'component-store-render-sheet-' + args.module + '.png'
+out = os.path.join(PREVIEWS, out_name)
 sheet.save(out)
 print('contact sheet:', out, sheet.size)

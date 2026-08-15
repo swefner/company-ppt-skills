@@ -1,0 +1,212 @@
+{
+  "version": "1.0.0",
+  "domain": "yuhong-ppt",
+  "generated_from": [
+    "component-slots.json",
+    "build-component-index.py (module/mode maps)"
+  ],
+  "selection_rule": "Navigate by mode -> module -> shortlist (<=10) -> open that module contact sheet -> describe layouts from the image -> confirm against the component card. Never select from memory or from the full list.",
+  "navigation": [
+    {
+      "mode": "Adapt Existing Deck",
+      "modules": [
+        {
+          "module": "判状态",
+          "components": [
+            "four-force-diagnosis",
+            "symptom-clustering-core-problem"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "Business Review",
+      "modules": [
+        {
+          "module": "判状态",
+          "components": [
+            "county-business-territory-map"
+          ]
+        },
+        {
+          "module": "收尾与行动",
+          "components": [
+            "thirty-day-action-commitment-board"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "Case Teaching",
+      "modules": [
+        {
+          "module": "判状态",
+          "components": [
+            "four-stage-growth-diagnosis",
+            "integrated-stage-symptom-force-action-diagnosis"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "Create Courseware",
+      "modules": [
+        {
+          "module": "看趋势",
+          "components": [
+            "county-trend-three-judgments"
+          ]
+        },
+        {
+          "module": "判状态",
+          "components": [
+            "county-business-territory-map",
+            "four-force-diagnosis",
+            "four-stage-growth-diagnosis",
+            "symptom-clustering-core-problem",
+            "integrated-stage-symptom-force-action-diagnosis"
+          ]
+        },
+        {
+          "module": "收尾与行动",
+          "components": [
+            "thirty-day-action-commitment-board"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "Dealer Workshop",
+      "modules": [
+        {
+          "module": "看趋势",
+          "components": [
+            "county-trend-three-judgments"
+          ]
+        },
+        {
+          "module": "判状态",
+          "components": [
+            "county-business-territory-map",
+            "four-force-diagnosis",
+            "four-stage-growth-diagnosis",
+            "symptom-clustering-core-problem",
+            "integrated-stage-symptom-force-action-diagnosis"
+          ]
+        },
+        {
+          "module": "收尾与行动",
+          "components": [
+            "thirty-day-action-commitment-board"
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "county-trend-three-judgments",
+      "code": "DC-01",
+      "name": "三个趋势判断",
+      "question": null,
+      "module": "看趋势",
+      "best_modes": [
+        "Create Courseware",
+        "Dealer Workshop"
+      ],
+      "source_slide": 1,
+      "source_slide_id": "256#",
+      "preview": "previews/component-01.png"
+    },
+    {
+      "id": "county-business-territory-map",
+      "code": "DC-02",
+      "name": "县域生意版图",
+      "question": null,
+      "module": "判状态",
+      "best_modes": [
+        "Create Courseware",
+        "Dealer Workshop",
+        "Business Review"
+      ],
+      "source_slide": 2,
+      "source_slide_id": "257#",
+      "preview": "previews/component-02.png"
+    },
+    {
+      "id": "four-force-diagnosis",
+      "code": "DC-03",
+      "name": "四力诊断",
+      "question": null,
+      "module": "判状态",
+      "best_modes": [
+        "Create Courseware",
+        "Dealer Workshop",
+        "Adapt Existing Deck"
+      ],
+      "source_slide": 3,
+      "source_slide_id": "258#",
+      "preview": "previews/component-03.png"
+    },
+    {
+      "id": "four-stage-growth-diagnosis",
+      "code": "DC-04",
+      "name": "四阶段成长判断",
+      "question": null,
+      "module": "判状态",
+      "best_modes": [
+        "Create Courseware",
+        "Dealer Workshop",
+        "Case Teaching"
+      ],
+      "source_slide": 4,
+      "source_slide_id": "259#",
+      "preview": "previews/component-04.png"
+    },
+    {
+      "id": "symptom-clustering-core-problem",
+      "code": "DC-17",
+      "name": "病症聚类诊断",
+      "question": null,
+      "module": "判状态",
+      "best_modes": [
+        "Create Courseware",
+        "Dealer Workshop",
+        "Adapt Existing Deck"
+      ],
+      "source_slide": 5,
+      "source_slide_id": "260#",
+      "preview": "previews/component-05.png"
+    },
+    {
+      "id": "integrated-stage-symptom-force-action-diagnosis",
+      "code": "DC-20",
+      "name": "阶段-病症-四力-动作综合诊断",
+      "question": null,
+      "module": "判状态",
+      "best_modes": [
+        "Create Courseware",
+        "Dealer Workshop",
+        "Case Teaching"
+      ],
+      "source_slide": 6,
+      "source_slide_id": "261#",
+      "preview": "previews/component-06.png"
+    },
+    {
+      "id": "thirty-day-action-commitment-board",
+      "code": "DC-08",
+      "name": "30 天行动板",
+      "question": null,
+      "module": "收尾与行动",
+      "best_modes": [
+        "Dealer Workshop",
+        "Create Courseware",
+        "Business Review"
+      ],
+      "source_slide": 7,
+      "source_slide_id": "262#",
+      "preview": "previews/component-07.png"
+    }
+  ]
+}

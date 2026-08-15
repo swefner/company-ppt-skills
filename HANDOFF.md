@@ -72,6 +72,7 @@
 | 视觉模板（1 页母版基座） | `domains/yuhong/assets/reference-decks/yuhong-template.pptx`（SHA-256 `A9F396CF...`） |
 | 槽位合同 | `domains/yuhong/assets/components/component-slots.json` |
 | 组件业务定义 | `domains/yuhong/references/decision-component-store.md` |
+| 组件导航索引（机器可读） | `domains/yuhong/references/component-index.json`（由 `build-component-index.py` 生成） |
 | 可执行组件规则 | `domains/yuhong/references/executable-component-store.md` |
 | Build 契约 | `domains/yuhong/references/build-execution-contract.md` |
 | 人用手册 | `domains/yuhong/guides/component-usage-guide.md` |
