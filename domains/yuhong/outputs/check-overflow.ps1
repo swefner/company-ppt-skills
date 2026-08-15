@@ -17,9 +17,10 @@ try {
                    "STAGE_RULE","S1_RESULT","S1_TASK","S2_RESULT","S2_TASK","S3_RESULT","S3_TASK","S4_RESULT","S4_TASK",
                    "SYMPTOM_01_TEXT","SYMPTOM_02_TEXT","SYMPTOM_03_TEXT","SYMPTOM_04_TEXT","SYMPTOM_05_TEXT","SYMPTOM_06_TEXT","SYMPTOM_07_TEXT","SYMPTOM_08_TEXT",
                    "C1_LABEL","C1_DESC","C2_LABEL","C2_DESC","C3_LABEL","C3_DESC","C4_LABEL","C4_DESC",
-                   "CASE_PROMPT","STEP_1_QUESTION","STEP_1_OUTPUT","STEP_2_QUESTION","STEP_2_OUTPUT","STEP_3_QUESTION","STEP_3_OUTPUT","STEP_4_QUESTION","STEP_4_OUTPUT","STEP_5_QUESTION","STEP_5_OUTPUT")
+                   "CASE_PROMPT","STEP_1_QUESTION","STEP_1_OUTPUT","STEP_2_QUESTION","STEP_2_OUTPUT","STEP_3_QUESTION","STEP_3_OUTPUT","STEP_4_QUESTION","STEP_4_OUTPUT","STEP_5_QUESTION","STEP_5_OUTPUT",
+                   "ACT_01_OBJECT","ACT_01_ACTION","ACT_01_OWNER","ACT_01_DATE","ACT_01_METRIC","ACT_02_OBJECT","ACT_02_ACTION","ACT_02_OWNER","ACT_02_DATE","ACT_02_METRIC","ACT_03_OBJECT","ACT_03_ACTION","ACT_03_OWNER","ACT_03_DATE","ACT_03_METRIC","ACT_04_OBJECT","ACT_04_ACTION","ACT_04_OWNER","ACT_04_DATE","ACT_04_METRIC")
     $issues = 0
-    for ($i = 7; $i -le 12; $i++) {
+    for ($i = 1; $i -le $presentation.Slides.Count; $i++) {
         $slide = $presentation.Slides.Item($i)
         foreach ($shape in $slide.Shapes) {
             if (-not $shape.HasTextFrame) { continue }

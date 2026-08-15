@@ -14,6 +14,7 @@ COMPONENTS = [
     ('DC-04', '四阶段成长判断', 'four-stage-growth-diagnosis'),
     ('DC-17', '病症聚类诊断', 'symptom-clustering-core-problem'),
     ('DC-20', '阶段-病症-四力-动作', 'integrated-stage-symptom-force-action-diagnosis'),
+    ('DC-08', '30 天行动板', 'thirty-day-action-commitment-board'),
 ]
 
 FONT_BIG = 'C:/Windows/Fonts/msyhbd.ttc'   # Microsoft YaHei Bold
@@ -31,8 +32,8 @@ RED = (198, 23, 32)      # #C61720
 PAPER = (244, 245, 242)
 GREY = (102, 116, 124)
 
-COLS, ROWS = 3, 2
-THUMB_W, THUMB_H = 640, 360
+COLS, ROWS = 4, 2
+THUMB_W, THUMB_H = 520, 292
 PAD = 12
 LABEL_H = 46
 TITLE_H = 52

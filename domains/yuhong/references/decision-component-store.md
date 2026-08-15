@@ -157,6 +157,8 @@ Each mature card must define:
 - Learner action: 填写并公开承诺一项渠道动作和一项产品动作.
 - Output: 30 天行动表和复盘节点.
 - Visual: 战役行动板；对象、动作、责任人、节点、指标为固定字段.
+- Visual preview: `assets/components/previews/component-07.png`.
+- Executable source: `assets/components/yuhong-county-course-components-branded.pptx`, slide 7; fields in `assets/components/component-slots.json`.
 - Source: `workshop-component-cards.md` C5, `business-analysis-cards.md` action cards.
 - Adaptation: 每项行动必须连接前面诊断出的短板或机会.
 - Risk: 变成泛泛待办清单，或列出过多动作.

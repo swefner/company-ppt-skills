@@ -68,7 +68,7 @@
 
 | 资产 | 路径 |
 |---|---|
-| 组件源 deck（6 页可编辑） | `domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx`（SHA-256 `881F78A9...`） |
+| 组件源 deck（7 页可编辑，DC-01/02/03/04/17/20/08） | `domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx`（SHA-256 `DC05FE7B...`） |
 | 视觉模板（1 页母版基座） | `domains/yuhong/assets/reference-decks/yuhong-template.pptx`（SHA-256 `A9F396CF...`） |
 | 槽位合同 | `domains/yuhong/assets/components/component-slots.json` |
 | 组件业务定义 | `domains/yuhong/references/decision-component-store.md` |
