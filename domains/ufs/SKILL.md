@@ -48,7 +48,7 @@ Use Guided Mode unless the user explicitly asks to build immediately:
 - Use `assets/reference-decks/nanchong-april-review.pptx` and `nanchong-june-review.pptx` as UFS monthly review examples.
 - Use `assets/templates/nanchong-456-monthly-review-master-template.pptx` as the consolidated Nanchong April-May-June monthly review template. Read `assets/templates/nanchong-456-template-index.md` for source-month slide ranges.
 - Use `assets/reference-decks/xian-yaosheng-co-creation.pptx` as the strategic co-creation / terminal-store advancement reference.
-- Use `assets/reference-decks/cherry-red-logic-components.pptx` only as an optional component library.
+- Use `assets/reference-decks/cherry-red-logic-components.pptx` as the product generic logic layer reference (see `docs/generic-logic-layer.md`): pick pages as logic references and rebuild them on the UFS master; do not copy pages directly into domain components.
 - Do not treat online partner sites as primary data sources. Use them only as system口径 references unless the user provides login/exported data.
 
 ## 视觉优先级
@@ -57,7 +57,7 @@ Use Guided Mode unless the user explicitly asks to build immediately:
 
 1. `nanchong-april-review.pptx` 和 `nanchong-june-review.pptx` 是月会经营复盘的主母版。
 2. `xian-yaosheng-co-creation.pptx` 是战略共创、终端单店进阶、会议目录、人客品配模型、拜访模型、地图和落地计划的辅助母版。
-3. `cherry-red-logic-components.pptx` 只作为局部逻辑组件增强，用于增长来源、家乐专项、SKU 做深、客户迁移、拜访效果和下月行动板等复杂逻辑页。
+3. `cherry-red-logic-components.pptx` 是产品通用逻辑层参考源（定位见 `docs/generic-logic-layer.md`）：用于增长来源、家乐专项、SKU 做深、客户迁移、拜访效果和下月行动板等复杂逻辑页的**逻辑结构参考**，选页后在 UFS 母版上重建，不直接复制页面。
 4. 自建可编辑形状是最后 fallback，不能作为默认风格来源。
 
 不要让樱桃红逻辑库覆盖 UFS 月会母版。整套材料应像 UFS 项目推进复盘 / 月度经营会，而不是通用咨询公司汇报稿。
