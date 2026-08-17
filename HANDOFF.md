@@ -72,8 +72,10 @@
 | 视觉模板（1 页母版基座） | `domains/yuhong/assets/reference-decks/yuhong-template.pptx`（SHA-256 `A9F396CF...`） |
 | 槽位合同 | `domains/yuhong/assets/components/component-slots.json` |
 | 组件业务定义 | `domains/yuhong/references/decision-component-store.md` |
-| 产品架构 | `docs/product-architecture.md`（五层模型 + 决策记录） |
+| 产品架构 | `docs/product-architecture.md`（五层模型 + 方法论产品族 + 决策记录） |
+| 机制改进清单 | `docs/mechanism-improvements.md`（借鉴客户分析产品：公司档案/验收清单/版本日志） |
 | 通用逻辑层（樱桃库） | `docs/generic-logic-layer.md` + `domains/ufs/assets/reference-decks/cherry-red-logic-index.md`（141 页可检索索引） |
+| Yuhong 验收自测清单 | `domains/yuhong/references/acceptance-checklist.md`（勾选 + 参考值） |
 | 组件导航索引（机器可读） | `domains/yuhong/references/component-index.json`（由 `build-component-index.py` 生成） |
 | 可执行组件规则 | `domains/yuhong/references/executable-component-store.md` |
 | Build 契约 | `domains/yuhong/references/build-execution-contract.md` |
