@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "source_deck": "customer-review-components.pptx",
+  "visual_base": "../reference-decks/customer-review-template.pptx",
+  "theme_color_semantics": {
+    "note": "All semantic colors are themeColor references (accent slots), not hard-coded RGB. Changing the theme recolors every component.",
+    "accent1": "primary emphasis",
+    "accent2": "warning/negative",
+    "accent3": "positive/growth",
+    "accent5": "neutral auxiliary",
+    "dk1": "main text ink"
+  },
+  "rules": {
+    "reuse_mode": "duplicate-source-slide-and-edit-named-objects",
+    "do_not_redraw": true,
+    "preserve_editability": true,
+    "preserve_theme_color_references": true
+  },
+  "components": [
+    {
+      "id": "kpi-overview",
+      "decision_component": "CR-01",
+      "source_slide": 1,
+      "preview": "previews/component-01.png",
+      "replaceable_objects": [
+        "TITLE", "SUBTITLE",
+        "KPI_1_LABEL", "KPI_1_VALUE", "KPI_1_NOTE",
+        "KPI_2_LABEL", "KPI_2_VALUE", "KPI_2_NOTE",
+        "KPI_3_LABEL", "KPI_3_VALUE", "KPI_3_NOTE",
+        "KPI_4_LABEL", "KPI_4_VALUE", "KPI_4_NOTE",
+        "TEACHING_CUE"
+      ],
+      "preserve": ["2x2 rounded band layout", "theme accent semantics (value=dk1, note=accent5)"],
+      "max_items": 4
+    },
+    {
+      "id": "tier-table",
+      "decision_component": "CR-02",
+      "source_slide": 2,
+      "preview": "previews/component-02.png",
+      "replaceable_objects": [
+        "TITLE", "SUBTITLE",
+        "TIER_1_TIER", "TIER_1_COUNT", "TIER_1_SALES", "TIER_1_SHARE", "TIER_1_NOTE",
+        "TIER_2_TIER", "TIER_2_COUNT", "TIER_2_SALES", "TIER_2_SHARE", "TIER_2_NOTE",
+        "TIER_3_TIER", "TIER_3_COUNT", "TIER_3_SALES", "TIER_3_SHARE", "TIER_3_NOTE",
+        "TIER_4_TIER", "TIER_4_COUNT", "TIER_4_SALES", "TIER_4_SHARE", "TIER_4_NOTE",
+        "TOTAL_COUNT", "TOTAL_SALES", "CONCLUSION",
+        "TEACHING_CUE"
+      ],
+      "preserve": ["column headers fixed (层级/客户数/销售额/占比/经营含义)", "A-tier name uses accent1", "tier order A->B->C->D"],
+      "max_items": 4
+    },
+    {
+      "id": "list-table",
+      "decision_component": "CR-03",
+      "source_slide": 3,
+      "preview": "previews/component-03.png",
+      "replaceable_objects": [
+        "TITLE", "SUBTITLE",
+        "ROW_1_NAME", "ROW_1_METRIC", "ROW_1_STATUS", "ROW_1_ACTION",
+        "ROW_2_NAME", "ROW_2_METRIC", "ROW_2_STATUS", "ROW_2_ACTION",
+        "ROW_3_NAME", "ROW_3_METRIC", "ROW_3_STATUS", "ROW_3_ACTION",
+        "ROW_4_NAME", "ROW_4_METRIC", "ROW_4_STATUS", "ROW_4_ACTION",
+        "ROW_5_NAME", "ROW_5_METRIC", "ROW_5_STATUS", "ROW_5_ACTION",
+        "FOOT_NOTE",
+        "TEACHING_CUE"
+      ],
+      "preserve": ["alternating row bands", "column headers fixed (客户名称/关键指标/状态/建议动作)"],
+      "max_items": 5
+    },
+    {
+      "id": "customer-card",
+      "decision_component": "CR-04",
+      "source_slide": 4,
+      "preview": "previews/component-04.png",
+      "replaceable_objects": [
+        "TITLE", "SUBTITLE",
+        "FIELD_1_LABEL", "FIELD_1_VALUE", "FIELD_2_LABEL", "FIELD_2_VALUE",
+        "FIELD_3_LABEL", "FIELD_3_VALUE", "FIELD_4_LABEL", "FIELD_4_VALUE",
+        "FIELD_5_LABEL", "FIELD_5_VALUE", "FIELD_6_LABEL", "FIELD_6_VALUE",
+        "ADVICE_LABEL", "ADVICE_TEXT",
+        "TEACHING_CUE"
+      ],
+      "preserve": ["six-field layout (label left, value right)", "advice section with accent1 label"],
+      "max_items": 6
+    }
+  ]
+}

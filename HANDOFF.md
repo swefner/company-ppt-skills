@@ -76,6 +76,7 @@
 | 机制改进清单 | `docs/mechanism-improvements.md`（借鉴客户分析产品：公司档案/验收清单/版本日志） |
 | 通用逻辑层（樱桃库） | `docs/generic-logic-layer.md` + `domains/ufs/assets/reference-decks/cherry-red-logic-index.md`（141 页可检索索引） |
 | Yuhong 验收自测清单 | `domains/yuhong/references/acceptance-checklist.md`（勾选 + 参考值） |
+| 客户分析汇报领域（第 3 个领域） | `domains/customer-review/`：母版 + 主题（themeColor 语义色板）+ 4 通用组件 + 涪陵 12 页 demo；`outputs/build-demo.py` 是汇报型课件构建模板 |
 | 组件导航索引（机器可读） | `domains/yuhong/references/component-index.json`（由 `build-component-index.py` 生成） |
 | 可执行组件规则 | `domains/yuhong/references/executable-component-store.md` |
 | Build 契约 | `domains/yuhong/references/build-execution-contract.md` |
@@ -83,6 +84,12 @@
 | 课件产出 + 构建脚本 | `domains/yuhong/outputs/` |
 | 14 页蓝图 | `domains/yuhong/plans/county-opportunity-boss-mode-blueprint-14p.md` |
 | Hub 入口（PowerPoint Agent 用） | `bootstrap/powerpoint-chatgpt-prompt.md`、`bootstrap/natural-start-prompts.md` |
+
+## 7.5 数据边界（重要）
+
+- **涪陵丽桥真实经营数据（客户分析技能包测试数据）不得进入公开仓库**。`domains/customer-review/outputs/demo-content.json` 与 `涪陵*.pptx` 已加入 .gitignore。
+- demo 构建脚本（`build-demo.py`）只含结构，数字从本地 `demo-content.json` 读取——脚本可提交，数据留本地。
+- 客户分析技能包本身若将来要发布/公开，其测试数据（涪陵 CSV、参考值表）同样需要脱敏或排除。
 
 ## 8. 不要重复的错误
 

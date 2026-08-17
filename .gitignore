@@ -3,3 +3,7 @@ domains/yuhong/assets/components/yuhong-county-course-components-branded/
 domains/yuhong/assets/components/branded-component-store-contact-sheet.png
 node_modules/
 domains/yuhong/outputs/previews/render/
+# CONFIDENTIAL: real distributor figures from 客户分析技能包 test data must never be committed.
+domains/customer-review/outputs/demo-content.json
+domains/customer-review/outputs/涪陵*.pptx
+domains/customer-review/outputs/previews/render/
