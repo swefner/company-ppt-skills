@@ -18,7 +18,9 @@ OUT = os.path.join(BASE, 'customer-review-components.pptx')
 ACC1 = MSO_THEME_COLOR.ACCENT_1
 ACC2 = MSO_THEME_COLOR.ACCENT_2
 ACC3 = MSO_THEME_COLOR.ACCENT_3
+ACC4 = MSO_THEME_COLOR.ACCENT_4
 ACC5 = MSO_THEME_COLOR.ACCENT_5
+ACC6 = MSO_THEME_COLOR.ACCENT_6
 DK1 = MSO_THEME_COLOR.DARK_1
 DK2 = MSO_THEME_COLOR.DARK_2
 LT2 = MSO_THEME_COLOR.LIGHT_2
@@ -183,6 +185,79 @@ set_text(tf, '下一步建议', 14, True, ACC1)
 tf = add_textbox(s, 'ADVICE_TEXT', 2.9, 4.5, 9.8, 1.8)
 set_text(tf, '（建议内容：回访节奏 / 促销资源 / 增量品类，标注"供参考"）', 13, False, DK1, line_spacing=1.3)
 cue(s, '讲解提示：卡片用于 Top 客户逐一过会；建议必须标注"供参考"。')
+
+
+def beautify_chart(chart):
+    """Remove gridlines and default grey chrome for a clean theme-colored look."""
+    try:
+        chart.value_axis.has_major_gridlines = False
+    except Exception:
+        pass
+    try:
+        chart.category_axis.has_major_gridlines = False
+    except Exception:
+        pass
+    from pptx.oxml.ns import qn
+    for area in ('c:chartSpace', 'c:plotArea'):
+        el = chart._chartSpace if area == 'c:chartSpace' else chart._chartSpace.find(qn(area))
+        if el is None:
+            continue
+        spPr = el.find(qn('c:spPr'))
+        if spPr is None:
+            spPr = el.makeelement(qn('c:spPr'), {})
+            el.append(spPr)
+        else:
+            for child in list(spPr):
+                spPr.remove(child)
+        noFill = spPr.makeelement(qn('a:noFill'), {})
+        ln = spPr.makeelement(qn('a:ln'), {})
+        lnNoFill = ln.makeelement(qn('a:noFill'), {})
+        ln.append(lnNoFill)
+        spPr.append(noFill)
+        spPr.append(ln)
+
+# ---- Component 5: Pie Chart (CHART_PIE, tier share) ----
+from pptx.chart.data import CategoryChartData
+from pptx.enum.chart import XL_CHART_TYPE, XL_LEGEND_POSITION
+
+s = new_slide(prs)
+header(s, '客户分层占比', 'A/B/C/D 四级销售额占比（饼图）')
+pie_data = CategoryChartData()
+pie_data.categories = ['A 级', 'B 级', 'C 级', 'D 级']
+pie_data.add_series('销售额占比', (60, 25, 10, 5))   # placeholder data, replaced at use
+cf = s.shapes.add_chart(XL_CHART_TYPE.PIE, Inches(1.6), Inches(1.7), Inches(7.0), Inches(4.4), pie_data)
+pie = cf.chart
+beautify_chart(pie)
+pie.has_legend = True
+pie.legend.position = XL_LEGEND_POSITION.RIGHT
+pie.legend.include_in_layout = False
+pie_colors = [ACC1, ACC6, ACC4, ACC5]
+for i, pt in enumerate(pie.plots[0].series[0].points):
+    pt.format.fill.solid()
+    pt.format.fill.fore_color.theme_color = pie_colors[i]
+tf = add_textbox(s, 'CHART_NOTE', 8.9, 2.0, 4.0, 3.8)
+set_text(tf, '结论占位：A 级贡献绝大部分销售额，头部集中显著。\n\n数据标签显示各层级占比；替换数据时保持层级顺序 A→B→C→D。', 12, False, ACC5, line_spacing=1.4)
+cue(s, '讲解提示：饼图回答"钱从哪里来"；与分层表（CR-02）配合使用。')
+
+# ---- Component 6: Bar Chart (CHART_BAR, monthly trend) ----
+s = new_slide(prs)
+header(s, '月度销售趋势', '销售额与毛利（柱状图）')
+bar_data = CategoryChartData()
+bar_data.categories = ['1月', '2月', '3月', '4月', '5月', '6月']
+bar_data.add_series('销售额', (100, 90, 60, 50, 75, 60))   # placeholder, replaced at use
+bar_data.add_series('毛利', (20, 18, 12, 10, 15, 12))
+cf = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(1.6), Inches(1.7), Inches(7.6), Inches(4.4), bar_data)
+bar = cf.chart
+beautify_chart(bar)
+bar.has_legend = True
+bar.legend.position = XL_LEGEND_POSITION.RIGHT
+bar.legend.include_in_layout = False
+for series, color in zip(bar.plots[0].series, (ACC1, ACC4)):
+    series.format.fill.solid()
+    series.format.fill.fore_color.theme_color = color
+tf = add_textbox(s, 'CHART_NOTE', 9.5, 2.0, 3.4, 3.8)
+set_text(tf, '结论占位：1 月为峰值，Q1 逐月回落，Q2 波动。\n\n柱状图回答"趋势往哪走"。', 12, False, ACC5, line_spacing=1.4)
+cue(s, '讲解提示：趋势图回答"走向"，与预警/转化页配合；替换数据时保持 1-6 月顺序。')
 
 prs.save(OUT)
 print('components written:', OUT, 'slides:', len(prs.slides))

@@ -56,3 +56,22 @@ Components are decision units, not decoration. All semantic colors use themeColo
 
 Before Build, present each page with: Page | Conclusion | Question | Component | Required input | Output | Visual source | Risk.
 Use simple pages for cover, closing, and plain text pages; state why no component is needed.
+
+### CR-05 Tier Share Pie（分层占比饼图）
+
+- Question: 钱从哪里来？各层级销售额占比如何呈现？
+- Required input: 各层级占比（和/接近 100%）、层级名.
+- Source slide: 5. Preview: `assets/components/previews/component-05.png`.
+- Visual: 饼图，系列色 themeColor（A=accent1 蓝、B=accent6 浅蓝、C=accent4 琥珀、D=accent5 灰）.
+- Risk: 占比与分层表数字必须一致；层级顺序 A→B→C→D 固定.
+- Fallback: 未分层时标注"未分层"，不硬画.
+
+### CR-06 Monthly Trend Bar（月度趋势柱状图）
+
+- Question: 趋势往哪走？月度销售额与毛利如何呈现？
+- Required input: 月度销售额、毛利（同一量纲）.
+- Source slide: 6. Preview: `assets/components/previews/component-06.png`.
+- Visual: 簇状柱状图，系列色 themeColor（销售额=accent1 蓝、毛利=accent4 琥珀）.
+- Risk: 单位必须一致（万元）；结论必须结合季节性判断.
+- Fallback: 数据不足 3 个月时整体标注，不硬画趋势.
+

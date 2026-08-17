@@ -23,14 +23,26 @@
       "source_slide": 1,
       "preview": "previews/component-01.png",
       "replaceable_objects": [
-        "TITLE", "SUBTITLE",
-        "KPI_1_LABEL", "KPI_1_VALUE", "KPI_1_NOTE",
-        "KPI_2_LABEL", "KPI_2_VALUE", "KPI_2_NOTE",
-        "KPI_3_LABEL", "KPI_3_VALUE", "KPI_3_NOTE",
-        "KPI_4_LABEL", "KPI_4_VALUE", "KPI_4_NOTE",
+        "TITLE",
+        "SUBTITLE",
+        "KPI_1_LABEL",
+        "KPI_1_VALUE",
+        "KPI_1_NOTE",
+        "KPI_2_LABEL",
+        "KPI_2_VALUE",
+        "KPI_2_NOTE",
+        "KPI_3_LABEL",
+        "KPI_3_VALUE",
+        "KPI_3_NOTE",
+        "KPI_4_LABEL",
+        "KPI_4_VALUE",
+        "KPI_4_NOTE",
         "TEACHING_CUE"
       ],
-      "preserve": ["2x2 rounded band layout", "theme accent semantics (value=dk1, note=accent5)"],
+      "preserve": [
+        "2x2 rounded band layout",
+        "theme accent semantics (value=dk1, note=accent5)"
+      ],
       "max_items": 4
     },
     {
@@ -39,15 +51,38 @@
       "source_slide": 2,
       "preview": "previews/component-02.png",
       "replaceable_objects": [
-        "TITLE", "SUBTITLE",
-        "TIER_1_TIER", "TIER_1_COUNT", "TIER_1_SALES", "TIER_1_SHARE", "TIER_1_NOTE",
-        "TIER_2_TIER", "TIER_2_COUNT", "TIER_2_SALES", "TIER_2_SHARE", "TIER_2_NOTE",
-        "TIER_3_TIER", "TIER_3_COUNT", "TIER_3_SALES", "TIER_3_SHARE", "TIER_3_NOTE",
-        "TIER_4_TIER", "TIER_4_COUNT", "TIER_4_SALES", "TIER_4_SHARE", "TIER_4_NOTE",
-        "TOTAL_COUNT", "TOTAL_SALES", "CONCLUSION",
+        "TITLE",
+        "SUBTITLE",
+        "TIER_1_TIER",
+        "TIER_1_COUNT",
+        "TIER_1_SALES",
+        "TIER_1_SHARE",
+        "TIER_1_NOTE",
+        "TIER_2_TIER",
+        "TIER_2_COUNT",
+        "TIER_2_SALES",
+        "TIER_2_SHARE",
+        "TIER_2_NOTE",
+        "TIER_3_TIER",
+        "TIER_3_COUNT",
+        "TIER_3_SALES",
+        "TIER_3_SHARE",
+        "TIER_3_NOTE",
+        "TIER_4_TIER",
+        "TIER_4_COUNT",
+        "TIER_4_SALES",
+        "TIER_4_SHARE",
+        "TIER_4_NOTE",
+        "TOTAL_COUNT",
+        "TOTAL_SALES",
+        "CONCLUSION",
         "TEACHING_CUE"
       ],
-      "preserve": ["column headers fixed (层级/客户数/销售额/占比/经营含义)", "A-tier name uses accent1", "tier order A->B->C->D"],
+      "preserve": [
+        "column headers fixed (层级/客户数/销售额/占比/经营含义)",
+        "A-tier name uses accent1",
+        "tier order A->B->C->D"
+      ],
       "max_items": 4
     },
     {
@@ -56,16 +91,35 @@
       "source_slide": 3,
       "preview": "previews/component-03.png",
       "replaceable_objects": [
-        "TITLE", "SUBTITLE",
-        "ROW_1_NAME", "ROW_1_METRIC", "ROW_1_STATUS", "ROW_1_ACTION",
-        "ROW_2_NAME", "ROW_2_METRIC", "ROW_2_STATUS", "ROW_2_ACTION",
-        "ROW_3_NAME", "ROW_3_METRIC", "ROW_3_STATUS", "ROW_3_ACTION",
-        "ROW_4_NAME", "ROW_4_METRIC", "ROW_4_STATUS", "ROW_4_ACTION",
-        "ROW_5_NAME", "ROW_5_METRIC", "ROW_5_STATUS", "ROW_5_ACTION",
+        "TITLE",
+        "SUBTITLE",
+        "ROW_1_NAME",
+        "ROW_1_METRIC",
+        "ROW_1_STATUS",
+        "ROW_1_ACTION",
+        "ROW_2_NAME",
+        "ROW_2_METRIC",
+        "ROW_2_STATUS",
+        "ROW_2_ACTION",
+        "ROW_3_NAME",
+        "ROW_3_METRIC",
+        "ROW_3_STATUS",
+        "ROW_3_ACTION",
+        "ROW_4_NAME",
+        "ROW_4_METRIC",
+        "ROW_4_STATUS",
+        "ROW_4_ACTION",
+        "ROW_5_NAME",
+        "ROW_5_METRIC",
+        "ROW_5_STATUS",
+        "ROW_5_ACTION",
         "FOOT_NOTE",
         "TEACHING_CUE"
       ],
-      "preserve": ["alternating row bands", "column headers fixed (客户名称/关键指标/状态/建议动作)"],
+      "preserve": [
+        "alternating row bands",
+        "column headers fixed (客户名称/关键指标/状态/建议动作)"
+      ],
       "max_items": 5
     },
     {
@@ -74,15 +128,74 @@
       "source_slide": 4,
       "preview": "previews/component-04.png",
       "replaceable_objects": [
-        "TITLE", "SUBTITLE",
-        "FIELD_1_LABEL", "FIELD_1_VALUE", "FIELD_2_LABEL", "FIELD_2_VALUE",
-        "FIELD_3_LABEL", "FIELD_3_VALUE", "FIELD_4_LABEL", "FIELD_4_VALUE",
-        "FIELD_5_LABEL", "FIELD_5_VALUE", "FIELD_6_LABEL", "FIELD_6_VALUE",
-        "ADVICE_LABEL", "ADVICE_TEXT",
+        "TITLE",
+        "SUBTITLE",
+        "FIELD_1_LABEL",
+        "FIELD_1_VALUE",
+        "FIELD_2_LABEL",
+        "FIELD_2_VALUE",
+        "FIELD_3_LABEL",
+        "FIELD_3_VALUE",
+        "FIELD_4_LABEL",
+        "FIELD_4_VALUE",
+        "FIELD_5_LABEL",
+        "FIELD_5_VALUE",
+        "FIELD_6_LABEL",
+        "FIELD_6_VALUE",
+        "ADVICE_LABEL",
+        "ADVICE_TEXT",
         "TEACHING_CUE"
       ],
-      "preserve": ["six-field layout (label left, value right)", "advice section with accent1 label"],
+      "preserve": [
+        "six-field layout (label left, value right)",
+        "advice section with accent1 label"
+      ],
       "max_items": 6
+    },
+    {
+      "id": "chart-pie-tier-share",
+      "decision_component": "CR-05",
+      "source_slide": 5,
+      "preview": "previews/component-05.png",
+      "replaceable_objects": [
+        "TITLE",
+        "SUBTITLE",
+        "CHART_NOTE",
+        "TEACHING_CUE"
+      ],
+      "replaceable_chart_data": {
+        "categories": "A->D tier names",
+        "values": "share percents"
+      },
+      "preserve": [
+        "pie chart type",
+        "series theme colors accent1/6/4/5",
+        "legend position right"
+      ],
+      "max_items": 8
+    },
+    {
+      "id": "chart-bar-monthly-trend",
+      "decision_component": "CR-06",
+      "source_slide": 6,
+      "preview": "previews/component-06.png",
+      "replaceable_objects": [
+        "TITLE",
+        "SUBTITLE",
+        "CHART_NOTE",
+        "TEACHING_CUE"
+      ],
+      "replaceable_chart_data": {
+        "categories": "months",
+        "sales": "series 1",
+        "gross": "series 2"
+      },
+      "preserve": [
+        "bar chart type",
+        "series theme colors accent1/4",
+        "legend position right"
+      ],
+      "max_items": 12
     }
   ]
 }
