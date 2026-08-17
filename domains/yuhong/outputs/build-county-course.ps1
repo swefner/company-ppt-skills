@@ -91,14 +91,14 @@ try {
         $slideRefs[[int]$page.idx] = $slide
     }
 
-    # Add the two trailing new pages (P13, P14) at positions 13 and 14.
-    $page13 = $pages[12]
-    $page14 = $pages[13]
-    if ($page13.type -ne "new" -or $page14.type -ne "new") { throw "Expected pages 13-14 to be 'new' pages" }
-    $s13 = $presentation.Slides.AddSlide(13, $templateLayout)
+    # Add the two trailing new pages (P14 worksheet, P15 closing) at positions 14 and 15.
+    $page13 = $pages[13]
+    $page14 = $pages[14]
+    if ($page13.type -ne "new" -or $page14.type -ne "new") { throw "Expected trailing pages to be 'new' pages" }
+    $s13 = $presentation.Slides.AddSlide(14, $templateLayout)
     $s13.FollowMasterBackground = -1
     $slideRefs[[int]$page13.idx] = $s13
-    $s14 = $presentation.Slides.AddSlide(14, $templateLayout)
+    $s14 = $presentation.Slides.AddSlide(15, $templateLayout)
     $s14.FollowMasterBackground = -1
     $slideRefs[[int]$page14.idx] = $s14
 
