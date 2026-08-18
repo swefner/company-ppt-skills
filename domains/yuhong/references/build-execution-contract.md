@@ -33,9 +33,10 @@ Use these values to detect wrong files or empty substitutes. If the repository i
 ### Executable Course Components
 
 - Path: `assets/components/yuhong-county-course-components-branded.pptx`.
-- SHA-256: `EAC0CD92DDDFAC74DA8BECD63E827675F040EB50064A4CEBF25E0520A82F0A0D`.
-- Expected structure: 7 slides and 7 speaker-note pages.
-- Role: editable content compositions for the seven registered county-course components (DC-01/02/03/04/17/20/08), already attached to the real Yuhong template master.
+- SHA-256: `9EC9E58E9C6E9BF967E390E2C72888E7A512D7172652BD6B43EBA2A81767AC70`.
+- Expected structure: 8 slides and 8 speaker-note pages.
+- Role: editable content compositions for the eight registered county-course components (DC-01/02/03/04/17/20/08/05), already attached to the real Yuhong template master.
+- Note: SHA changed 2026-08-18 from `EAC0CD92...` when DC-05 (channel driver board, slide 8) was added via the work-copy build pipeline.
 
 ## 3. Required Build Route
 

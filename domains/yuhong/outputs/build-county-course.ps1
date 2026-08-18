@@ -22,11 +22,12 @@ if (-not (Test-Path -LiteralPath $outDir)) { New-Item -ItemType Directory -Path 
 $PT = 72.0   # points per inch
 $CR = [string][char]13
 
-# Color map (COM RGB = R + G*256 + B*65536)
+# Color map (COM RGB = R + G*256 + B*65536) - template theme1 tokens, see shared/ppt-design-spec.md layer 2.
+# NOTE: keep this script pure ASCII (PS 5.1 reads non-BOM UTF-8 as ANSI); Chinese lives in the JSON.
 $colors = @{
-    "ink"  = 3811863   # 23,42,58   #172A3A
-    "red"  = 2103238   # 198,23,32  #C61720
-    "grey" = 8156262   # 102,116,124 #66747C
+    "ink"  = 4608080   # 80,80,70   #505046 (template dk2, ink)
+    "red"  = 2247912   # 232,76,34  #E84C22 (template accent1, brand red)
+    "grey" = 6975343   # 111,111,106 #6F6F6A (grey)
 }
 $alignMap = @{ "left" = 1; "center" = 2; "right" = 3 }
 

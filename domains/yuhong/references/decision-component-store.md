@@ -116,6 +116,8 @@ Each mature card must define:
 - Learner action: 选择一个主杠杆并圈定目标乡镇或网点.
 - Output: 渠道主杠杆和重点网点池.
 - Visual: 三杠杆驱动板 + 网点分层，不用泛化漏斗.
+- Visual preview: `assets/components/previews/component-08.png`.
+- Executable source: `assets/components/yuhong-county-course-components-branded.pptx`, slide 8 (`263#`); fields in `assets/components/component-slots.json`.
 - Source: `business-analysis-cards.md` A1-A5, `channel-intensive-cultivation.pptx`.
 - Adaptation: 根据数据只突出一个主杠杆，其余作为约束项.
 - Risk: 指标口径不一致会产生伪诊断.

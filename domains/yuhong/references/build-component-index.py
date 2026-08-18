@@ -20,6 +20,7 @@ MODULES = {
     'symptom-clustering-core-problem': '判状态',
     'integrated-stage-symptom-force-action-diagnosis': '判状态',
     'thirty-day-action-commitment-board': '收尾与行动',
+    'channel-intensive-cultivation-driver-board': '渠道精耕',
 }
 
 # id -> best modes (mirrors decision-component-store.md card "Best modes")
@@ -31,6 +32,7 @@ BEST_MODES = {
     'symptom-clustering-core-problem': ['Create Courseware', 'Dealer Workshop', 'Adapt Existing Deck'],
     'integrated-stage-symptom-force-action-diagnosis': ['Create Courseware', 'Dealer Workshop', 'Case Teaching'],
     'thirty-day-action-commitment-board': ['Dealer Workshop', 'Create Courseware', 'Business Review'],
+    'channel-intensive-cultivation-driver-board': ['Create Courseware', 'Business Review', 'Dealer Workshop'],
 }
 
 # id -> short Chinese name
@@ -42,6 +44,7 @@ NAMES = {
     'symptom-clustering-core-problem': '病症聚类诊断',
     'integrated-stage-symptom-force-action-diagnosis': '阶段-病症-四力-动作综合诊断',
     'thirty-day-action-commitment-board': '30 天行动板',
+    'channel-intensive-cultivation-driver-board': '渠道驱动板（覆盖×活跃×单店产出）',
 }
 
 slots = json.load(open(SLOTS, encoding='utf-8'))

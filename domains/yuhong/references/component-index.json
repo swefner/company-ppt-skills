@@ -33,6 +33,12 @@
           "components": [
             "thirty-day-action-commitment-board"
           ]
+        },
+        {
+          "module": "渠道精耕",
+          "components": [
+            "channel-intensive-cultivation-driver-board"
+          ]
         }
       ]
     },
@@ -72,6 +78,12 @@
           "components": [
             "thirty-day-action-commitment-board"
           ]
+        },
+        {
+          "module": "渠道精耕",
+          "components": [
+            "channel-intensive-cultivation-driver-board"
+          ]
         }
       ]
     },
@@ -98,6 +110,12 @@
           "module": "收尾与行动",
           "components": [
             "thirty-day-action-commitment-board"
+          ]
+        },
+        {
+          "module": "渠道精耕",
+          "components": [
+            "channel-intensive-cultivation-driver-board"
           ]
         }
       ]
@@ -207,6 +225,21 @@
       "source_slide": 7,
       "source_slide_id": "262#",
       "preview": "previews/component-07.png"
+    },
+    {
+      "id": "channel-intensive-cultivation-driver-board",
+      "code": "DC-05",
+      "name": "渠道驱动板（覆盖×活跃×单店产出）",
+      "question": null,
+      "module": "渠道精耕",
+      "best_modes": [
+        "Create Courseware",
+        "Business Review",
+        "Dealer Workshop"
+      ],
+      "source_slide": 8,
+      "source_slide_id": "263#",
+      "preview": "previews/component-08.png"
     }
   ]
 }

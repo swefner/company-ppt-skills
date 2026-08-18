@@ -2,13 +2,19 @@
 
 Use this reference during `Build` after selecting a matching Decision Component. These assets are editable source slides, not mood-board references.
 
+## 色源铁律与 DNA 继承（2026-08-18 加入）
+
+- **唯一色源** = 模板 theme1 主题色 + `shared/ppt-design-spec.md` 层 2 令牌：红 `#E84C22`（accent1）、深红 `#B22600`（accent6）、墨 `#505046`（dk2）、米白 `#EEECE1`（lt2）、背景 `#F7F7F8`、琥珀 `#FFBD47`（accent2）。**禁止 Office 默认主题色**（默认绿 #70AD47、蓝 #5B9BD5 等）。
+- **新增/修改任何组件源页的构建脚本必须使用上述令牌色**（COM RGB：ink=4608080、red=2247912、grey=6975343）。
+- **DNA 继承**：无匹配源页的页面也必须声明继承哪个组件的骨架/箭头/语义色 + 模板母版，禁止自由发挥（见 `bootstrap/two-agent-handoff-pack.md` V0.8 分工）。
+
 ## Asset Contract
 
 - Source deck: `assets/components/yuhong-county-course-components-branded.pptx`.
-- Visual inheritance: every source slide uses the real master imported from `assets/reference-decks/yuhong-template.pptx`; the template logo and grey arc background must remain visible.
+- Visual inheritance: every source slide uses the real master imported from `assets/reference-decks/yuhong-template.pptx`; the template logo (CHANGHONG PLAN red arch — template-native brand) and grey arc background must remain visible.
 - Visual contact sheet: `assets/components/component-store-contact-sheet.png`.
 - Named replacement contract: `assets/components/component-slots.json`.
-- Individual previews: `assets/components/previews/component-01.png` through `component-06.png`.
+- Individual previews: `assets/components/previews/component-01.png` through `component-07.png`.
 - PowerPoint insertion bridge: `../../../tools/powerpoint-skill-bridge/manifest.xml` with catalog `../../../tools/powerpoint-skill-bridge/catalog.json`.
 
 When a requested page matches one of the six components below:
@@ -35,6 +41,8 @@ Reject any inserted page that brings back the former left red rail or typed `东
 | DC-04 | `four-stage-growth-diagnosis` | 4 | Four-step growth staircase | Judge by formed results, then state the next-stage task |
 | DC-17 | `symptom-clustering-core-problem` | 5 | Symptom wall converging into problem clusters | Symptoms are observable facts; clusters are diagnosis labels |
 | DC-20 | `integrated-stage-symptom-force-action-diagnosis` | 6 | Five-step diagnostic spine | Follow stage -> task -> symptom -> force -> action without skipping |
+| DC-08 | `thirty-day-action-commitment-board` | 7 | Action board with five fixed fields per row | 对象/动作/责任人/节点/指标 fields fixed; max four rows |
+| DC-05 | `channel-intensive-cultivation-driver-board` | 8 | Three-lever driver board + core contradiction band | 覆盖×活跃×单店产出 fixed; select one primary lever |
 
 ## Rejection Rules
 
