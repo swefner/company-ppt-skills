@@ -621,14 +621,14 @@
         "互动通用"
       ],
       "question": "按维度逐项点击揭示诊断（看大势/看竞争/看自我）",
-      "status": "interactive-card",
+      "status": "executable",
       "best_modes": [
         "Create Courseware",
         "Dealer Workshop"
       ],
-      "source_slide": null,
-      "source_slide_id": null,
-      "preview": null
+      "source_slide": 13,
+      "source_slide_id": "268#",
+      "preview": "previews/component-13.png"
     },
     {
       "id": "i5-worksheet-walkthrough",

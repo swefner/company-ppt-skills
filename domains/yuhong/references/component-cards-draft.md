@@ -148,7 +148,7 @@
 
 ### I4 点击诊断矩阵
 - Type: interactive ｜ Loops: 判状态 ｜ Modules: 互动通用
-- Status: interactive-card
+- Status: executable ｜ Source slide 13 (268#)
 - Question: 按维度逐项点击揭示诊断（看大势/看竞争/看自我）
 - Input: 维度、症状、解读、下一步动作
 - Output: 分维度诊断

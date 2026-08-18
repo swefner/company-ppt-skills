@@ -8,7 +8,7 @@
       "templateProof": "已继承 yuhong-template.pptx 原始母版与品牌背景",
       "sourceUrl": "/domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx",
       "fileName": "yuhong-county-course-components-branded.pptx",
-      "sha256": "9622BE2F42F919918E08E93D2206B18D7095AF3D3667E793E59CD45E1B49FF0C",
+      "sha256": "0919C9A1B24AB8B1B45A001010F5D6DC0558CB3F718ABFAD7E4405299DFED8E4",
       "components": [
         {
           "id": "county-trend-three-judgments",
@@ -117,6 +117,15 @@
           "sourceSlide": 12,
           "sourceSlideId": "267#",
           "preview": "/domains/yuhong/assets/components/previews/component-12.png"
+        },
+        {
+          "id": "i4-click-to-diagnose-matrix",
+          "code": "I4",
+          "title": "点击诊断矩阵",
+          "question": "按维度逐项点击揭示诊断（看大势/看竞争/看自我）",
+          "sourceSlide": 13,
+          "sourceSlideId": "268#",
+          "preview": "/domains/yuhong/assets/components/previews/component-13.png"
         }
       ]
     },

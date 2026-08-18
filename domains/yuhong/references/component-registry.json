@@ -253,7 +253,8 @@
       "output": "分维度诊断",
       "invariant": "可点击区 4-6 个；每个维度有解读与下一步",
       "best_modes": ["Create Courseware", "Dealer Workshop"],
-      "status": "interactive-card"
+      "status": "executable",
+      "executable": { "source_slide": 13, "source_slide_id": "268#", "preview": "previews/component-13.png" }
     },
     {
       "id": "i5-worksheet-walkthrough",

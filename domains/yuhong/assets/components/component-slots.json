@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_deck": "yuhong-county-course-components-branded.pptx",
-  "source_deck_sha256": "9622BE2F42F919918E08E93D2206B18D7095AF3D3667E793E59CD45E1B49FF0C",
+  "source_deck_sha256": "0919C9A1B24AB8B1B45A001010F5D6DC0558CB3F718ABFAD7E4405299DFED8E4",
   "visual_base": "../reference-decks/yuhong-template.pptx",
   "master_inheritance_required": true,
   "rules": {
@@ -475,6 +475,57 @@
         "选择"
       ],
       "fallback": "Four choices fixed in structure; replace scenario and choice texts per case. Avoid a deliberately stupid wrong option."
+    },
+    {
+      "id": "i4-click-to-diagnose-matrix",
+      "decision_component": "I4",
+      "source_slide": 13,
+      "source_slide_id": "268#",
+      "preview": "previews/component-13.png",
+      "replaceable_objects": [
+        "TITLE",
+        "SUBTITLE",
+        "HDR_1",
+        "HDR_2",
+        "HDR_3",
+        "HDR_4",
+        "ROW_BAND_1",
+        "ROW_BAND_2",
+        "ROW_BAND_3",
+        "ROW_BAND_4",
+        "DIM_1_NAME",
+        "DIM_1_SYMPTOM",
+        "DIM_1_READ",
+        "DIM_1_NEXT",
+        "DIM_2_NAME",
+        "DIM_2_SYMPTOM",
+        "DIM_2_READ",
+        "DIM_2_NEXT",
+        "DIM_3_NAME",
+        "DIM_3_SYMPTOM",
+        "DIM_3_READ",
+        "DIM_3_NEXT",
+        "DIM_4_NAME",
+        "DIM_4_SYMPTOM",
+        "DIM_4_READ",
+        "DIM_4_NEXT",
+        "DEBRIEF_CUE",
+        "TEACHING_CUE"
+      ],
+      "preserve": [
+        "four-column matrix (维度/症状/解读/下一步) with four dimension rows",
+        "read column in red (diagnosis label), symptom/next in ink",
+        "alternating light row fills (#F7F7F8 / #EEECE1)",
+        "instructor reveals read/next per row; symptoms shown first"
+      ],
+      "max_items": 4,
+      "fixed_labels": [
+        "经营维度",
+        "可见症状",
+        "解读",
+        "下一步"
+      ],
+      "fallback": "Four dimension rows fixed in structure; replace dimension texts per diagnosis topic. Keep clickable areas within 4-6."
     }
   ]
 }
