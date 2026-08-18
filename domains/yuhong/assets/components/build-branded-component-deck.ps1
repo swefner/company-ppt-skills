@@ -1,6 +1,6 @@
 param(
     [string]$TemplatePath = "..\reference-decks\yuhong-template.pptx",
-    [string]$ComponentPath = ".\yuhong-county-course-components.pptx",
+    [string]$ComponentPath = ".\legacy\yuhong-county-course-components.pptx",
     [string]$OutputPath = ".\yuhong-county-course-components-branded.pptx"
 )
 

@@ -6,6 +6,7 @@
 ## 1. 给新 Agent 的第一条指令
 
 1. 从本地真实仓库继续工作，不要仅凭本交接摘要声称已读取 Skill、模板或组件资产。
+1.5 先读 `docs/agent-boundary.md`（仓库侧 Agent vs PowerPoint 内 Agent 的边界协议）——两个 Agent 决策层共享、执行层分离，谁都不能越权执行、不能声称没有真实执行基础的验证。
 2. 检查 `git status`，保留所有现有未提交改动，不回退任何人的工作。
 3. 根据任务读取对应 reference 文件、`component-slots.json` 和真实 PPTX 资产。
 4. Build 前读取 `domains/yuhong/references/build-execution-contract.md`，记录 source-read receipt、核对 PPTX 指纹。
@@ -15,13 +16,13 @@
 
 - 所有成果已提交并推送 `main`（含规则、组件、工具、课件产出、文档）。
 - 分支注意：`main` 是唯一权威分支；本地旧分支 `agent/publish-yuhong-ppt-hub` 已并入 main，不再使用。
-- 项目主线：东方雨虹 Yuhong 县域经销商课程（看趋势 + 判状态），**B 模式（固定老板模式）**已产出 14 页成品课件。
+- 项目主线：东方雨虹 Yuhong 县域经销商课程（看趋势 + 判状态），**B 模式（固定老板模式）**已产出 15 页成品课件（V0.3，含 DC-08 行动承诺页 P14、收束页 P15）。
 
 ## 3. 本阶段里程碑（今天完成的）
 
 | 成果 | 位置 | 说明 |
 |---|---|---|
-| 14 页老板版课件（试金石） | `domains/yuhong/outputs/县域机会诊断_看趋势与判状态_老板版_V0.1.pptx` | 6 页复制可执行组件源页 + 8 页母版继承新页，已通过结构与像素验收 |
+| 15 页老板版课件（试金石） | `domains/yuhong/outputs/县域机会诊断_看趋势与判状态_老板版_V0.1.pptx` | 7 页复制可执行组件源页（DC-01/02/03/04/17/20/08）+ 8 页母版继承新页，已通过结构与像素验收 |
 | 构建工具链 | `domains/yuhong/outputs/build-content.json` + `build-county-course.ps1` + `check-overflow.ps1` + `render-preview.ps1` + `verify-render.py` | 内容数据化 + COM 确定性构建 + 自动验收；**下个课件直接复用，先改 build-content.json** |
 | 渲染预览闭环 | `assets/components/render-component-previews.ps1` + `build-contact-sheet.py` + `previews/component-render-manifest.json` | 组件源页变更后一键重渲染 + 指纹防过期 |
 | 大字图册（Agent 选择入口） | `assets/components/previews/component-store-render-sheet.png` | 3×2 图册，每格左上角大号 DC 编号；Agent 选组件必须读这一张 |
@@ -73,6 +74,7 @@
 | 槽位合同 | `domains/yuhong/assets/components/component-slots.json` |
 | 组件业务定义 | `domains/yuhong/references/decision-component-store.md` |
 | 产品架构 | `docs/product-architecture.md`（五层模型 + 方法论产品族 + 决策记录） |
+| Agent 边界协议 | `docs/agent-boundary.md`（仓库侧 vs PowerPoint 内 Agent：决策共享、执行分离、交接点） |
 | 机制改进清单 | `docs/mechanism-improvements.md`（借鉴客户分析产品：公司档案/验收清单/版本日志） |
 | 通用逻辑层（樱桃库） | `docs/generic-logic-layer.md` + `domains/ufs/assets/reference-decks/cherry-red-logic-index.md`（141 页可检索索引） |
 | Yuhong 验收自测清单 | `domains/yuhong/references/acceptance-checklist.md`（勾选 + 参考值） |
@@ -82,7 +84,7 @@
 | Build 契约 | `domains/yuhong/references/build-execution-contract.md` |
 | 人用手册 | `domains/yuhong/guides/component-usage-guide.md` |
 | 课件产出 + 构建脚本 | `domains/yuhong/outputs/` |
-| 14 页蓝图 | `domains/yuhong/plans/county-opportunity-boss-mode-blueprint-14p.md` |
+| 15 页蓝图（V0.3） | `domains/yuhong/plans/county-opportunity-boss-mode-blueprint-15p.md` |
 | Hub 入口（PowerPoint Agent 用） | `bootstrap/powerpoint-chatgpt-prompt.md`、`bootstrap/natural-start-prompts.md` |
 
 ## 7.5 数据边界（重要）

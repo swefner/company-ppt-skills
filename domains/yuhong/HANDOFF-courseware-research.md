@@ -22,7 +22,7 @@
 ## 2. 当前基线（2026-08-15 收盘）
 
 - **15 页老板版课件已 Build 并验收**：`outputs/县域机会诊断_看趋势与判状态_老板版_V0.1.pptx`
-- 蓝图（V0.3，15 页含 DC-08 行动承诺页 P14）：`plans/county-opportunity-boss-mode-blueprint-14p.md`
+- 蓝图（V0.3，15 页含 DC-08 行动承诺页 P14）：`plans/county-opportunity-boss-mode-blueprint-15p.md`
 - 构建工具链（内容数据化 + COM 构建）：`outputs/build-content.json` + `build-county-course.ps1`
 - 组件库：7 个可执行组件（DC-01/02/03/04/17/20/08），源 deck `assets/components/yuhong-county-course-components-branded.pptx`（SHA-256 `EAC0CD92...`，7 页）
 
@@ -89,6 +89,6 @@
 | Build 契约 | `domains/yuhong/references/build-execution-contract.md` |
 | 验收清单 | `domains/yuhong/references/acceptance-checklist.md` |
 | 15 页成品 + 构建链 | `domains/yuhong/outputs/` |
-| 15 页蓝图 V0.3 | `domains/yuhong/plans/county-opportunity-boss-mode-blueprint-14p.md` |
+| 15 页蓝图 V0.3 | `domains/yuhong/plans/county-opportunity-boss-mode-blueprint-15p.md` |
 | 人用组件手册 | `domains/yuhong/guides/component-usage-guide.md` |
 | 樱桃库索引（设计参考） | `domains/ufs/assets/reference-decks/cherry-red-logic-index.md` |

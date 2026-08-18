@@ -1,5 +1,7 @@
 # Quality Rules
 
+> 通用质量规则摘要。**领域权威版本**：`domains/yuhong/references/quality-check.md`（课件版式拒绝测试）、`acceptance-checklist.md`（构建后逐项验收）。两处不一致时以领域文件为准。
+
 Use these rules for all company PPT skills.
 
 ## Business Quality

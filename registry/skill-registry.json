@@ -1,5 +1,6 @@
 {
   "version": "0.1.1",
+  "_authority": "面向 PowerPoint 会话的 Hub 子集。本地权威注册表为 registry/local-skill-registry.json（含 customer-review 领域），本文件必须与其保持同步；新增领域时两边都要更新。",
   "skills": [
     {
       "id": "ufs-monthly-review-ppt",

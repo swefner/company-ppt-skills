@@ -1,6 +1,7 @@
 {
   "version": "0.3.0-local",
   "mode": "local-first",
+  "_authority": "本文件是本地仓库的权威技能注册表（3 个领域，含 customer-review）。registry/skill-registry.json 是面向 PowerPoint 会话的 Hub 子集，必须与本文件保持同步。",
   "skills": [
     {
       "id": "ufs-monthly-review-ppt",

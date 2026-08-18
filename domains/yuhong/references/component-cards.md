@@ -2,7 +2,7 @@
 
 Use the cherry-red logic component library only when it strengthens the business story. Do not add a cool component if a simple table or chart is clearer.
 
-Source deck: `assets/reference-decks/cherry-red-logic-components.pptx`.
+Source deck: `domains/ufs/assets/reference-decks/cherry-red-logic-components.pptx`（跨领域通用逻辑层唯一源，见 `docs/generic-logic-layer.md`；本地不再保留 yuhong 副本）。
 
 ## Selection Rules
 

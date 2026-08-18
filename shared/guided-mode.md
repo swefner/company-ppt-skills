@@ -1,5 +1,7 @@
 # Guided Mode
 
+> 通用摘要（旧版精简）。**领域权威版本**：`domains/yuhong/references/guided-mode.md`（含逐阶段流程与组件选择规则）。本文件只作通用入口提示，细则以领域文件为准；两处不一致时以领域文件为准。
+
 Use Guided Mode before building or editing PPT files.
 
 ## First Response

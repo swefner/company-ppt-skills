@@ -103,7 +103,7 @@ Use this sequence unless the user supplies a stronger structure:
 - `assets/reference-decks/home-decoration-channel.pptx`: 家装渠道 method reference.
 - `assets/reference-decks/trader-to-service-provider-course.pptx`: 216-page 转型服务商 courseware reference with instructor talk-track, co-creation pages, worksheets, four order-source tactics, team building, and risk-control modules.
 - `assets/reference-decks/rongyu-case.pptx` and `jiabeili-case.pptx`: dealer case style references.
-- `assets/reference-decks/cherry-red-logic-components.pptx`: optional logic component library.
+- `domains/ufs/assets/reference-decks/cherry-red-logic-components.pptx`: optional cross-domain logic component library (single canonical copy, see `docs/generic-logic-layer.md`).
 - `assets/components/yuhong-county-course-components-branded.pptx`: six-slide editable executable component source deck already rebased onto the real `yuhong-template.pptx` master. Duplicate matching slides instead of redrawing them.
 - `assets/components/component-slots.json`: named replacement fields, capacity, and invariants for the executable component source deck.
 - `assets/components/component-store-contact-sheet.png`: visual acceptance overview for the executable component source deck.

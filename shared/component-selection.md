@@ -1,5 +1,7 @@
 # Component Selection
 
+> 通用规则摘要。**领域权威版本**：`domains/yuhong/references/decision-component-store.md`（组件卡片 + 防伪/语义条款）、`executable-component-store.md`（可执行组件门禁）。两处不一致时以领域文件为准。
+
 Components are decision tools, not decoration.
 
 ## Selection Order

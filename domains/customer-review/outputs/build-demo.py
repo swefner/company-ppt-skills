@@ -26,7 +26,9 @@ CONTENT = json.load(open(os.path.join(BASE, 'demo-content.json'), encoding='utf-
 ACC1 = MSO_THEME_COLOR.ACCENT_1
 ACC2 = MSO_THEME_COLOR.ACCENT_2
 ACC3 = MSO_THEME_COLOR.ACCENT_3
+ACC4 = MSO_THEME_COLOR.ACCENT_4
 ACC5 = MSO_THEME_COLOR.ACCENT_5
+ACC6 = MSO_THEME_COLOR.ACCENT_6
 DK1 = MSO_THEME_COLOR.DARK_1
 DK2 = MSO_THEME_COLOR.DARK_2
 LT2 = MSO_THEME_COLOR.LIGHT_2
@@ -130,7 +132,28 @@ for i, (prefix, label, value, note) in enumerate(kpis):
     tf = add_textbox(s, prefix + '_NOTE', x + 0.3, y + 1.65, 5.3, 0.5)
     set_text(tf, note, 11, False, ACC5)
 
-# P4 tier table (component TIER_TABLE)
+
+# P4 tier pie chart (component CHART_PIE)
+from pptx.chart.data import CategoryChartData
+from pptx.enum.chart import XL_CHART_TYPE, XL_LEGEND_POSITION
+s = new_slide(prs)
+header(s, CONTENT['pie']['title'], CONTENT['pie']['subtitle'])
+_pie_data = CategoryChartData()
+_pie_data.categories = CONTENT['pie']['categories']
+_pie_data.add_series('销售额占比', CONTENT['pie']['values'])
+_cf = s.shapes.add_chart(XL_CHART_TYPE.PIE, Inches(1.6), Inches(1.7), Inches(7.0), Inches(4.4), _pie_data)
+_pie = _cf.chart
+_pie.has_legend = True
+_pie.legend.position = XL_LEGEND_POSITION.RIGHT
+_pie.legend.include_in_layout = False
+for _i, _pt in enumerate(_pie.plots[0].series[0].points):
+    _pt.format.fill.solid()
+    _pt.format.fill.fore_color.theme_color = [ACC1, ACC6, ACC4, ACC5][_i]
+tf = add_textbox(s, 'CHART_NOTE', 8.9, 2.0, 4.0, 3.8)
+set_text(tf, CONTENT['pie']['note'], 12, False, ACC5, line_spacing=1.4)
+
+# P5 tier table (component TIER_TABLE)
+
 s = new_slide(prs)
 header(s, '客户分层结果', 'A/B/C/D 四级：客户数与销售额占比')
 tiers = CONTENT["tiers"]
@@ -184,7 +207,27 @@ for i, (prefix, label, value, note) in enumerate(tags):
     tf = add_textbox(s, prefix + '_NOTE', x + 0.3, y + 1.65, 5.3, 0.5)
     set_text(tf, note, 11, False, ACC5)
 
-# P7 sleeping activation (component LIST_TABLE)
+
+# P7 monthly trend (component CHART_BAR)
+s = new_slide(prs)
+header(s, CONTENT['trend']['title'], CONTENT['trend']['subtitle'])
+_bar_data = CategoryChartData()
+_bar_data.categories = CONTENT['trend']['categories']
+_bar_data.add_series('销售额(万元)', CONTENT['trend']['sales'])
+_bar_data.add_series('毛利(万元)', CONTENT['trend']['gross'])
+_cf = s.shapes.add_chart(XL_CHART_TYPE.BAR_CLUSTERED, Inches(1.6), Inches(1.7), Inches(7.6), Inches(4.4), _bar_data)
+_bar = _cf.chart
+_bar.has_legend = True
+_bar.legend.position = XL_LEGEND_POSITION.RIGHT
+_bar.legend.include_in_layout = False
+for _series, _color in zip(_bar.plots[0].series, (ACC1, ACC4)):
+    _series.format.fill.solid()
+    _series.format.fill.fore_color.theme_color = _color
+tf = add_textbox(s, 'CHART_NOTE', 9.5, 2.0, 3.4, 3.8)
+set_text(tf, CONTENT['trend']['note'], 12, False, ACC5, line_spacing=1.4)
+
+# P8 sleeping activation (component LIST_TABLE)
+
 s = new_slide(prs)
 header(s, CONTENT['sleep']['title'], CONTENT['sleep']['subtitle'])
 sleep_rows = CONTENT["sleep"]["rows"]
