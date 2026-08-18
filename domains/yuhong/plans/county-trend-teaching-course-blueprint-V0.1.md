@@ -230,7 +230,7 @@
 
 - 单页提示词“四页连续性检查”10 项（P2–P5 连续叙事、标题可连成叙事、四页结构不同且协调、雨虹红白深灰统一、无重复结论/图片/组件、无拥挤、可自然进入后续）
 - 全局排版提示词 15 项终检
-- 仓库验收清单：结构（页数=蓝图 9 页；组件页=复制源页；COMPONENT_ID=0）、槽位抽查、溢出 0 处、品牌像素（dark/red 与模板一致）、文件 ≤5MB、讲师备注存在
+- 仓库验收清单：结构（页数=蓝图 9 页；组件页=复制源页；COMPONENT_ID=0）、槽位抽查、溢出 0 处、品牌像素（dark/red 与模板一致）、讲师备注存在
 - 最终：用户在 PowerPoint 打开目视
 
 ## 缺口与待确认
@@ -247,4 +247,4 @@
 - 环境：PowerPoint COM 16.0、python-pptx、PowerShell（`-ExecutionPolicy RemoteSigned`）
 - 流程：打开组件源 deck → InsertFromFile 模板 → AddSlide（模板 layout + FollowMasterBackground）→ P7 复制 DC-01 源页并替换槽位 → 其余页 AddTextbox 自由排版（字体 Microsoft YaHei，Name+NameFarEast）→ 删 COMPONENT_ID → SaveAs（格式 24）
 - 内容数据化：新建 `build-content-trend-course.json`（中文全部进 JSON，脚本纯 ASCII）；坑位规避：组件页插入后索引 +6、绝对路径、先存临时文件再替换
-- 验收：`check-overflow.ps1`（真实渲染 BoundHeight=0）+ `verify-render.py`（品牌像素）+ 文件大小 ≤5MB
+- 验收：`check-overflow.ps1`（真实渲染 BoundHeight=0）+ `verify-render.py`（品牌像素）

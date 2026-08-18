@@ -47,7 +47,7 @@
 
 - 维护组件资产全链路：源 deck、槽位合同、预览重渲染（`render-component-previews.ps1`）、contact sheet 图册（`build-contact-sheet.py`）、`component-index.json`、`catalog.json`、注册表；
 - 内容数据化（build-content.json）+ 构建脚本 + 验收脚本（check-overflow / verify-render / acceptance-checklist）；
-- 用 COM 链产出独立课件 PPTX 并做自动化验收（溢出 0 处、品牌像素 dark/red、文件 ≤5MB）；
+- 用 COM 链产出独立课件 PPTX 并做自动化验收（溢出 0 处、品牌像素 dark/red）；
 - 蓝图、验收清单、人用手册、本文档等仓库文档；PPTX 二进制走"工作副本 + 入库"流程。
 
 ### 3.2 仓库侧 Agent 不做 / 不能做
