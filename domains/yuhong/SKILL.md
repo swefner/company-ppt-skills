@@ -96,7 +96,7 @@ Use this sequence unless the user supplies a stronger structure:
 
 ## Assets
 
-- `assets/reference-decks/yuhong-template.pptx`: default visual base.
+- `assets/reference-decks/yuhong-template.pptx`: default visual base. (2026-08-18 实测：GitHub `blob/main/<path>?raw=true` 可下载完整二进制 886,710 B；二进制导入 PowerPoint 仍需附件或 skill-bridge，见 `build-execution-contract.md` 头部注。)
 - `assets/reference-decks/channel-intensive-cultivation.pptx`: 渠道精耕 method reference.
 - `assets/reference-decks/product-battle.pptx`: 产品/爆品 method reference.
 - `assets/reference-decks/retail-store-battle.pptx`: 零售专卖/工人会员 method reference.

@@ -1,5 +1,7 @@
 # Build Execution Contract
 
+> 补充（2026-08-18 实测）：**二进制 PPTX 的 GitHub URL 可用性**——`https://github.com/.../blob/main/<路径>?raw=true` 对 .pptx 实测返回 `200 application/octet-stream`（本机验证 yuhong-template.pptx 886,710 B 完整）。文本/图片链路沿用 `decision-component-store.md` 的 `?raw=true` 约定。注意：**URL 可达 ≠ PowerPoint 原生插入可行**——Agent B 仍需要附件或 bridge 才能完成 InsertFromFile/打开文件操作（见 `bootstrap/two-agent-handoff-pack.md` 前置条件）。
+
 Use this contract immediately before every `Build`. It prevents an agent from claiming that it followed the Skill or template when it only used a prompt summary or recreated a generic deck.
 
 ## 1. Source Read Receipt
