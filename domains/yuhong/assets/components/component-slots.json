@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_deck": "yuhong-county-course-components-branded.pptx",
-  "source_deck_sha256": "CECA243CC1C608C66F49EEA0B1CFA45EA762AD5C6C5B49E20254554A06497AFB",
+  "source_deck_sha256": "9622BE2F42F919918E08E93D2206B18D7095AF3D3667E793E59CD45E1B49FF0C",
   "visual_base": "../reference-decks/yuhong-template.pptx",
   "master_inheritance_required": true,
   "rules": {
@@ -439,6 +439,42 @@
         "淘汰"
       ],
       "fallback": "Three levers and four strategy cells are fixed; replace texts per region/SKU. Without turnover/repeat data use low-confidence proxies and mark missing fields."
+    },
+    {
+      "id": "i3-dealer-scenario-choice",
+      "decision_component": "I3",
+      "source_slide": 12,
+      "source_slide_id": "267#",
+      "preview": "previews/component-12.png",
+      "replaceable_objects": [
+        "TITLE",
+        "SCENARIO_BAND",
+        "SCENARIO_TITLE",
+        "SCENARIO_TEXT",
+        "CHOICE_TITLE",
+        "CHOICE_BAND_1",
+        "CHOICE_BAND_2",
+        "CHOICE_BAND_3",
+        "CHOICE_BAND_4",
+        "CHOICE_1_TEXT",
+        "CHOICE_2_TEXT",
+        "CHOICE_3_TEXT",
+        "CHOICE_4_TEXT",
+        "DEBRIEF_CUE",
+        "TEACHING_CUE"
+      ],
+      "preserve": [
+        "scenario card -> choice prompt -> four equal choice bands -> debrief cue",
+        "alternating light fills (#F7F7F8 / #EEECE1)",
+        "no answer revealed on the page (instructor-paced)",
+        "choices must all be plausible field actions"
+      ],
+      "max_items": 4,
+      "fixed_labels": [
+        "情景",
+        "选择"
+      ],
+      "fallback": "Four choices fixed in structure; replace scenario and choice texts per case. Avoid a deliberately stupid wrong option."
     }
   ]
 }

@@ -139,7 +139,7 @@
 
 ### I3 经销商情景选择
 - Type: interactive ｜ Loops: 定方向/找机会 ｜ Modules: 互动通用
-- Status: interactive-card
+- Status: executable ｜ Source slide 12 (267#)
 - Question: 如果你是这位经销商，面对这个局面先做什么？
 - Input: 经销商画像、选项、后果逻辑、推荐答案
 - Output: 选择与理由（先于方法讲解）

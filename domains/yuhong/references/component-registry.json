@@ -238,7 +238,8 @@
       "output": "选择与理由（先于方法讲解）",
       "invariant": "避免羞辱错误选项，用作学习而非评判",
       "best_modes": ["Create Courseware", "Dealer Workshop", "Case Teaching"],
-      "status": "interactive-card"
+      "status": "executable",
+      "executable": { "source_slide": 12, "source_slide_id": "267#", "preview": "previews/component-12.png" }
     },
     {
       "id": "i4-click-to-diagnose-matrix",

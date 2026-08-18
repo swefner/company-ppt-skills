@@ -599,15 +599,15 @@
         "互动通用"
       ],
       "question": "如果你是这位经销商，面对这个局面先做什么？",
-      "status": "interactive-card",
+      "status": "executable",
       "best_modes": [
         "Create Courseware",
         "Dealer Workshop",
         "Case Teaching"
       ],
-      "source_slide": null,
-      "source_slide_id": null,
-      "preview": null
+      "source_slide": 12,
+      "source_slide_id": "267#",
+      "preview": "previews/component-12.png"
     },
     {
       "id": "i4-click-to-diagnose-matrix",
