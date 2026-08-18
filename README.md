@@ -12,6 +12,7 @@ Local-first structure:
 - `shared/guided-mode.md`
 - `shared/component-selection.md`
 - `shared/quality-rules.md`
+- `shared/ppt-design-spec.md`（跨领域视觉/版式设计规范 V0.3）
 
 For PowerPoint ChatGPT sessions, use:
 
