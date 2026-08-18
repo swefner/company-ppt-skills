@@ -19,7 +19,7 @@
 - 依赖：Agent A 的产出已入库（`?raw=true` URL 可读）；最终视觉以用户在 PowerPoint 目视为准
 
 **交接协议**：Agent A 入库 → Agent B 消费 → 用户目视验收。任何视觉/布局反馈回到 Agent A 修复资产或改蓝图，不由 Agent B 在活动文档里重画。
-**与 COM 构建链的关系**：COM 链（build-county-course.ps1 等）保留为资产渲染、预览与验收工具；**最终成品课件默认走 Agent B 的 PowerPoint 原生插入**，除非用户明确指定仓库侧产出独立 PPTX。
+**与 COM 构建链的关系**：COM 链（`build-content.json` + `build-county-course.ps1` + `check-overflow.ps1`/`verify-render.py`）**早已全自动跑通成品构建**——15 页老板版即由它产出并通过验收，是确定性的批量路线。成品课件有两条可行路线，按任务指定二选一：① **Agent B · PowerPoint GPT 交互式视觉执行**（用户可在 PowerPoint 里逐页微调）；② **COM 链全自动构建**（内容数据化 → 确定性构建 → 自动验收，可复现）。两条路线共用同一套组件门禁、品牌与验收清单；选 ② 时 Agent A 直接产出独立 PPTX，Agent B 不参与。
 
 ---
 
