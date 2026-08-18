@@ -17,9 +17,11 @@ parser.add_argument('--module', default=None, help='render sheet for one module 
 args = parser.parse_args()
 
 index = json.load(open(INDEX, encoding='utf-8'))
-COMPONENTS = [(c['code'], c['name'], c['id']) for c in index['components']]
+# Contact sheet shows EXECUTABLE components only (those with a rendered preview).
+# Card-only / interactive-card / analysis-card entries are navigated by text cards.
+COMPONENTS = [(c['code'], c['name'], c['id']) for c in index['components'] if c.get('preview')]
 if args.module:
-    COMPONENTS = [c for c in COMPONENTS if next(x for x in index['components'] if x['id'] == c[2])['module'] == args.module]
+    COMPONENTS = [c for c in COMPONENTS if args.module in next(x for x in index['components'] if x['id'] == c[2])['modules']]
     if not COMPONENTS:
         raise SystemExit(f'no components in module {args.module!r}')
     print(f'[module subset] {args.module}: {[c[0] for c in COMPONENTS]}')

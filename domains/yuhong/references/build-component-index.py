@@ -1,3 +1,6 @@
+# DEPRECATED (2026-08-18): replaced by build-component-registry.py as the single source of truth.
+# component-registry.json now drives component-index.json + catalog + cards draft.
+# Kept only for reference; do not extend - update the registry instead.
 # Build the machine-readable component navigation index for Yuhong components.
 # Data source: component-slots.json (single source of truth for id/code/slide/preview).
 # Module and mode assignments are business judgments maintained here; new components

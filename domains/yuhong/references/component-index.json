@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "domain": "yuhong-ppt",
   "generated_from": [
-    "component-slots.json",
-    "build-component-index.py (module/mode maps)"
+    "component-registry.json (single source of truth)",
+    "build-component-registry.py"
   ],
   "selection_rule": "Navigate by mode -> module -> shortlist (<=10) -> open that module contact sheet -> describe layouts from the image -> confirm against the component card. Never select from memory or from the full list.",
   "navigation": [
@@ -15,6 +15,13 @@
           "components": [
             "four-force-diagnosis",
             "symptom-clustering-core-problem"
+          ]
+        },
+        {
+          "module": "案例教学",
+          "components": [
+            "case-ask-evidence-decision-reveal",
+            "case-decision-fork"
           ]
         }
       ]
@@ -29,15 +36,41 @@
           ]
         },
         {
+          "module": "渠道精耕",
+          "components": [
+            "a1-distribution-growth-formula",
+            "channel-intensive-cultivation-driver-board"
+          ]
+        },
+        {
+          "module": "产品战役",
+          "components": [
+            "b1-product-growth-formula",
+            "product-battle-growth-board"
+          ]
+        },
+        {
           "module": "收尾与行动",
           "components": [
             "thirty-day-action-commitment-board"
           ]
         },
         {
-          "module": "渠道精耕",
+          "module": "盘区域",
           "components": [
-            "channel-intensive-cultivation-driver-board"
+            "township-outlet-opportunity-prioritization"
+          ]
+        },
+        {
+          "module": "零售专卖",
+          "components": [
+            "c1-worker-member-growth-formula"
+          ]
+        },
+        {
+          "module": "家装渠道",
+          "components": [
+            "d1-home-decoration-growth-formula"
           ]
         }
       ]
@@ -50,6 +83,26 @@
           "components": [
             "four-stage-growth-diagnosis",
             "integrated-stage-symptom-force-action-diagnosis"
+          ]
+        },
+        {
+          "module": "案例教学",
+          "components": [
+            "case-ask-evidence-decision-reveal",
+            "case-decision-fork",
+            "i7-case-debrief-reveal"
+          ]
+        },
+        {
+          "module": "定方向",
+          "components": [
+            "evidence-voting-resource-bet"
+          ]
+        },
+        {
+          "module": "互动通用",
+          "components": [
+            "i3-dealer-scenario-choice"
           ]
         }
       ]
@@ -69,8 +122,31 @@
             "county-business-territory-map",
             "four-force-diagnosis",
             "four-stage-growth-diagnosis",
-            "symptom-clustering-core-problem",
-            "integrated-stage-symptom-force-action-diagnosis"
+            "integrated-stage-symptom-force-action-diagnosis",
+            "symptom-clustering-core-problem"
+          ]
+        },
+        {
+          "module": "渠道精耕",
+          "components": [
+            "a1-distribution-growth-formula",
+            "channel-intensive-cultivation-driver-board",
+            "i2-four-channel-clickable-menu"
+          ]
+        },
+        {
+          "module": "产品战役",
+          "components": [
+            "b1-product-growth-formula",
+            "product-battle-growth-board"
+          ]
+        },
+        {
+          "module": "案例教学",
+          "components": [
+            "case-ask-evidence-decision-reveal",
+            "case-decision-fork",
+            "i7-case-debrief-reveal"
           ]
         },
         {
@@ -80,9 +156,38 @@
           ]
         },
         {
-          "module": "渠道精耕",
+          "module": "盘区域",
           "components": [
-            "channel-intensive-cultivation-driver-board"
+            "township-outlet-opportunity-prioritization"
+          ]
+        },
+        {
+          "module": "定方向",
+          "components": [
+            "evidence-voting-resource-bet"
+          ]
+        },
+        {
+          "module": "互动通用",
+          "components": [
+            "i1-ask-then-reveal-concept-page",
+            "i3-dealer-scenario-choice",
+            "i4-click-to-diagnose-matrix",
+            "i5-worksheet-walkthrough",
+            "i6-group-voting-page",
+            "i8-risk-drill-card"
+          ]
+        },
+        {
+          "module": "零售专卖",
+          "components": [
+            "c1-worker-member-growth-formula"
+          ]
+        },
+        {
+          "module": "家装渠道",
+          "components": [
+            "d1-home-decoration-growth-formula"
           ]
         }
       ]
@@ -102,8 +207,21 @@
             "county-business-territory-map",
             "four-force-diagnosis",
             "four-stage-growth-diagnosis",
-            "symptom-clustering-core-problem",
-            "integrated-stage-symptom-force-action-diagnosis"
+            "integrated-stage-symptom-force-action-diagnosis",
+            "symptom-clustering-core-problem"
+          ]
+        },
+        {
+          "module": "渠道精耕",
+          "components": [
+            "channel-intensive-cultivation-driver-board",
+            "i2-four-channel-clickable-menu"
+          ]
+        },
+        {
+          "module": "产品战役",
+          "components": [
+            "product-battle-growth-board"
           ]
         },
         {
@@ -113,9 +231,26 @@
           ]
         },
         {
-          "module": "渠道精耕",
+          "module": "盘区域",
           "components": [
-            "channel-intensive-cultivation-driver-board"
+            "township-outlet-opportunity-prioritization"
+          ]
+        },
+        {
+          "module": "定方向",
+          "components": [
+            "evidence-voting-resource-bet"
+          ]
+        },
+        {
+          "module": "互动通用",
+          "components": [
+            "i1-ask-then-reveal-concept-page",
+            "i3-dealer-scenario-choice",
+            "i4-click-to-diagnose-matrix",
+            "i5-worksheet-walkthrough",
+            "i6-group-voting-page",
+            "i8-risk-drill-card"
           ]
         }
       ]
@@ -126,8 +261,15 @@
       "id": "county-trend-three-judgments",
       "code": "DC-01",
       "name": "三个趋势判断",
-      "question": null,
-      "module": "看趋势",
+      "type": "diagnosis",
+      "decision_loops": [
+        "看趋势"
+      ],
+      "modules": [
+        "看趋势"
+      ],
+      "question": "县域机会是消失了，还是机会结构发生了变化？",
+      "status": "executable",
       "best_modes": [
         "Create Courseware",
         "Dealer Workshop"
@@ -140,8 +282,15 @@
       "id": "county-business-territory-map",
       "code": "DC-02",
       "name": "县域生意版图",
-      "question": null,
-      "module": "判状态",
+      "type": "diagnosis",
+      "decision_loops": [
+        "判状态"
+      ],
+      "modules": [
+        "判状态"
+      ],
+      "question": "我的增长空间具体落在哪些县城、已覆盖乡镇和空白薄弱乡镇？",
+      "status": "executable",
       "best_modes": [
         "Create Courseware",
         "Dealer Workshop",
@@ -155,8 +304,15 @@
       "id": "four-force-diagnosis",
       "code": "DC-03",
       "name": "四力诊断",
-      "question": null,
-      "module": "判状态",
+      "type": "diagnosis",
+      "decision_loops": [
+        "判状态"
+      ],
+      "modules": [
+        "判状态"
+      ],
+      "question": "当前限制县域增长的主短板是品牌力、渠道力、场景力还是产品力？",
+      "status": "executable",
       "best_modes": [
         "Create Courseware",
         "Dealer Workshop",
@@ -170,8 +326,15 @@
       "id": "four-stage-growth-diagnosis",
       "code": "DC-04",
       "name": "四阶段成长判断",
-      "question": null,
-      "module": "判状态",
+      "type": "diagnosis",
+      "decision_loops": [
+        "判状态"
+      ],
+      "modules": [
+        "判状态"
+      ],
+      "question": "经销商当前卡在进得去、站得住、卖得动还是做得深？",
+      "status": "executable",
       "best_modes": [
         "Create Courseware",
         "Dealer Workshop",
@@ -182,41 +345,84 @@
       "preview": "previews/component-04.png"
     },
     {
-      "id": "symptom-clustering-core-problem",
-      "code": "DC-17",
-      "name": "病症聚类诊断",
-      "question": null,
-      "module": "判状态",
+      "id": "channel-intensive-cultivation-driver-board",
+      "code": "DC-05",
+      "name": "渠道驱动板（覆盖×活跃×单店产出）",
+      "type": "diagnosis",
+      "decision_loops": [
+        "找机会"
+      ],
+      "modules": [
+        "渠道精耕"
+      ],
+      "question": "渠道增长应优先补覆盖、提活跃还是拉单店产出？",
+      "status": "executable",
       "best_modes": [
         "Create Courseware",
-        "Dealer Workshop",
-        "Adapt Existing Deck"
+        "Business Review",
+        "Dealer Workshop"
       ],
-      "source_slide": 5,
-      "source_slide_id": "260#",
-      "preview": "previews/component-05.png"
+      "source_slide": 8,
+      "source_slide_id": "263#",
+      "preview": "previews/component-08.png"
     },
     {
-      "id": "integrated-stage-symptom-force-action-diagnosis",
-      "code": "DC-20",
-      "name": "阶段-病症-四力-动作综合诊断",
-      "question": null,
-      "module": "判状态",
+      "id": "product-battle-growth-board",
+      "code": "DC-06",
+      "name": "产品战役增长板",
+      "type": "diagnosis",
+      "decision_loops": [
+        "找机会"
+      ],
+      "modules": [
+        "产品战役"
+      ],
+      "question": "产品增长来自铺得更广、卖得更动，还是核心品项产出更高？",
+      "status": "card-only",
       "best_modes": [
         "Create Courseware",
-        "Dealer Workshop",
-        "Case Teaching"
+        "Business Review",
+        "Dealer Workshop"
       ],
-      "source_slide": 6,
-      "source_slide_id": "261#",
-      "preview": "previews/component-06.png"
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "case-ask-evidence-decision-reveal",
+      "code": "DC-07",
+      "name": "案例三幕（Ask-Evidence-Decision-Reveal）",
+      "type": "co-creation",
+      "decision_loops": [
+        "定方向"
+      ],
+      "modules": [
+        "案例教学"
+      ],
+      "question": "面对这个经销商情景，你会先做什么，为什么？",
+      "status": "card-only",
+      "best_modes": [
+        "Case Teaching",
+        "Create Courseware",
+        "Adapt Existing Deck"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
     },
     {
       "id": "thirty-day-action-commitment-board",
       "code": "DC-08",
       "name": "30 天行动板",
-      "question": null,
-      "module": "收尾与行动",
+      "type": "closing",
+      "decision_loops": [
+        "定方向"
+      ],
+      "modules": [
+        "收尾与行动"
+      ],
+      "question": "课程结束后30天，谁要对哪个对象做什么，并用什么结果验收？",
+      "status": "executable",
       "best_modes": [
         "Dealer Workshop",
         "Create Courseware",
@@ -227,19 +433,372 @@
       "preview": "previews/component-07.png"
     },
     {
-      "id": "channel-intensive-cultivation-driver-board",
-      "code": "DC-05",
-      "name": "渠道驱动板（覆盖×活跃×单店产出）",
-      "question": null,
-      "module": "渠道精耕",
+      "id": "township-outlet-opportunity-prioritization",
+      "code": "DC-16",
+      "name": "乡镇和网点机会优先级",
+      "type": "diagnosis",
+      "decision_loops": [
+        "盘区域"
+      ],
+      "modules": [
+        "盘区域"
+      ],
+      "question": "在资源有限的情况下，哪些乡镇或网点最值得优先投入？",
+      "status": "card-only",
       "best_modes": [
         "Create Courseware",
-        "Business Review",
+        "Dealer Workshop",
+        "Business Review"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "symptom-clustering-core-problem",
+      "code": "DC-17",
+      "name": "病症聚类诊断",
+      "type": "diagnosis",
+      "decision_loops": [
+        "判状态"
+      ],
+      "modules": [
+        "判状态"
+      ],
+      "question": "面对大量零散经营问题，真正需要优先解决的主问题是什么？",
+      "status": "executable",
+      "best_modes": [
+        "Create Courseware",
+        "Dealer Workshop",
+        "Adapt Existing Deck"
+      ],
+      "source_slide": 5,
+      "source_slide_id": "260#",
+      "preview": "previews/component-05.png"
+    },
+    {
+      "id": "evidence-voting-resource-bet",
+      "code": "DC-18",
+      "name": "证据投票与资源下注",
+      "type": "co-creation",
+      "decision_loops": [
+        "定方向"
+      ],
+      "modules": [
+        "定方向"
+      ],
+      "question": "当老板、经理和业务员判断不一致时，怎样基于证据决定资源投向？",
+      "status": "card-only",
+      "best_modes": [
+        "Dealer Workshop",
+        "Create Courseware",
+        "Case Teaching"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "case-decision-fork",
+      "code": "DC-19",
+      "name": "案例决策岔路",
+      "type": "co-creation",
+      "decision_loops": [
+        "定方向"
+      ],
+      "modules": [
+        "案例教学"
+      ],
+      "question": "在信息不完整、资源有限的真实情境中，学员会选择哪条经营路径，为什么？",
+      "status": "card-only",
+      "best_modes": [
+        "Case Teaching",
+        "Create Courseware",
+        "Adapt Existing Deck"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "integrated-stage-symptom-force-action-diagnosis",
+      "code": "DC-20",
+      "name": "阶段-病症-四力-动作综合诊断",
+      "type": "diagnosis",
+      "decision_loops": [
+        "判状态"
+      ],
+      "modules": [
+        "判状态"
+      ],
+      "question": "如何把乡镇经营事实完整转化为阶段判断、当前任务、主病症、四力短板和优先动作？",
+      "status": "executable",
+      "best_modes": [
+        "Create Courseware",
+        "Dealer Workshop",
+        "Case Teaching"
+      ],
+      "source_slide": 6,
+      "source_slide_id": "261#",
+      "preview": "previews/component-06.png"
+    },
+    {
+      "id": "i1-ask-then-reveal-concept-page",
+      "code": "I1",
+      "name": "Ask-Then-Reveal 概念页",
+      "type": "interactive",
+      "decision_loops": [
+        "看趋势",
+        "判状态",
+        "定方向"
+      ],
+      "modules": [
+        "互动通用"
+      ],
+      "question": "让学员先思考/表态，再揭示概念或结论（如\"国家资源是不是离开县域了？\"）",
+      "status": "interactive-card",
+      "best_modes": [
+        "Create Courseware",
         "Dealer Workshop"
       ],
-      "source_slide": 8,
-      "source_slide_id": "263#",
-      "preview": "previews/component-08.png"
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "i2-four-channel-clickable-menu",
+      "code": "I2",
+      "name": "四通道可点菜单",
+      "type": "interactive",
+      "decision_loops": [
+        "找机会"
+      ],
+      "modules": [
+        "渠道精耕"
+      ],
+      "question": "今天先深挖哪个渠道？（分销/家装/工长/C 端）",
+      "status": "interactive-card",
+      "best_modes": [
+        "Dealer Workshop",
+        "Create Courseware"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "i3-dealer-scenario-choice",
+      "code": "I3",
+      "name": "经销商情景选择",
+      "type": "interactive",
+      "decision_loops": [
+        "定方向",
+        "找机会"
+      ],
+      "modules": [
+        "互动通用"
+      ],
+      "question": "如果你是这位经销商，面对这个局面先做什么？",
+      "status": "interactive-card",
+      "best_modes": [
+        "Create Courseware",
+        "Dealer Workshop",
+        "Case Teaching"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "i4-click-to-diagnose-matrix",
+      "code": "I4",
+      "name": "点击诊断矩阵",
+      "type": "interactive",
+      "decision_loops": [
+        "判状态"
+      ],
+      "modules": [
+        "互动通用"
+      ],
+      "question": "按维度逐项点击揭示诊断（看大势/看竞争/看自我）",
+      "status": "interactive-card",
+      "best_modes": [
+        "Create Courseware",
+        "Dealer Workshop"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "i5-worksheet-walkthrough",
+      "code": "I5",
+      "name": "工作表演练",
+      "type": "interactive",
+      "decision_loops": [
+        "盘区域",
+        "找机会",
+        "定方向"
+      ],
+      "modules": [
+        "互动通用"
+      ],
+      "question": "引导学员正确填写工具（版图/战役图/渠道计划等）",
+      "status": "interactive-card",
+      "best_modes": [
+        "Dealer Workshop",
+        "Create Courseware"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "i6-group-voting-page",
+      "code": "I6",
+      "name": "小组投票页",
+      "type": "interactive",
+      "decision_loops": [
+        "定方向"
+      ],
+      "modules": [
+        "互动通用"
+      ],
+      "question": "让课堂判断可见（选重点渠道/排风险/选首动作）",
+      "status": "interactive-card",
+      "best_modes": [
+        "Dealer Workshop",
+        "Create Courseware"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "i7-case-debrief-reveal",
+      "code": "I7",
+      "name": "案例复盘揭示",
+      "type": "interactive",
+      "decision_loops": [
+        "定方向"
+      ],
+      "modules": [
+        "案例教学"
+      ],
+      "question": "学员从案例中先提取教训，再揭示官方复盘",
+      "status": "interactive-card",
+      "best_modes": [
+        "Case Teaching",
+        "Create Courseware"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "i8-risk-drill-card",
+      "code": "I8",
+      "name": "风险演练卡",
+      "type": "interactive",
+      "decision_loops": [
+        "定方向"
+      ],
+      "modules": [
+        "互动通用"
+      ],
+      "question": "风险教育转为主动诊断：\"坑在哪？\"",
+      "status": "interactive-card",
+      "best_modes": [
+        "Dealer Workshop",
+        "Create Courseware"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "a1-distribution-growth-formula",
+      "code": "A1",
+      "name": "分销增长公式",
+      "type": "analysis",
+      "decision_loops": [
+        "找机会"
+      ],
+      "modules": [
+        "渠道精耕"
+      ],
+      "question": "分销销售增长来自覆盖变多、活跃变好还是单店产出提升？",
+      "status": "analysis-card",
+      "best_modes": [
+        "Business Review",
+        "Create Courseware"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "b1-product-growth-formula",
+      "code": "B1",
+      "name": "产品增长公式",
+      "type": "analysis",
+      "decision_loops": [
+        "找机会"
+      ],
+      "modules": [
+        "产品战役"
+      ],
+      "question": "产品增长来自经营品项变多、品项活跃变好还是单品产出提升？",
+      "status": "analysis-card",
+      "best_modes": [
+        "Business Review",
+        "Create Courseware"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "c1-worker-member-growth-formula",
+      "code": "C1",
+      "name": "工人会员增长公式",
+      "type": "analysis",
+      "decision_loops": [
+        "找机会"
+      ],
+      "modules": [
+        "零售专卖"
+      ],
+      "question": "会员/工人增长漏斗与 KPI 公式：增长从哪一层来？",
+      "status": "analysis-card",
+      "best_modes": [
+        "Business Review",
+        "Create Courseware"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
+    },
+    {
+      "id": "d1-home-decoration-growth-formula",
+      "code": "D1",
+      "name": "家装增长公式",
+      "type": "analysis",
+      "decision_loops": [
+        "找机会"
+      ],
+      "modules": [
+        "家装渠道"
+      ],
+      "question": "家装渠道增长来自哪些来源，TOP 贡献在哪里？",
+      "status": "analysis-card",
+      "best_modes": [
+        "Business Review",
+        "Create Courseware"
+      ],
+      "source_slide": null,
+      "source_slide_id": null,
+      "preview": null
     }
   ]
 }
