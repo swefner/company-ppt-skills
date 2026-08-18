@@ -12,10 +12,11 @@
 4. Build 前读取 `domains/yuhong/references/build-execution-contract.md`，记录 source-read receipt、核对 PPTX 指纹。
 5. 用户确认 Build 前，不直接生成最终 PPT（引导模式流程，见 `domains/yuhong/references/guided-mode.md`）。
 
-## 2. 当前状态（2026-08-14 收盘）
+## 2. 当前状态（2026-08-17 更新）
 
 - 所有成果已提交并推送 `main`（含规则、组件、工具、课件产出、文档）。
 - 分支注意：`main` 是唯一权威分支；本地旧分支 `agent/publish-yuhong-ppt-hub` 已并入 main，不再使用。
+- **主线协作（2026-08-17 拍板）**：两 Agent 协作——本环境（DeepSeek Harness 仓库侧）定大纲/蓝图/内容/资产，PowerPoint 内 GPT 插件（skill-bridge）做视觉执行产出最终课件；DeepSeek Design 三件套试用不理想、弃用。详见 `docs/agent-boundary.md` 第 0 节。
 - 项目主线：东方雨虹 Yuhong 县域经销商课程（看趋势 + 判状态），**B 模式（固定老板模式）**已产出 15 页成品课件（V0.3，含 DC-08 行动承诺页 P14、收束页 P15）。
 
 ## 3. 本阶段里程碑（今天完成的）

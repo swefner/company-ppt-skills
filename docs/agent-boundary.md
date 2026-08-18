@@ -6,6 +6,23 @@
 
 ---
 
+## 0. 当前主线：两 Agent 协作流程（2026-08-17 拍板）
+
+> 决策记录：曾试用「DeepSeek Design 三件套」做视觉，**结果不理想，弃用**。回归主线——两 Agent 协作，职责划分如下。
+
+**Agent A · 大纲与内容侧（本环境，DeepSeek Harness 仓库侧 Agent）**
+- 负责：引导模式开局 → 定大纲/蓝图 → 内容数据化（JSON/提示词/讲师备注）→ 组件选择与映射 → 资产与构建/验收工具维护 → 预览渲染
+- 产出：页级蓝图、build-content.json、组件映射表、讲师备注、验收清单、预览图册 —— **提交并推送 `main` 后供 Agent B 消费**
+
+**Agent B · 视觉执行侧（PowerPoint 内 GPT 插件 + skill-bridge 任务窗格）**
+- 负责：读取 GitHub 上 Agent A 的蓝图与内容 → 按 contact sheet 图册选组件 → 经 bridge **原生插入**注册组件 → 按槽位合同替换命名对象 → 在用户当前打开的 PPT 里产出**最终成品课件**
+- 依赖：Agent A 的产出已入库（`?raw=true` URL 可读）；最终视觉以用户在 PowerPoint 目视为准
+
+**交接协议**：Agent A 入库 → Agent B 消费 → 用户目视验收。任何视觉/布局反馈回到 Agent A 修复资产或改蓝图，不由 Agent B 在活动文档里重画。
+**与 COM 构建链的关系**：COM 链（build-county-course.ps1 等）保留为资产渲染、预览与验收工具；**最终成品课件默认走 Agent B 的 PowerPoint 原生插入**，除非用户明确指定仓库侧产出独立 PPTX。
+
+---
+
 ## 1. 两个 Agent 是谁、在哪里跑
 
 | 维度 | 仓库侧 Agent（如 DeepSeek Harness 会话） | PowerPoint 内 Agent（如 PowerPoint ChatGPT 会话） |
