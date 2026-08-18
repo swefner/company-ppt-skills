@@ -444,15 +444,15 @@
         "盘区域"
       ],
       "question": "在资源有限的情况下，哪些乡镇或网点最值得优先投入？",
-      "status": "card-only",
+      "status": "executable",
       "best_modes": [
         "Create Courseware",
         "Dealer Workshop",
         "Business Review"
       ],
-      "source_slide": null,
-      "source_slide_id": null,
-      "preview": null
+      "source_slide": 10,
+      "source_slide_id": "265#",
+      "preview": "previews/component-10.png"
     },
     {
       "id": "symptom-clustering-core-problem",

@@ -76,7 +76,7 @@
 
 ### DC-16 乡镇和网点机会优先级
 - Type: diagnosis ｜ Loops: 盘区域 ｜ Modules: 盘区域
-- Status: card-only
+- Status: executable ｜ Source slide 10 (265#)
 - Question: 在资源有限的情况下，哪些乡镇或网点最值得优先投入？
 - Input: 候选乡镇/网点、增长潜力证据、当前基础、进入或做深难度、配送服务半径、竞争、负责人
 - Output: 1-3 个首战对象、候补对象和暂缓对象，每个选择带一条证据

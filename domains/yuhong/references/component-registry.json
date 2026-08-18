@@ -135,7 +135,8 @@
       "output": "1-3 个首战对象、候补对象和暂缓对象，每个选择带一条证据",
       "invariant": "象限命名固定：优先拿下/重点攻坚/观察验证/暂缓投入；先价值排序后难度定位",
       "best_modes": ["Create Courseware", "Dealer Workshop", "Business Review"],
-      "status": "card-only"
+      "status": "executable",
+      "executable": { "source_slide": 10, "source_slide_id": "265#", "preview": "previews/component-10.png" }
     },
     {
       "id": "symptom-clustering-core-problem",

@@ -8,7 +8,7 @@
       "templateProof": "已继承 yuhong-template.pptx 原始母版与品牌背景",
       "sourceUrl": "/domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx",
       "fileName": "yuhong-county-course-components-branded.pptx",
-      "sha256": "1DD3E475989364D857242A5918D6D1D787330D63CD0CB42A51243F18D48E9E5F",
+      "sha256": "E84FD46CC92CC75A395AFF88A1A87EE04B497D33F38467388915C9A6BEADD67F",
       "components": [
         {
           "id": "county-trend-three-judgments",
@@ -63,6 +63,15 @@
           "sourceSlide": 7,
           "sourceSlideId": "262#",
           "preview": "/domains/yuhong/assets/components/previews/component-07.png"
+        },
+        {
+          "id": "township-outlet-opportunity-prioritization",
+          "code": "DC-16",
+          "title": "乡镇和网点机会优先级",
+          "question": "在资源有限的情况下，哪些乡镇或网点最值得优先投入？",
+          "sourceSlide": 10,
+          "sourceSlideId": "265#",
+          "preview": "/domains/yuhong/assets/components/previews/component-10.png"
         },
         {
           "id": "symptom-clustering-core-problem",

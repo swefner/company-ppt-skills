@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_deck": "yuhong-county-course-components-branded.pptx",
-  "source_deck_sha256": "1DD3E475989364D857242A5918D6D1D787330D63CD0CB42A51243F18D48E9E5F",
+  "source_deck_sha256": "E84FD46CC92CC75A395AFF88A1A87EE04B497D33F38467388915C9A6BEADD67F",
   "visual_base": "../reference-decks/yuhong-template.pptx",
   "master_inheritance_required": true,
   "rules": {
@@ -325,6 +325,60 @@
         "揭示"
       ],
       "fallback": "Three options are fixed in structure; replace option texts per question. If more options are needed, duplicate the slide or reduce to the three strongest hypotheses."
+    },
+    {
+      "id": "township-outlet-opportunity-prioritization",
+      "decision_component": "DC-16",
+      "source_slide": 10,
+      "source_slide_id": "265#",
+      "preview": "previews/component-10.png",
+      "replaceable_objects": [
+        "TITLE",
+        "SUBTITLE",
+        "CAN_TITLE",
+        "CAN_1_NAME",
+        "CAN_1_EVIDENCE",
+        "CAN_2_NAME",
+        "CAN_2_EVIDENCE",
+        "CAN_3_NAME",
+        "CAN_3_EVIDENCE",
+        "MATRIX_TITLE",
+        "QUAD_Q1_LABEL",
+        "QUAD_Q1_HINT",
+        "QUAD_Q1_FILL",
+        "QUAD_Q2_LABEL",
+        "QUAD_Q2_HINT",
+        "QUAD_Q2_FILL",
+        "QUAD_Q3_LABEL",
+        "QUAD_Q3_HINT",
+        "QUAD_Q3_FILL",
+        "QUAD_Q4_LABEL",
+        "QUAD_Q4_HINT",
+        "QUAD_Q4_FILL",
+        "BET_TITLE",
+        "BET_1_LABEL",
+        "BET_1_TARGET",
+        "BET_2_LABEL",
+        "BET_2_TARGET",
+        "BET_3_LABEL",
+        "BET_3_TARGET",
+        "TEACHING_CUE"
+      ],
+      "preserve": [
+        "left candidate evidence cards -> right 2x2 value-difficulty matrix -> bottom resource bet lanes",
+        "quadrant labels fixed: 优先拿下/重点攻坚/观察验证/暂缓投入",
+        "deep ink bet band with white text",
+        "alternating light fills (#F7F7F8 / #EEECE1)",
+        "value ranking before difficulty positioning"
+      ],
+      "max_items": 3,
+      "fixed_labels": [
+        "优先拿下",
+        "重点攻坚",
+        "观察验证",
+        "暂缓投入"
+      ],
+      "fallback": "Three candidates and three bet lanes are fixed in structure; replace names/evidence/targets per region. Without objective data use 高/中/低 + evidence + 待验证字段 instead of exact scores."
     }
   ]
 }
