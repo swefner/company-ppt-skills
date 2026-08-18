@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_deck": "yuhong-county-course-components-branded.pptx",
-  "source_deck_sha256": "9EC9E58E9C6E9BF967E390E2C72888E7A512D7172652BD6B43EBA2A81767AC70",
+  "source_deck_sha256": "1DD3E475989364D857242A5918D6D1D787330D63CD0CB42A51243F18D48E9E5F",
   "visual_base": "../reference-decks/yuhong-template.pptx",
   "master_inheritance_required": true,
   "rules": {
@@ -291,6 +291,40 @@
         "单店产出"
       ],
       "fallback": "Three levers are fixed (coverage/activity/outlet output); adjust questions and values per region, do not add or remove levers."
+    },
+    {
+      "id": "i1-ask-then-reveal-concept-page",
+      "decision_component": "I1",
+      "source_slide": 9,
+      "source_slide_id": "264#",
+      "preview": "previews/component-09.png",
+      "replaceable_objects": [
+        "TITLE",
+        "ASK_PROMPT",
+        "OPT_BAND_1",
+        "OPT_BAND_2",
+        "OPT_BAND_3",
+        "OPT_1_TEXT",
+        "OPT_2_TEXT",
+        "OPT_3_TEXT",
+        "REVEAL_BAND",
+        "REVEAL_TITLE",
+        "REVEAL_TEXT",
+        "TEACHING_CUE"
+      ],
+      "preserve": [
+        "ask zone above reveal zone (two-stage structure)",
+        "alternating light option bands (#F7F7F8 / #EEECE1) with grey borders",
+        "deep ink reveal band with white text",
+        "red ask prompt",
+        "question-first invariant: reveal content must not appear in the ask zone"
+      ],
+      "max_items": 3,
+      "fixed_labels": [
+        "先表态",
+        "揭示"
+      ],
+      "fallback": "Three options are fixed in structure; replace option texts per question. If more options are needed, duplicate the slide or reduce to the three strongest hypotheses."
     }
   ]
 }

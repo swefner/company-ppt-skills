@@ -8,7 +8,7 @@
       "templateProof": "已继承 yuhong-template.pptx 原始母版与品牌背景",
       "sourceUrl": "/domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx",
       "fileName": "yuhong-county-course-components-branded.pptx",
-      "sha256": "9EC9E58E9C6E9BF967E390E2C72888E7A512D7172652BD6B43EBA2A81767AC70",
+      "sha256": "1DD3E475989364D857242A5918D6D1D787330D63CD0CB42A51243F18D48E9E5F",
       "components": [
         {
           "id": "county-trend-three-judgments",
@@ -23,7 +23,7 @@
           "id": "county-business-territory-map",
           "code": "DC-02",
           "title": "县域生意版图",
-          "question": "增长空间具体落在哪些县城和乡镇？",
+          "question": "我的增长空间具体落在哪些县城、已覆盖乡镇和空白薄弱乡镇？",
           "sourceSlide": 2,
           "sourceSlideId": "257#",
           "preview": "/domains/yuhong/assets/components/previews/component-02.png"
@@ -32,7 +32,7 @@
           "id": "four-force-diagnosis",
           "code": "DC-03",
           "title": "四力诊断",
-          "question": "品牌力、渠道力、场景力、产品力的主短板是什么？",
+          "question": "当前限制县域增长的主短板是品牌力、渠道力、场景力还是产品力？",
           "sourceSlide": 3,
           "sourceSlideId": "258#",
           "preview": "/domains/yuhong/assets/components/previews/component-03.png"
@@ -41,16 +41,34 @@
           "id": "four-stage-growth-diagnosis",
           "code": "DC-04",
           "title": "四阶段成长判断",
-          "question": "当前卡在进得去、站得住、卖得动还是做得深？",
+          "question": "经销商当前卡在进得去、站得住、卖得动还是做得深？",
           "sourceSlide": 4,
           "sourceSlideId": "259#",
           "preview": "/domains/yuhong/assets/components/previews/component-04.png"
         },
         {
+          "id": "channel-intensive-cultivation-driver-board",
+          "code": "DC-05",
+          "title": "渠道驱动板（覆盖×活跃×单店产出）",
+          "question": "渠道增长应优先补覆盖、提活跃还是拉单店产出？",
+          "sourceSlide": 8,
+          "sourceSlideId": "263#",
+          "preview": "/domains/yuhong/assets/components/previews/component-08.png"
+        },
+        {
+          "id": "thirty-day-action-commitment-board",
+          "code": "DC-08",
+          "title": "30 天行动板",
+          "question": "课程结束后30天，谁要对哪个对象做什么，并用什么结果验收？",
+          "sourceSlide": 7,
+          "sourceSlideId": "262#",
+          "preview": "/domains/yuhong/assets/components/previews/component-07.png"
+        },
+        {
           "id": "symptom-clustering-core-problem",
           "code": "DC-17",
           "title": "病症聚类诊断",
-          "question": "大量零散经营症状背后的主问题是什么？",
+          "question": "面对大量零散经营问题，真正需要优先解决的主问题是什么？",
           "sourceSlide": 5,
           "sourceSlideId": "260#",
           "preview": "/domains/yuhong/assets/components/previews/component-05.png"
@@ -58,29 +76,20 @@
         {
           "id": "integrated-stage-symptom-force-action-diagnosis",
           "code": "DC-20",
-          "title": "阶段 → 病症 → 四力 → 动作",
-          "question": "如何把阶段、任务、病症、四力短板和优先动作连成完整诊断？",
+          "title": "阶段-病症-四力-动作综合诊断",
+          "question": "如何把乡镇经营事实完整转化为阶段判断、当前任务、主病症、四力短板和优先动作？",
           "sourceSlide": 6,
           "sourceSlideId": "261#",
           "preview": "/domains/yuhong/assets/components/previews/component-06.png"
         },
         {
-          "id": "thirty-day-action-commitment-board",
-          "code": "DC-08",
-          "title": "30 天行动板",
-          "question": "课程结束后30天，谁对什么行动和结果负责？",
-          "sourceSlide": 7,
-          "sourceSlideId": "262#",
-          "preview": "/domains/yuhong/assets/components/previews/component-07.png"
-        },
-        {
-          "id": "channel-intensive-cultivation-driver-board",
-          "code": "DC-05",
-          "title": "渠道驱动板",
-          "question": "渠道增长应优先补覆盖、提活跃还是拉单店产出？",
-          "sourceSlide": 8,
-          "sourceSlideId": "263#",
-          "preview": "/domains/yuhong/assets/components/previews/component-08.png"
+          "id": "i1-ask-then-reveal-concept-page",
+          "code": "I1",
+          "title": "Ask-Then-Reveal 概念页",
+          "question": "让学员先思考/表态，再揭示概念或结论（如\"国家资源是不是离开县域了？\"）",
+          "sourceSlide": 9,
+          "sourceSlideId": "264#",
+          "preview": "/domains/yuhong/assets/components/previews/component-09.png"
         }
       ]
     },

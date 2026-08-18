@@ -121,7 +121,7 @@
 
 ### I1 Ask-Then-Reveal 概念页
 - Type: interactive ｜ Loops: 看趋势/判状态/定方向 ｜ Modules: 互动通用
-- Status: interactive-card
+- Status: executable ｜ Source slide 9 (264#)
 - Question: 让学员先思考/表态，再揭示概念或结论（如"国家资源是不是离开县域了？"）
 - Input: 问题、学员可能判断、最终原则/揭示内容
 - Output: 学员先表态/判断，再对照揭示

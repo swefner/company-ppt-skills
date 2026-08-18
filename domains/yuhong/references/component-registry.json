@@ -207,7 +207,8 @@
       "output": "学员先表态/判断，再对照揭示",
       "invariant": "提问页不得提前出现揭示内容；学员页不出现讲师话术；无动画版由讲师控制节奏",
       "best_modes": ["Create Courseware", "Dealer Workshop"],
-      "status": "interactive-card"
+      "status": "executable",
+      "executable": { "source_slide": 9, "source_slide_id": "264#", "preview": "previews/component-09.png" }
     },
     {
       "id": "i2-four-channel-clickable-menu",

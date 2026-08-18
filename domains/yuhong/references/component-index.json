@@ -556,14 +556,14 @@
         "互动通用"
       ],
       "question": "让学员先思考/表态，再揭示概念或结论（如\"国家资源是不是离开县域了？\"）",
-      "status": "interactive-card",
+      "status": "executable",
       "best_modes": [
         "Create Courseware",
         "Dealer Workshop"
       ],
-      "source_slide": null,
-      "source_slide_id": null,
-      "preview": null
+      "source_slide": 9,
+      "source_slide_id": "264#",
+      "preview": "previews/component-09.png"
     },
     {
       "id": "i2-four-channel-clickable-menu",

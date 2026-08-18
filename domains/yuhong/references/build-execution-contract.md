@@ -33,10 +33,10 @@ Use these values to detect wrong files or empty substitutes. If the repository i
 ### Executable Course Components
 
 - Path: `assets/components/yuhong-county-course-components-branded.pptx`.
-- SHA-256: `9EC9E58E9C6E9BF967E390E2C72888E7A512D7172652BD6B43EBA2A81767AC70`.
-- Expected structure: 8 slides and 8 speaker-note pages.
-- Role: editable content compositions for the eight registered county-course components (DC-01/02/03/04/17/20/08/05), already attached to the real Yuhong template master.
-- Note: SHA changed 2026-08-18 from `EAC0CD92...` when DC-05 (channel driver board, slide 8) was added via the work-copy build pipeline.
+- SHA-256: `1DD3E475989364D857242A5918D6D1D787330D63CD0CB42A51243F18D48E9E5F`.
+- Expected structure: 9 slides and 9 speaker-note pages.
+- Role: editable content compositions for the nine registered county-course components (DC-01/02/03/04/05/08/17/20 + I1), already attached to the real Yuhong template master.
+- Note: SHA changed 2026-08-18 twice: `EAC0CD92...` -> `9EC9E58E...` (DC-05 added, slide 8) -> `1DD3E475...` (I1 added, slide 9). Registry is the single source of truth; deck SHA is recomputed by `build-component-registry.py --update-catalog`.
 
 ## 3. Required Build Route
 
