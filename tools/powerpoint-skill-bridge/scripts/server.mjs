@@ -28,7 +28,13 @@ const contentTypes = {
 };
 
 function resolveRequestPath(url) {
-  const pathname = decodeURIComponent(new URL(url, `https://localhost:${port}`).pathname);
+  let pathname;
+  try {
+    pathname = decodeURIComponent(new URL(url, `https://localhost:${port}`).pathname);
+  } catch {
+    // Malformed request URL (e.g. "//", unparseable) must not crash the bridge.
+    return null;
+  }
   const relativePath = pathname === "/" ? "tools/powerpoint-skill-bridge/taskpane.html" : pathname.slice(1);
   if (!allowedPaths.some((prefix) => relativePath.startsWith(prefix)) && !allowedFiles.has(relativePath)) {
     return null;
