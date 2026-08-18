@@ -49,7 +49,7 @@
 
 ### DC-06 产品战役增长板
 - Type: diagnosis ｜ Loops: 找机会 ｜ Modules: 产品战役
-- Status: card-only
+- Status: executable ｜ Source slide 11 (266#)
 - Question: 产品增长来自铺得更广、卖得更动，还是核心品项产出更高？
 - Input: SKU 清单、铺货网点、活跃/回转、SKU 销售、复购、目标品项
 - Output: 核心品项策略（守/扩/育/淘汰）和铺货/动销动作

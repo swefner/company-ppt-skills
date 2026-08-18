@@ -8,7 +8,7 @@
       "templateProof": "已继承 yuhong-template.pptx 原始母版与品牌背景",
       "sourceUrl": "/domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx",
       "fileName": "yuhong-county-course-components-branded.pptx",
-      "sha256": "E84FD46CC92CC75A395AFF88A1A87EE04B497D33F38467388915C9A6BEADD67F",
+      "sha256": "CECA243CC1C608C66F49EEA0B1CFA45EA762AD5C6C5B49E20254554A06497AFB",
       "components": [
         {
           "id": "county-trend-three-judgments",
@@ -54,6 +54,15 @@
           "sourceSlide": 8,
           "sourceSlideId": "263#",
           "preview": "/domains/yuhong/assets/components/previews/component-08.png"
+        },
+        {
+          "id": "product-battle-growth-board",
+          "code": "DC-06",
+          "title": "产品战役增长板",
+          "question": "产品增长来自铺得更广、卖得更动，还是核心品项产出更高？",
+          "sourceSlide": 11,
+          "sourceSlideId": "266#",
+          "preview": "/domains/yuhong/assets/components/previews/component-11.png"
         },
         {
           "id": "thirty-day-action-commitment-board",

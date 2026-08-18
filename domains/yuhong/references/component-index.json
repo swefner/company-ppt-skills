@@ -378,15 +378,15 @@
         "产品战役"
       ],
       "question": "产品增长来自铺得更广、卖得更动，还是核心品项产出更高？",
-      "status": "card-only",
+      "status": "executable",
       "best_modes": [
         "Create Courseware",
         "Business Review",
         "Dealer Workshop"
       ],
-      "source_slide": null,
-      "source_slide_id": null,
-      "preview": null
+      "source_slide": 11,
+      "source_slide_id": "266#",
+      "preview": "previews/component-11.png"
     },
     {
       "id": "case-ask-evidence-decision-reveal",

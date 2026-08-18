@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_deck": "yuhong-county-course-components-branded.pptx",
-  "source_deck_sha256": "E84FD46CC92CC75A395AFF88A1A87EE04B497D33F38467388915C9A6BEADD67F",
+  "source_deck_sha256": "CECA243CC1C608C66F49EEA0B1CFA45EA762AD5C6C5B49E20254554A06497AFB",
   "visual_base": "../reference-decks/yuhong-template.pptx",
   "master_inheritance_required": true,
   "rules": {
@@ -379,6 +379,66 @@
         "暂缓投入"
       ],
       "fallback": "Three candidates and three bet lanes are fixed in structure; replace names/evidence/targets per region. Without objective data use 高/中/低 + evidence + 待验证字段 instead of exact scores."
+    },
+    {
+      "id": "product-battle-growth-board",
+      "decision_component": "DC-06",
+      "source_slide": 11,
+      "source_slide_id": "266#",
+      "preview": "previews/component-11.png",
+      "replaceable_objects": [
+        "TITLE",
+        "SUBTITLE",
+        "LEVER_BAND_1",
+        "LEVER_BAND_2",
+        "LEVER_BAND_3",
+        "L1_NAME",
+        "L1_QUESTION",
+        "L1_VALUE",
+        "L2_NAME",
+        "L2_QUESTION",
+        "L2_VALUE",
+        "L3_NAME",
+        "L3_QUESTION",
+        "L3_VALUE",
+        "MULT_1",
+        "MULT_2",
+        "CORE_BAND",
+        "CORE_TITLE",
+        "CORE_FINDING",
+        "SKU_TITLE",
+        "SKU_BAND_1",
+        "SKU_BAND_2",
+        "SKU_BAND_3",
+        "SKU_BAND_4",
+        "SKU_1_LABEL",
+        "SKU_1_TEXT",
+        "SKU_2_LABEL",
+        "SKU_2_TEXT",
+        "SKU_3_LABEL",
+        "SKU_3_TEXT",
+        "SKU_4_LABEL",
+        "SKU_4_TEXT",
+        "TEACHING_CUE"
+      ],
+      "preserve": [
+        "three-lever driver board (same family as DC-05)",
+        "alternating light fills (#F7F7F8 / #EEECE1)",
+        "deep ink core-contradiction band with white text",
+        "growth formula 铺货×动销×核心品项产出 in subtitle",
+        "four SKU strategy cells 守/扩/育/淘汰"
+      ],
+      "max_items": 3,
+      "fixed_labels": [
+        "铺货",
+        "动销",
+        "核心品项产出",
+        "守",
+        "扩",
+        "育",
+        "淘汰"
+      ],
+      "fallback": "Three levers and four strategy cells are fixed; replace texts per region/SKU. Without turnover/repeat data use low-confidence proxies and mark missing fields."
     }
   ]
 }

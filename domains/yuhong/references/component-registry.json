@@ -92,7 +92,8 @@
       "output": "核心品项策略（守/扩/育/淘汰）和铺货/动销动作",
       "invariant": "一次销量≠爆品；缺回转/复购时用低置信度代理并标注缺失",
       "best_modes": ["Create Courseware", "Business Review", "Dealer Workshop"],
-      "status": "card-only"
+      "status": "executable",
+      "executable": { "source_slide": 11, "source_slide_id": "266#", "preview": "previews/component-11.png" }
     },
     {
       "id": "case-ask-evidence-decision-reveal",
