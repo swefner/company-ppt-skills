@@ -115,9 +115,30 @@ Agent B 对交接包 V0.1 的评审（可行度：内容/协作 85%，skill-brid
 
 ---
 
+## 四.5 bridge 就绪状态与追加指令（2026-08-18）
+
+**bridge 已启动并验证**（本地 `https://localhost:3000`，后台运行）：
+- `tools/powerpoint-skill-bridge/scripts/server.mjs` 修复了一个崩溃 bug（畸形请求路径如 `//` 会令服务崩溃），修复已推送（commit `7d1cbe7`）；
+- 端点实测：`taskpane.html` → 200 text/html；两个 PPTX → 200（正确 pptx MIME）；畸形/穿越路径 → 404。
+
+**两个 PPTX 的 bridge 路径 + 指纹**（Agent B 经任务窗格原生插入用，不再需要附件）：
+
+| 文件 | bridge URL | SHA-256 |
+|---|---|---|
+| yuhong-template.pptx | `https://localhost:3000/domains/yuhong/assets/reference-decks/yuhong-template.pptx` | `A9F396CF0EB4074CDF02F2C9E7F02E93E5985BCFDEEBD76DF16D0D65291F263C` |
+| yuhong-county-course-components-branded.pptx | `https://localhost:3000/domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx` | `EAC0CD92DDDFAC74DA8BECD63E827675F040EB50064A4CEBF25E0520A82F0A0D` |
+
+**给 Agent B 的追加指令（完整文本见下，可整段粘贴）**：
+- 执行通道 = 「PPT Skill Bridge」任务窗格（bridge 就是二进制原生插入的执行层）；ChatGPT 会话描述需求，任务窗格执行插入；
+- 若 `localhost:3000` 在会话内不可达，改用附件方式（桌面 `两Agent实验_上传附件\`），并先校验 SHA；
+- 其余全部约束（组件判断/内容铁律/冒烟测试顺序）以本交接包 V0.2 为准。
+
+---
+
 ## 五、变更记录
 
 | 版本 | 日期 | 说明 |
 |---|---|---|
+| V0.3 | 2026-08-18 | bridge 就绪：本地 HTTPS 服务已启动并验证（server.mjs 崩溃 bug 修复已推送）；两个 PPTX 提供 bridge URL + 指纹；新增"给 Agent B 的完整指令"文本。 |
 | V0.2 | 2026-08-18 | 吸收 Agent B 评审五项修订：授权定制新建页例外、四页硬约束与溢出优先级、P1 A/B/C 视觉等权、句式指纹已知例外、单页冒烟测试与 PPTX 可达性前置条件；新增"Agent B 评审结论与修订记录"节。 |
 | V0.1 | 2026-08-18 | 初版。三份课件素材入库并加源路径头注；交接包含源路径表 + 组件判断（4 页无匹配可执行组件）+ 内容铁律 + 版式要点。 |
