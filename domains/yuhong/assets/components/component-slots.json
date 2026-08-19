@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_deck": "yuhong-county-course-components-branded.pptx",
-  "source_deck_sha256": "93280BD41DF37C4FF8B94A301A45980D379C9C44DA3F631D7D895B3443AA6D17",
+  "source_deck_sha256": "E0C1D00A79477D6A40FEB56A7F1FFE69E923F5C7DC64025D8725A3298A8DE10A",
   "visual_base": "../reference-decks/yuhong-template.pptx",
   "master_inheritance_required": true,
   "rules": {
@@ -35,7 +35,7 @@
         "three vertical change lanes",
         "number hierarchy",
         "arrow direction",
-        "semantic red-blue-green colors"
+        "semantic three-token colors (deep red B22600 / red E84C22 / amber FFBD47)"
       ],
       "max_items": 3
     },
