@@ -1,0 +1,28 @@
+{
+  "template": "driver-board",
+  "notes": "DC-05 渠道驱动板：三杠杆 × 主矛盾 × 网点池。先判断卡在哪个杠杆，只突出一个主杠杆；指标口径必须一致。",
+  "blocks": [
+    {"type": "text", "name": "TITLE", "x": 0.6, "y": 0.42, "w": 11.8, "h": 0.75, "text": "渠道增长卡在哪：覆盖、活跃，还是单店产出？", "size": 26, "bold": true, "color": "ink"},
+    {"type": "text", "name": "SUBTITLE", "x": 0.6, "y": 1.08, "w": 11.8, "h": 0.5, "text": "渠道增长 = 覆盖 × 活跃 × 单店产出——先判断卡在哪个杠杆", "size": 14, "color": "grey"},
+    {"type": "rect", "name": "LEVER_BAND_1", "x": 0.6, "y": 1.75, "w": 3.8, "h": 2.35, "fill": "light", "line": "grey"},
+    {"type": "text", "name": "L1_NAME", "x": 0.85, "y": 1.95, "w": 3.3, "h": 0.5, "text": "杠杆一 · 覆盖", "size": 15, "bold": true, "color": "red"},
+    {"type": "text", "name": "L1_QUESTION", "x": 0.85, "y": 2.5, "w": 3.3, "h": 0.5, "text": "网点铺够了吗？", "size": 13, "bold": true, "color": "ink"},
+    {"type": "text", "name": "L1_VALUE", "x": 0.85, "y": 3.15, "w": 3.3, "h": 0.8, "text": "目标____家 ｜ 覆盖____家", "size": 12, "color": "ink"},
+    {"type": "text", "name": "MULT_1", "x": 4.52, "y": 2.6, "w": 0.3, "h": 0.6, "text": "x", "size": 20, "bold": true, "color": "red", "align": "center"},
+    {"type": "rect", "name": "LEVER_BAND_2", "x": 4.7, "y": 1.75, "w": 3.8, "h": 2.35, "fill": "white", "line": "grey"},
+    {"type": "text", "name": "L2_NAME", "x": 4.95, "y": 1.95, "w": 3.3, "h": 0.5, "text": "杠杆二 · 活跃", "size": 15, "bold": true, "color": "red"},
+    {"type": "text", "name": "L2_QUESTION", "x": 4.95, "y": 2.5, "w": 3.3, "h": 0.5, "text": "铺了，动销了吗？", "size": 13, "bold": true, "color": "ink"},
+    {"type": "text", "name": "L2_VALUE", "x": 4.95, "y": 3.15, "w": 3.3, "h": 0.8, "text": "覆盖____家 ｜ 活跃____家", "size": 12, "color": "ink"},
+    {"type": "text", "name": "MULT_2", "x": 8.62, "y": 2.6, "w": 0.3, "h": 0.6, "text": "x", "size": 20, "bold": true, "color": "red", "align": "center"},
+    {"type": "rect", "name": "LEVER_BAND_3", "x": 8.8, "y": 1.75, "w": 3.8, "h": 2.35, "fill": "light", "line": "grey"},
+    {"type": "text", "name": "L3_NAME", "x": 9.05, "y": 1.95, "w": 3.3, "h": 0.5, "text": "杠杆三 · 单店产出", "size": 15, "bold": true, "color": "red"},
+    {"type": "text", "name": "L3_QUESTION", "x": 9.05, "y": 2.5, "w": 3.3, "h": 0.5, "text": "单店卖得够吗？", "size": 13, "bold": true, "color": "ink"},
+    {"type": "text", "name": "L3_VALUE", "x": 9.05, "y": 3.15, "w": 3.3, "h": 0.8, "text": "活跃____家 × 单店____元", "size": 12, "color": "ink"},
+    {"type": "rect", "name": "CORE_BAND", "x": 0.6, "y": 4.4, "w": 12.1, "h": 1.25, "fill": "ink", "line": "ink"},
+    {"type": "text", "name": "CORE_TITLE", "x": 0.85, "y": 4.58, "w": 2.6, "h": 0.5, "text": "主矛盾判断", "size": 15, "bold": true, "color": "white"},
+    {"type": "text", "name": "CORE_FINDING", "x": 3.6, "y": 4.62, "w": 8.9, "h": 0.9, "text": "当前最卡：____杠杆（依据：____）", "size": 15, "color": "white"},
+    {"type": "text", "name": "POOL_TITLE", "x": 0.6, "y": 5.9, "w": 2.4, "h": 0.5, "text": "重点网点池", "size": 15, "bold": true, "color": "red"},
+    {"type": "text", "name": "POOL_TEXT", "x": 3.1, "y": 5.9, "w": 9.6, "h": 0.5, "text": "圈定____个重点网点：____", "size": 14, "color": "ink"},
+    {"type": "text", "name": "TEACHING_CUE", "x": 0.6, "y": 6.7, "w": 12.1, "h": 0.5, "text": "根据数据只突出一个主杠杆，其余作为约束项；指标口径必须一致，口径不一致会产生伪诊断。", "size": 12, "color": "grey"}
+  ]
+}
