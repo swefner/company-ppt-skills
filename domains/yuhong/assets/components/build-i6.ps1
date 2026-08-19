@@ -16,9 +16,9 @@ $PT = 72.0
 # Template theme1 token colors (COM RGB = R + G*256 + B*65536), see shared/ppt-design-spec.md layer 2.
 $INK = 4608080    # 80,80,70    #505046 (template dk2, ink)
 $GREY = 6975343   # 111,111,106 #6F6F6A (grey)
-$RED = 2247912    # 232,76,34   #E84C22 (template accent1, brand red)
+$RED = 9906       # 178,38,0    #B22600 (template accent6, deep red - text)
 $LIGHT = 16316407 # 247,247,248 #F7F7F8 (background)
-$CREAM = 14806254 # 238,236,225 #EEECE1 (template lt2)
+$CREAM = 16777215 # 255,255,255 #FFFFFF (white)
 $WHITE = 16777215 # 255,255,255
 
 function Add-Txt($slide, $name, $x, $y, $w, $h, $text, $size, $bold, $color, $align) {

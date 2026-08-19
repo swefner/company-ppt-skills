@@ -1,6 +1,6 @@
 ﻿{
     "source_deck":  "yuhong-county-course-components-branded-work.pptx",
-    "source_deck_sha256":  "B42437621E7D13FE3DF85BB0DC478B058F1AB691F482121F69350B45B71E6245",
+    "source_deck_sha256":  "93280BD41DF37C4FF8B94A301A45980D379C9C44DA3F631D7D895B3443AA6D17",
     "render_note":  "Re-run assets/components/render-component-previews.ps1 after any change to the component source deck or its template master.",
     "pages":  [
                   {
@@ -41,37 +41,37 @@
                   {
                       "slide":  8,
                       "file":  "component-08.png",
-                      "sha256":  "11E9B46D4CF6F36898FBE1785C6120AACE2E14D5D1D36C2767C60FAFB565BE98"
+                      "sha256":  "DB9A525F8D6A8BEBDB1AA7A0387C47D24BD4A605F2C630217BA5A83E0E8E4A91"
                   },
                   {
                       "slide":  9,
                       "file":  "component-09.png",
-                      "sha256":  "A7617E6707B5A8F4B18C0C1E22378FFEBEDB2B0FCD3BCA2BF6E5857470F03C0D"
+                      "sha256":  "FF4A14F83C23CAF44D1AE46513F94F287B5E9E3E0337EF37F10F5DEC17FF745E"
                   },
                   {
                       "slide":  10,
                       "file":  "component-10.png",
-                      "sha256":  "C26F654CE42EBF1ADCAACC486481933863227CBC872A6CDCD107D01BE907EF7F"
+                      "sha256":  "D41B7BD90A083CD2F0DFADEC4560AE9841CAB2477243BA04AF801556774FA6F3"
                   },
                   {
                       "slide":  11,
                       "file":  "component-11.png",
-                      "sha256":  "EABB842FF7222978A9C34879210EF401616D5FA824C06990A14ABB000D0F88AB"
+                      "sha256":  "1FCAA944467C4A172D1964B8CB9F8CF573F5B61F93D46E317BD7808E3C945206"
                   },
                   {
                       "slide":  12,
                       "file":  "component-12.png",
-                      "sha256":  "08ECE04F800B973264D9FE1A08582430111A78E1153D29659E147E29C6562E67"
+                      "sha256":  "E98738AAD02AB345608B36AF441F2B308524B1E8B6D888A702DED2C744677AB2"
                   },
                   {
                       "slide":  13,
                       "file":  "component-13.png",
-                      "sha256":  "FAA25722F0763069B1B6110763F6D9D45990D089600573F80A16D235284E65F9"
+                      "sha256":  "12412730587E919507CF77668757415441CE59945B62752077B40CCE148D3317"
                   },
                   {
                       "slide":  14,
                       "file":  "component-14.png",
-                      "sha256":  "35793EE98139908A9C6428708C97F8BDA8D9696FDD635F9492088FB7363AC5F3"
+                      "sha256":  "EB8EA524E70B6BDC2A8D2C50ACB4CAC8D2F345BBCEC9E51013DE7995D80BCD75"
                   }
               ]
 }
