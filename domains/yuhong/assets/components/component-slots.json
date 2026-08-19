@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_deck": "yuhong-county-course-components-branded.pptx",
-  "source_deck_sha256": "E0C1D00A79477D6A40FEB56A7F1FFE69E923F5C7DC64025D8725A3298A8DE10A",
+  "source_deck_sha256": "490A4318C89325706903C983E38E43FE82B81073749BCD0669C998FC471EF079",
   "visual_base": "../reference-decks/yuhong-template.pptx",
   "master_inheritance_required": true,
   "rules": {
