@@ -33,7 +33,7 @@ Use these values to detect wrong files or empty substitutes. If the repository i
 ### Executable Course Components
 
 - Path: `assets/components/yuhong-county-course-components-branded.pptx`.
-- SHA-256: `490A4318C89325706903C983E38E43FE82B81073749BCD0669C998FC471EF079`.
+- SHA-256: `B48305342F24532EC7AA2084DED45A5FE6C7FE067203AC86A079C551C641EB56`.
 - Expected structure: 14 slides and 14 speaker-note pages.
 - Role: editable content compositions for the fourteen registered county-course components (DC-01/02/03/04/05/06/08/16/17/20 + I1/I3/I4/I6), already attached to the real Yuhong template master.
 - Note: SHA changes whenever a source page is added via the work-copy pipeline; registry is the single source of truth and deck SHA is recomputed by `build-component-registry.py --update-catalog` (run after promote). History: ... -> 0919C9A1 (I4) -> B4243762 (I6).
