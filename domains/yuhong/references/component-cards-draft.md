@@ -166,7 +166,7 @@
 
 ### I6 小组投票页
 - Type: interactive ｜ Loops: 定方向 ｜ Modules: 互动通用
-- Status: interactive-card
+- Status: executable ｜ Source slide 14 (269#)
 - Question: 让课堂判断可见（选重点渠道/排风险/选首动作）
 - Input: 选项与投票方式
 - Output: 投票结果与讨论焦点

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "source_deck": "yuhong-county-course-components-branded.pptx",
-  "source_deck_sha256": "0919C9A1B24AB8B1B45A001010F5D6DC0558CB3F718ABFAD7E4405299DFED8E4",
+  "source_deck_sha256": "B42437621E7D13FE3DF85BB0DC478B058F1AB691F482121F69350B45B71E6245",
   "visual_base": "../reference-decks/yuhong-template.pptx",
   "master_inheritance_required": true,
   "rules": {
@@ -526,6 +526,48 @@
         "下一步"
       ],
       "fallback": "Four dimension rows fixed in structure; replace dimension texts per diagnosis topic. Keep clickable areas within 4-6."
+    },
+    {
+      "id": "i6-group-voting-page",
+      "decision_component": "I6",
+      "source_slide": 14,
+      "source_slide_id": "269#",
+      "preview": "previews/component-14.png",
+      "replaceable_objects": [
+        "TITLE",
+        "VOTE_PROMPT",
+        "CHOICE_BAND_1",
+        "CHOICE_BAND_2",
+        "CHOICE_BAND_3",
+        "CHOICE_BAND_4",
+        "CHOICE_1_TEXT",
+        "CHOICE_2_TEXT",
+        "CHOICE_3_TEXT",
+        "CHOICE_4_TEXT",
+        "VOTE_BOX_1",
+        "VOTE_BOX_2",
+        "VOTE_BOX_3",
+        "VOTE_BOX_4",
+        "VOTE_1",
+        "VOTE_2",
+        "VOTE_3",
+        "VOTE_4",
+        "METHOD_CUE",
+        "DEBRIEF_CUE",
+        "TEACHING_CUE"
+      ],
+      "preserve": [
+        "four equal choice rows with right-side vote tally boxes",
+        "alternating light fills (#F7F7F8 / #EEECE1), white vote boxes",
+        "red vote suffix, vote prompt in red",
+        "votes do not replace final management judgment"
+      ],
+      "max_items": 4,
+      "fixed_labels": [
+        "主攻方向",
+        "票数"
+      ],
+      "fallback": "Four choices fixed in structure; replace choice texts per voting topic. Native PPT does not tally votes - use hand raise/paper/Forms and keep a paper fallback."
     }
   ]
 }

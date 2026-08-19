@@ -282,7 +282,8 @@
       "output": "投票结果与讨论焦点",
       "invariant": "原生 PPT 不计数，用举手或表单；备好纸面回退",
       "best_modes": ["Dealer Workshop", "Create Courseware"],
-      "status": "interactive-card"
+      "status": "executable",
+      "executable": { "source_slide": 14, "source_slide_id": "269#", "preview": "previews/component-14.png" }
     },
     {
       "id": "i7-case-debrief-reveal",

@@ -665,14 +665,14 @@
         "互动通用"
       ],
       "question": "让课堂判断可见（选重点渠道/排风险/选首动作）",
-      "status": "interactive-card",
+      "status": "executable",
       "best_modes": [
         "Dealer Workshop",
         "Create Courseware"
       ],
-      "source_slide": null,
-      "source_slide_id": null,
-      "preview": null
+      "source_slide": 14,
+      "source_slide_id": "269#",
+      "preview": "previews/component-14.png"
     },
     {
       "id": "i7-case-debrief-reveal",

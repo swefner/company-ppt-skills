@@ -1,6 +1,6 @@
 ﻿{
     "source_deck":  "yuhong-county-course-components-branded-work.pptx",
-    "source_deck_sha256":  "0919C9A1B24AB8B1B45A001010F5D6DC0558CB3F718ABFAD7E4405299DFED8E4",
+    "source_deck_sha256":  "B42437621E7D13FE3DF85BB0DC478B058F1AB691F482121F69350B45B71E6245",
     "render_note":  "Re-run assets/components/render-component-previews.ps1 after any change to the component source deck or its template master.",
     "pages":  [
                   {
@@ -67,6 +67,11 @@
                       "slide":  13,
                       "file":  "component-13.png",
                       "sha256":  "FAA25722F0763069B1B6110763F6D9D45990D089600573F80A16D235284E65F9"
+                  },
+                  {
+                      "slide":  14,
+                      "file":  "component-14.png",
+                      "sha256":  "35793EE98139908A9C6428708C97F8BDA8D9696FDD635F9492088FB7363AC5F3"
                   }
               ]
 }

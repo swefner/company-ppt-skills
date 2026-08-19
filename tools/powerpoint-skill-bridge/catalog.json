@@ -8,7 +8,7 @@
       "templateProof": "已继承 yuhong-template.pptx 原始母版与品牌背景",
       "sourceUrl": "/domains/yuhong/assets/components/yuhong-county-course-components-branded.pptx",
       "fileName": "yuhong-county-course-components-branded.pptx",
-      "sha256": "0919C9A1B24AB8B1B45A001010F5D6DC0558CB3F718ABFAD7E4405299DFED8E4",
+      "sha256": "B42437621E7D13FE3DF85BB0DC478B058F1AB691F482121F69350B45B71E6245",
       "components": [
         {
           "id": "county-trend-three-judgments",
@@ -126,6 +126,15 @@
           "sourceSlide": 13,
           "sourceSlideId": "268#",
           "preview": "/domains/yuhong/assets/components/previews/component-13.png"
+        },
+        {
+          "id": "i6-group-voting-page",
+          "code": "I6",
+          "title": "小组投票页",
+          "question": "让课堂判断可见（选重点渠道/排风险/选首动作）",
+          "sourceSlide": 14,
+          "sourceSlideId": "269#",
+          "preview": "/domains/yuhong/assets/components/previews/component-14.png"
         }
       ]
     },
